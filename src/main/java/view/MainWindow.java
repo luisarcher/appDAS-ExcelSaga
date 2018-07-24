@@ -4,6 +4,7 @@ import model.Book;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 
 public class MainWindow extends JFrame implements Runnable{
@@ -11,11 +12,9 @@ public class MainWindow extends JFrame implements Runnable{
     private JToolBar toolbar;
     private JMenuBar menuBar;
 
-    private Book book;
 
-    public MainWindow(Book model){
+    public MainWindow(/*Book model*/){
 
-        this.book = model;
         this.prepareView();
 
     }
@@ -27,16 +26,12 @@ public class MainWindow extends JFrame implements Runnable{
 
         this.createViewComponents();
 
-
-
         this.initFileMenu();
         this.initEditMenu();
         this.initAbout();
 
         this.initToolbar();
-        this.initFormulaBar();
 
-        menuBar.add(Box.createHorizontalGlue());
         setJMenuBar(menuBar);
 
         add(toolbar, BorderLayout.NORTH);
@@ -45,7 +40,7 @@ public class MainWindow extends JFrame implements Runnable{
     private void initToolbar(){
 
         JTextField formulaBar = new JTextField(70);
-        formulaBar.setText("Click on a cell");
+        formulaBar.setText("");
         JPanel fbar = new JPanel();
         fbar.setComponentOrientation(ComponentOrientation.LEFT_TO_RIGHT);
 
@@ -72,7 +67,6 @@ public class MainWindow extends JFrame implements Runnable{
         layoutConstraints.weightx = 0.5;
         fbar.add(formulaBar,layoutConstraints);
 
-
         toolbar.add(fbar);
         toolbar.setFloatable(false);
     }
@@ -84,17 +78,50 @@ public class MainWindow extends JFrame implements Runnable{
 
     }
 
+    public JMenuItem newMenuItem;
+    public JMenuItem openMenuItem;
+    public JMenuItem saveMenuItem;
+    public JMenuItem saveAsMenuItem;
+    public JMenuItem closeSheetMenuItem;
+    public JMenuItem exitMenuItem;
+
     private void initFileMenu(){
 
         JMenu fileMenu = new JMenu("File");
         fileMenu.setMnemonic(KeyEvent.VK_F);
 
+        newMenuItem = new JMenuItem("New", KeyEvent.VK_N);
+        newMenuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_N, InputEvent.CTRL_MASK));
+        fileMenu.add(newMenuItem);
+
+        openMenuItem = new JMenuItem("Open", KeyEvent.VK_O);
+        openMenuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_O, InputEvent.CTRL_MASK));
+        fileMenu.add(openMenuItem);
+
+        saveMenuItem = new JMenuItem("Save", KeyEvent.VK_S);
+        saveMenuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, InputEvent.CTRL_MASK));
+        fileMenu.add(saveMenuItem);
+
+        saveAsMenuItem = new JMenuItem("Save As", KeyEvent.VK_A);
+        saveAsMenuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, InputEvent.CTRL_MASK | InputEvent.SHIFT_MASK));
+        fileMenu.add(saveAsMenuItem);
+
+        closeSheetMenuItem = new JMenuItem("Close sheet", KeyEvent.VK_C);
+        fileMenu.add(closeSheetMenuItem);
+
+        fileMenu.addSeparator();
+
+        exitMenuItem = new JMenuItem("Exit", KeyEvent.VK_E);
+        fileMenu.add(exitMenuItem);
+
         menuBar.add(fileMenu);
+
     }
 
+    public JButton about;
     private void initAbout(){
 
-        JButton about = new JButton("About");
+        about = new JButton("About");
         about.setBorderPainted(false);
         about.setFocusPainted(false);
         about.setContentAreaFilled(false);
@@ -112,16 +139,16 @@ public class MainWindow extends JFrame implements Runnable{
         menuBar.add(editMenu);
     }
 
-    private void initFormulaBar(){
-
-
-    }
-
     public void run() {
 
         setPreferredSize(new Dimension(850, 600));
         pack();
-        //setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
+        setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
         setVisible(true);
+    }
+
+    public void showAbout(){
+        JOptionPane.showMessageDialog(this, "Excel Saga 1.0 \n Developed by: Luís Jordão and Ilídio Martins.\nnAluno and nAluno\n\nIsec - 2017/2018");
+
     }
 }

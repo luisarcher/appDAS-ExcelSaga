@@ -3,14 +3,74 @@ package controllers;
 import model.Book;
 import view.MainWindow;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import static java.lang.System.exit;
+
 public class MainController {
 
-    private Book model;
+    private Book bookModel;
     private MainWindow view;
 
     public MainController(Book model, MainWindow view){
 
-        this.model = model;
+        this.bookModel = model;
         this.view = view;
+
+        this.init();
+    }
+
+    private void init(){
+
+        this.setupHandlers();
+    }
+
+    private void setupHandlers(){
+
+        view.newMenuItem.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                bookModel.addNewSheet();
+            }
+        });
+
+        view.openMenuItem.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // open book
+            }
+        });
+
+        view.saveMenuItem.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // save book
+            }
+
+        });
+
+        view.saveAsMenuItem.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                //save book as
+            }
+        });
+
+        view.closeSheetMenuItem.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // go to book and close this sheet
+            }
+        });
+
+        view.exitMenuItem.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // we will prompt the user if there is any unsaved changes,
+                //for new we'll just quit
+                exit(1);
+            }
+        });
+
+        view.about.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                view.showAbout();
+            }
+        });
     }
 }
