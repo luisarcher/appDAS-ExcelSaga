@@ -33,15 +33,31 @@ public class Sheet extends AbstractTableModel{
     }
 
     public int getRowCount() {
-        return 0;
+        return this.cells.length;
     }
 
     public int getColumnCount() {
-        return 0;
+        return this.cells[0].length;
     }
 
     public Object getValueAt(int i, int i1) {
         return null;
+    }
+
+    public String getSheetName(){
+        return this.sheetName;
+    }
+
+    public void setValueAt(Object value, int row, int column) {
+        String input = (String) value;
+        if (input.equals("=")) {
+            return;
+        }
+        if (value != null) {
+            cells[row][column].setValueObject(value);
+        } else {
+            cells[row][column].setValueObject("");
+        }
     }
 
 }

@@ -12,9 +12,12 @@ public class MainWindow extends JFrame implements Runnable{
     private JToolBar toolbar;
     private JMenuBar menuBar;
 
+    private BookView bookView;
+    private Book bookModel;
 
-    public MainWindow(/*Book model*/){
+    public MainWindow(Book book){
 
+        this.bookModel = book;
         this.prepareView();
 
     }
@@ -75,6 +78,7 @@ public class MainWindow extends JFrame implements Runnable{
 
         menuBar = new JMenuBar();
         toolbar = new JToolBar();
+        bookView = new BookView(this.bookModel);
 
     }
 
@@ -141,6 +145,7 @@ public class MainWindow extends JFrame implements Runnable{
 
     public void run() {
 
+        add(this.bookView, BorderLayout.CENTER);
         setPreferredSize(new Dimension(850, 600));
         pack();
         setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
@@ -150,5 +155,9 @@ public class MainWindow extends JFrame implements Runnable{
     public void showAbout(){
         JOptionPane.showMessageDialog(this, "Excel Saga 1.0 \n Developed by: Luís Jordão and Ilídio Martins.\nnAluno and nAluno\n\nIsec - 2017/2018");
 
+    }
+
+    public BookView getBookView(){
+        return this.bookView;
     }
 }

@@ -18,4 +18,8 @@ public class Cell {
     public Cell(Object value, int row, int column){
 
     }
+
+    public void setValueObject(Object v){
+        this.value = v;
+    }
 }
