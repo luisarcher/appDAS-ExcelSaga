@@ -2,6 +2,7 @@ package view;
 
 import model.Book;
 import model.Sheet;
+import utils.IEventHandler;
 
 import javax.swing.*;
 import java.awt.*;
@@ -19,6 +20,7 @@ public class BookView extends JPanel{
 
         this.bookModel = model;
         this.create();
+        this.setup();
 
         this.viewCollectionSheets = new ArrayList<SheetView>();
 
@@ -33,6 +35,15 @@ public class BookView extends JPanel{
         this.setLayout(new BoxLayout(this, BoxLayout.PAGE_AXIS));
         this.add(sheetCollection, BorderLayout.CENTER);
 
+    }
+
+    private void setup(){
+
+        this.bookModel.addNewSheetEventListener(new IEventHandler() {
+            public void handle() {
+                onNewSheet();
+            }
+        });
     }
 
     public void onNewSheet(){

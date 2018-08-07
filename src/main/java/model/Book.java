@@ -1,18 +1,27 @@
 package model;
 
+import org.apache.log4j.Logger;
+import utils.EventDispatcher;
+import utils.IEventHandler;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Book {
 
+    private final static Logger logger = Logger.getLogger(Book.class);
     private static final String SHEET_NAME_PREFIX = "Sheet ";
+
+    private EventDispatcher addSheetEventDispatcher;
 
     private List<Sheet> sheets;
 
     public Book(){
 
-        sheets = new ArrayList<Sheet>();
-        this.addNewSheet();
+
+        this.sheets = new ArrayList<Sheet>();
+        this.addSheetEventDispatcher = new EventDispatcher();
+
     }
 
     public void addNewSheet(){
@@ -22,6 +31,7 @@ public class Book {
     public void addNewSheet(String name){
 
         this.sheets.add(new Sheet(name));
+        this.addSheetEventDispatcher.notifyObservers();
     }
 
     public void deleteSheet(int i){
@@ -48,4 +58,10 @@ public class Book {
         }
         return null;
     }
+
+    public void addNewSheetEventListener(IEventHandler handler){
+
+        this.addSheetEventDispatcher.register(handler);
+    }
+
 }

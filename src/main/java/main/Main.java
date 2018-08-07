@@ -1,3 +1,5 @@
+package main;
+
 import model.Book;
 import view.MainWindow;
 import controllers.MainController;
@@ -10,6 +12,8 @@ public class Main{
         Book model = new Book();
         MainWindow view = new MainWindow(model);
         new MainController(model,view);
+
+        model.addNewSheet();
 
         SwingUtilities.invokeLater(view);
     }

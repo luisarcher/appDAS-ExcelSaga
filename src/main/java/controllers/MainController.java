@@ -36,9 +36,7 @@ public class MainController {
                 logger.debug("Adding sheet...");
                 bookModel.addNewSheet();
                 logger.debug("Number of sheets: " + bookModel.getSheets().size());
-
-                // just for debug purposes
-                view.getBookView().onNewSheet();
+                
             }
         });
 
