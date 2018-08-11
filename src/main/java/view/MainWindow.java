@@ -1,6 +1,7 @@
 package view;
 
-import model.Book;
+import ViewModel.NormalViewMode;
+import model.Sheet;
 
 import javax.swing.*;
 import java.awt.*;
@@ -12,12 +13,12 @@ public class MainWindow extends JFrame implements Runnable{
     private JToolBar toolbar;
     private JMenuBar menuBar;
 
-    private BookView bookView;
-    private Book bookModel;
+    private SheetView sheetView;
+    private Sheet sheetModel;
 
-    public MainWindow(Book book){
+    public MainWindow(Sheet sheet){
 
-        this.bookModel = book;
+        this.sheetModel = sheet;
         this.prepareView();
 
     }
@@ -31,6 +32,7 @@ public class MainWindow extends JFrame implements Runnable{
 
         this.initFileMenu();
         this.initEditMenu();
+        this.initViewMenu();
         this.initAbout();
 
         this.initToolbar();
@@ -78,11 +80,10 @@ public class MainWindow extends JFrame implements Runnable{
 
         menuBar = new JMenuBar();
         toolbar = new JToolBar();
-        bookView = new BookView(this.bookModel);
+        sheetView = new SheetView();
 
     }
 
-    public JMenuItem newMenuItem;
     public JMenuItem openMenuItem;
     public JMenuItem saveMenuItem;
     public JMenuItem saveAsMenuItem;
@@ -93,10 +94,6 @@ public class MainWindow extends JFrame implements Runnable{
 
         JMenu fileMenu = new JMenu("File");
         fileMenu.setMnemonic(KeyEvent.VK_F);
-
-        newMenuItem = new JMenuItem("New", KeyEvent.VK_N);
-        newMenuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_N, InputEvent.CTRL_MASK));
-        fileMenu.add(newMenuItem);
 
         openMenuItem = new JMenuItem("Open", KeyEvent.VK_O);
         openMenuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_O, InputEvent.CTRL_MASK));
@@ -122,6 +119,34 @@ public class MainWindow extends JFrame implements Runnable{
 
     }
 
+    public JMenuItem brushMenuItem;
+
+    private void initEditMenu(){
+
+        JMenu editMenu = new JMenu("Edit");
+        brushMenuItem = new JMenuItem("NA", KeyEvent.VK_B);
+        editMenu.add(brushMenuItem);
+        editMenu.setMnemonic(KeyEvent.VK_E);
+
+        menuBar.add(editMenu);
+    }
+
+    public JMenuItem normalViewMenuItem;
+    public JMenuItem functionalViewMenuItem;
+
+    private void initViewMenu(){
+
+        JMenu viewMenu = new JMenu("View");
+        normalViewMenuItem = new JMenuItem("Normal View", KeyEvent.VK_B);
+        viewMenu.add(normalViewMenuItem);
+
+        functionalViewMenuItem = new JMenuItem("Functional View", KeyEvent.VK_B);
+        viewMenu.add(functionalViewMenuItem);
+
+        viewMenu.setMnemonic(KeyEvent.VK_V);
+        menuBar.add(viewMenu);
+    }
+
     public JButton about;
     private void initAbout(){
 
@@ -133,19 +158,9 @@ public class MainWindow extends JFrame implements Runnable{
         menuBar.add(about);
     }
 
-    private void initEditMenu(){
-
-        JMenu editMenu = new JMenu("Edit");
-        JMenuItem brushMenuItem = new JMenuItem("Brush", KeyEvent.VK_B);
-        editMenu.add(brushMenuItem);
-        editMenu.setMnemonic(KeyEvent.VK_E);
-
-        menuBar.add(editMenu);
-    }
-
     public void run() {
 
-        add(this.bookView, BorderLayout.CENTER);
+        add(this.sheetView, BorderLayout.CENTER);
         setPreferredSize(new Dimension(850, 600));
         pack();
         setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
@@ -157,7 +172,7 @@ public class MainWindow extends JFrame implements Runnable{
 
     }
 
-    public BookView getBookView(){
-        return this.bookView;
+    public SheetView getSheetView(){
+        return this.sheetView;
     }
 }

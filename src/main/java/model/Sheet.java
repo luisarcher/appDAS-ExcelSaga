@@ -1,8 +1,6 @@
 package model;
 
-import javax.swing.table.AbstractTableModel;
-
-public class Sheet extends AbstractTableModel{
+public class Sheet{
 
     private static final int DEFAULT_NUM_ROWS = 30;
     private static final int DEFAULT_NUM_COLS = 40;
@@ -40,8 +38,8 @@ public class Sheet extends AbstractTableModel{
         return this.cells[0].length;
     }
 
-    public Object getValueAt(int i, int i1) {
-        return null;
+    public Cell getValueAt(int row, int col) {
+        return cells[row][col];
     }
 
     public String getSheetName(){
@@ -59,5 +57,4 @@ public class Sheet extends AbstractTableModel{
             cells[row][column].setValueObject("");
         }
     }
-
 }

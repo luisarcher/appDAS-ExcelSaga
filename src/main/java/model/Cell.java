@@ -2,8 +2,8 @@ package model;
 
 public class Cell {
 
-    private int row;
-    private int column;
+    private int myRow;
+    private int myColumn;
 
     private Object value;
 
@@ -11,15 +11,26 @@ public class Cell {
 
     }
 
+    @Override
+    public String toString() {
+        return value.toString();
+    }
+
     public Cell(Object value){
+        this.value = value;
+    }
+
+    Cell(Object value, int row, int column){
+
+        this.myRow = row;
+        this.myColumn = column;
+        this.value = value;
 
     }
 
-    public Cell(Object value, int row, int column){
-
-    }
-
-    public void setValueObject(Object v){
+    void setValueObject(Object v){
         this.value = v;
     }
+
+
 }

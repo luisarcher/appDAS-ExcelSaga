@@ -1,14 +1,28 @@
 package view;
 
-import model.Sheet;
+import ViewModel.SheetTableViewModel;
 
 import javax.swing.*;
 
 public class SheetView extends JTable {
 
-    public SheetView(Sheet model){
+    public SheetView(SheetTableViewModel model){
 
-        this.setModel(model);
+        super.setModel(model);
+        this.init();
 
+    }
+
+    public SheetView(){
+
+    }
+
+    private void init(){
+
+        //setCellSelectionEnabled(true);
+    }
+
+    public void setModel(SheetTableViewModel model){
+        super.setModel(model);
     }
 }
