@@ -3,6 +3,7 @@ package view;
 import ViewModel.SheetTableViewModel;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class SheetView extends JTable {
 
@@ -13,13 +14,21 @@ public class SheetView extends JTable {
 
     }
 
-    public SheetView(){
+    SheetView(){
 
+        this.init();
     }
 
     private void init(){
 
-        //setCellSelectionEnabled(true);
+        setFont(new Font("Times", Font.PLAIN, 16));
+        setCellSelectionEnabled(true);
+        setRowHeight(30);
+        setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
+    }
+
+    public void setup(){
+        resizeAndRepaint();
     }
 
     public void setModel(SheetTableViewModel model){

@@ -16,7 +16,7 @@ public class Cell {
         return value.toString();
     }
 
-    public Cell(Object value){
+    public Cell(String value){
         this.value = value;
     }
 
@@ -31,6 +31,5 @@ public class Cell {
     void setValueObject(Object v){
         this.value = v;
     }
-
 
 }

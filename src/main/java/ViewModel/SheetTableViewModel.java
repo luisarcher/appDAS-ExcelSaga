@@ -16,6 +16,11 @@ public class SheetTableViewModel extends AbstractTableModel {
     }
 
     @Override
+    public boolean isCellEditable(int row, int col) {
+        return true;
+    }
+
+    @Override
     public void setValueAt(Object o, int row, int col) {
         sheetModel.setValueAt(o,row,col);
     }
@@ -31,4 +36,6 @@ public class SheetTableViewModel extends AbstractTableModel {
     public Cell getValueAt(int row, int col) {
         return getDataStr.getValueAt(row,col);
     }
+
+
 }

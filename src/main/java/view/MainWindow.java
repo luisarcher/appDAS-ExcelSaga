@@ -4,6 +4,7 @@ import ViewModel.NormalViewMode;
 import model.Sheet;
 
 import javax.swing.*;
+import javax.swing.border.Border;
 import java.awt.*;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
@@ -15,6 +16,8 @@ public class MainWindow extends JFrame implements Runnable{
 
     private SheetView sheetView;
     private Sheet sheetModel;
+
+    private JScrollPane sheetPane;
 
     public MainWindow(Sheet sheet){
 
@@ -40,6 +43,7 @@ public class MainWindow extends JFrame implements Runnable{
         setJMenuBar(menuBar);
 
         add(toolbar, BorderLayout.NORTH);
+        addViewPort();
     }
 
     private void initToolbar(){
@@ -160,14 +164,61 @@ public class MainWindow extends JFrame implements Runnable{
 
     public void run() {
 
-        add(this.sheetView, BorderLayout.CENTER);
+        add(this.sheetPane, BorderLayout.CENTER);
         setPreferredSize(new Dimension(850, 600));
         pack();
         setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
         setVisible(true);
     }
 
+    private void addViewPort(){
+
+        JPanel pnl = new JPanel(null);
+        Dimension dim = new Dimension(50, 200);
+        pnl.setPreferredSize(dim);
+
+        dim.height = sheetModel.getRowCount();
+
+        for (int ii = 0; ii < sheetModel.getRowCount(); ii++) {
+            JLabel lbl = new JLabel(Integer.toString(ii + 1), SwingConstants.CENTER);
+
+            lbl.setFont(sheetView.getTableHeader().getFont());
+            lbl.setBorder((Border) UIManager.getDefaults().get("TableHeader.cellBorder"));
+            lbl.setBounds(0, ii * dim.height, dim.width, dim.height);
+            pnl.add(lbl);
+        }
+
+        // CHANGE THIS VALUE to dynamic val
+        int rowHeight = sheetView.getRowHeight();
+        dim.height = rowHeight * sheetModel.getRowCount();
+
+
+
+        JViewport vp = new JViewport();
+        vp.setViewSize(dim);
+        vp.setView(pnl);
+
+        sheetPane = new JScrollPane(this.sheetView);
+        sheetPane.setRowHeader(vp);
+
+        Dimension dimScpViewport = sheetView.getPreferredScrollableViewportSize();
+        if (sheetModel.getRowCount() > 30) {
+            dimScpViewport.height = 30 * rowHeight;
+        } else {
+            dimScpViewport.height = sheetModel.getRowCount() * rowHeight;
+        }
+        if (sheetModel.getColumnCount() > 15) {
+            dimScpViewport.width = 15 * sheetView.getColumnModel().getTotalColumnWidth() / sheetModel.getColumnCount();
+        } else {
+            dimScpViewport.width = sheetView.getColumnModel().getTotalColumnWidth();
+        }
+        sheetView.setPreferredScrollableViewportSize(dimScpViewport);
+
+        sheetView.setup();
+    }
+
     public void showAbout(){
+
         JOptionPane.showMessageDialog(this, "Excel Saga 1.0 \n Developed by: Luís Jordão and Ilídio Martins.\nnAluno and nAluno\n\nIsec - 2017/2018");
 
     }
