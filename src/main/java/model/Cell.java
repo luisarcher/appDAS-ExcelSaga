@@ -33,7 +33,7 @@ public class Cell <T> {
     }
 
     void setValueObject(T v) {
-        logger.debug("New Object: " + v.getClass());
+        logger.debug("New Object: " + v.getClass().getName());
         this.value = v;
     }
 

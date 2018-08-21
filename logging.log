@@ -55,3 +55,9 @@
 2018-08-21 02:27:34 DEBUG Cell:36 - New Object: class java.lang.String
 2018-08-21 02:27:38 DEBUG Sheet:60 - Matches integer!
 2018-08-21 02:27:38 DEBUG Cell:36 - New Object: class java.lang.Integer
+2018-08-21 14:29:26 DEBUG Sheet:60 - Matches integer!
+2018-08-21 14:29:26 DEBUG Cell:36 - New Object: class java.lang.Integer
+2018-08-21 14:30:47 DEBUG Sheet:60 - Matches integer!
+2018-08-21 14:30:47 DEBUG Cell:36 - New Object: java.lang.Integer
+2018-08-21 14:30:54 DEBUG Sheet:60 - Matches integer!
+2018-08-21 14:30:54 DEBUG Cell:36 - New Object: java.lang.Integer

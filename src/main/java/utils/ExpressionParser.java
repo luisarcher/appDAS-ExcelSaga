@@ -4,7 +4,6 @@ public class ExpressionParser {
 
     public ExpressionParser(){
 
-
     }
 
     public ExpressionParser(String expression){

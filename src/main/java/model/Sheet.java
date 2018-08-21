@@ -66,4 +66,23 @@ public class Sheet{
             cells[row][column].setValueObject("");
         }
     }
+
+    public Cell getValueById(String id){
+
+        if (id.matches("[A-Z]{1,2}[1-9][0-9]*")) {
+
+            // Get the column
+            String col = id.replaceAll("[0-9]", "");
+            if (col.length() == 1) {
+                col = "@".concat(col);
+            }
+            int c = 26 * (col.charAt(0) - 64) + col.charAt(1) - 64;
+
+            // Get the Row
+            int r = Integer.parseInt(id.replaceAll("[A-Z]", ""));
+
+            return getValueAt(r,c);
+        }
+        return null;
+    }
 }
