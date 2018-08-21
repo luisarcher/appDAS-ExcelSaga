@@ -1,26 +1,30 @@
 package model;
 
-public class Cell {
+import org.apache.log4j.Logger;
+
+public class Cell <T> {
+
+    private final static Logger logger = Logger.getLogger(Cell.class);
 
     private int myRow;
     private int myColumn;
 
-    private Object value;
+    private T value;
 
-    public Cell(){
+    public Cell() {
 
     }
 
     @Override
     public String toString() {
-        return value.toString();
+        return "" + getValue();
     }
 
-    public Cell(String value){
+    public Cell(T value) {
         this.value = value;
     }
 
-    Cell(Object value, int row, int column){
+    Cell(T value, int row, int column) {
 
         this.myRow = row;
         this.myColumn = column;
@@ -28,8 +32,12 @@ public class Cell {
 
     }
 
-    void setValueObject(Object v){
+    void setValueObject(T v) {
+        logger.debug("New Object: " + v.getClass());
         this.value = v;
     }
 
+    T getValue(){
+        return this.value;
+    }
 }

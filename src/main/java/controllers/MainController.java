@@ -63,7 +63,7 @@ public class MainController {
         view.exitMenuItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 // we will prompt the user if there is any unsaved changes,
-                //for new we'll just quit
+                //for now we'll just quit
                 System.exit(1);
             }
         });

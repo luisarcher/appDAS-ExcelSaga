@@ -1,6 +1,10 @@
 package model;
 
+import org.apache.log4j.Logger;
+
 public class Sheet{
+
+    private final static Logger logger = Logger.getLogger(Sheet.class);
 
     private static final int DEFAULT_NUM_ROWS = 30;
     private static final int DEFAULT_NUM_COLS = 40;
@@ -51,8 +55,13 @@ public class Sheet{
         if (input.equals("=")) {
             return;
         }
-        if (value != null) {
-            cells[row][column].setValueObject(value);
+        if (input != null) {
+            if (input.matches("[0-9]+")){
+                logger.debug("Matches integer!");
+                cells[row][column].setValueObject(Integer.valueOf(input));
+            } else {
+                cells[row][column].setValueObject(input);
+            }
         } else {
             cells[row][column].setValueObject("");
         }
