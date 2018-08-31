@@ -61,3 +61,350 @@
 2018-08-21 14:30:47 DEBUG Cell:36 - New Object: java.lang.Integer
 2018-08-21 14:30:54 DEBUG Sheet:60 - Matches integer!
 2018-08-21 14:30:54 DEBUG Cell:36 - New Object: java.lang.Integer
+2018-08-22 01:19:09 DEBUG Cell:36 - New Object: java.lang.String
+2018-08-24 23:45:53 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-24 23:51:51 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-24 23:52:07 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-24 23:53:51 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-24 23:53:51 DEBUG ExpressionParser:37 - Formula detected, parsing data...
+2018-08-24 23:53:54 DEBUG ExpressionParser:37 - Formula detected, parsing data...
+2018-08-24 23:54:00 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-24 23:54:05 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-24 23:54:10 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-24 23:54:10 DEBUG ExpressionParser:37 - Formula detected, parsing data...
+2018-08-24 23:54:17 DEBUG ExpressionParser:37 - Formula detected, parsing data...
+2018-08-24 23:55:12 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-24 23:55:12 DEBUG ExpressionParser:37 - Formula detected, parsing data...
+2018-08-24 23:55:12 DEBUG ExpressionParser:46 - Formula part: =upp
+2018-08-24 23:55:12 DEBUG ExpressionParser:46 - Formula part: ola
+2018-08-24 23:55:18 DEBUG ExpressionParser:37 - Formula detected, parsing data...
+2018-08-24 23:55:18 DEBUG ExpressionParser:46 - Formula part: =upp
+2018-08-24 23:55:18 DEBUG ExpressionParser:46 - Formula part: ola
+2018-08-25 00:03:28 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-25 00:03:28 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-25 00:03:28 DEBUG ExpressionParser:49 - Formula part: UPP
+2018-08-25 00:03:28 DEBUG ExpressionParser:49 - Formula part: OLA
+2018-08-25 00:03:36 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-25 00:03:36 DEBUG ExpressionParser:49 - Formula part: UPP
+2018-08-25 00:03:36 DEBUG ExpressionParser:49 - Formula part: OLA
+2018-08-25 00:03:39 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-25 00:03:39 DEBUG ExpressionParser:49 - Formula part: UPP
+2018-08-25 00:03:39 DEBUG ExpressionParser:49 - Formula part: OLA
+2018-08-25 00:03:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-25 00:03:41 DEBUG ExpressionParser:49 - Formula part: UPP
+2018-08-25 00:03:41 DEBUG ExpressionParser:49 - Formula part: OLA
+2018-08-25 00:03:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-25 00:03:41 DEBUG ExpressionParser:49 - Formula part: UPP
+2018-08-25 00:03:41 DEBUG ExpressionParser:49 - Formula part: OLA
+2018-08-25 00:04:47 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-25 00:04:47 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-25 00:04:47 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-25 00:04:47 DEBUG ExpressionParser:46 - Formula part: OLA
+2018-08-25 00:04:49 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-25 00:04:49 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-25 00:04:49 DEBUG ExpressionParser:46 - Formula part: OLA
+2018-08-25 00:04:52 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-25 00:04:52 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-25 00:04:52 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-25 00:04:52 DEBUG ExpressionParser:46 - Formula part: TESTE
+2018-08-25 00:04:56 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-25 00:04:56 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-25 00:04:56 DEBUG ExpressionParser:46 - Formula part: TESTE
+2018-08-30 17:28:21 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-30 17:28:21 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:28:21 DEBUG ExpressionParser:46 - Formula part: U
+2018-08-30 17:28:21 DEBUG ExpressionParser:46 - Formula part: P
+2018-08-30 17:28:21 DEBUG ExpressionParser:46 - Formula part: P
+2018-08-30 17:28:21 DEBUG ExpressionParser:46 - Formula part: 
+2018-08-30 17:28:21 DEBUG ExpressionParser:46 - Formula part: O
+2018-08-30 17:28:21 DEBUG ExpressionParser:46 - Formula part: L
+2018-08-30 17:28:21 DEBUG ExpressionParser:46 - Formula part: A
+2018-08-30 17:28:22 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:28:22 DEBUG ExpressionParser:46 - Formula part: U
+2018-08-30 17:28:22 DEBUG ExpressionParser:46 - Formula part: P
+2018-08-30 17:28:22 DEBUG ExpressionParser:46 - Formula part: P
+2018-08-30 17:28:22 DEBUG ExpressionParser:46 - Formula part: 
+2018-08-30 17:28:22 DEBUG ExpressionParser:46 - Formula part: O
+2018-08-30 17:28:22 DEBUG ExpressionParser:46 - Formula part: L
+2018-08-30 17:28:22 DEBUG ExpressionParser:46 - Formula part: A
+2018-08-30 17:28:23 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:28:23 DEBUG ExpressionParser:46 - Formula part: U
+2018-08-30 17:28:23 DEBUG ExpressionParser:46 - Formula part: P
+2018-08-30 17:28:23 DEBUG ExpressionParser:46 - Formula part: P
+2018-08-30 17:28:23 DEBUG ExpressionParser:46 - Formula part: 
+2018-08-30 17:28:23 DEBUG ExpressionParser:46 - Formula part: O
+2018-08-30 17:28:23 DEBUG ExpressionParser:46 - Formula part: L
+2018-08-30 17:28:23 DEBUG ExpressionParser:46 - Formula part: A
+2018-08-30 17:28:24 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:28:24 DEBUG ExpressionParser:46 - Formula part: U
+2018-08-30 17:28:24 DEBUG ExpressionParser:46 - Formula part: P
+2018-08-30 17:28:24 DEBUG ExpressionParser:46 - Formula part: P
+2018-08-30 17:28:24 DEBUG ExpressionParser:46 - Formula part: 
+2018-08-30 17:28:24 DEBUG ExpressionParser:46 - Formula part: O
+2018-08-30 17:28:24 DEBUG ExpressionParser:46 - Formula part: L
+2018-08-30 17:28:24 DEBUG ExpressionParser:46 - Formula part: A
+2018-08-30 17:28:56 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-30 17:28:56 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:28:56 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:28:56 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:28:59 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:28:59 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:28:59 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:28:59 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:28:59 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:28:59 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:28:59 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:28:59 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:28:59 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:28:59 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:28:59 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:28:59 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:28:59 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:28:59 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:28:59 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:28:59 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:28:59 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:28:59 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:28:59 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:28:59 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:28:59 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:28:59 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:28:59 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:28:59 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:07 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:07 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:07 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:17 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:17 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:17 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:22 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-30 17:29:30 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-30 17:29:30 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:30 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:30 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:30 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:31 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:31 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:31 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:31 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:32 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:32 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:32 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:32 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:39 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:39 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:39 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:39 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:41 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:41 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:47 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:47 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:47 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:47 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:47 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:47 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:47 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:29:48 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:48 DEBUG ExpressionParser:46 - Formula part: UPP
+2018-08-30 17:29:48 DEBUG ExpressionParser:46 - Formula part: MARCIA
+2018-08-30 17:29:48 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:29:48 DEBUG ExpressionParser:46 - Formula part: SOMA
+2018-08-30 17:29:48 DEBUG ExpressionParser:46 - Formula part: A1
+2018-08-30 17:29:48 DEBUG ExpressionParser:46 - Formula part: 5
+2018-08-30 17:30:10 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-30 17:30:10 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:30:10 DEBUG ExpressionParser:46 - Formula part: POS(SOMA
+2018-08-30 17:30:10 DEBUG ExpressionParser:46 - Formula part: 1
+2018-08-30 17:30:10 DEBUG ExpressionParser:46 - Formula part: 4)
+2018-08-30 17:31:27 DEBUG ExpressionParser:39 - Formula detected, parsing data...
+2018-08-30 17:31:27 DEBUG ExpressionParser:46 - Formula part: POS(SOMA
+2018-08-30 17:31:27 DEBUG ExpressionParser:46 - Formula part: 1
+2018-08-30 17:31:27 DEBUG ExpressionParser:46 - Formula part: 4)
+2018-08-30 23:44:28 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-30 23:44:28 DEBUG ExpressionParser:30 - Formula detected, parsing data...
+2018-08-30 23:44:28 DEBUG ExpressionParser:55 - Formula part: =upp
+2018-08-30 23:44:28 DEBUG ExpressionParser:55 - Formula part: ola
+2018-08-30 23:44:28 DEBUG ExpressionParser:30 - Formula detected, parsing data...
+2018-08-30 23:44:28 DEBUG ExpressionParser:55 - Formula part: =upp
+2018-08-30 23:44:28 DEBUG ExpressionParser:55 - Formula part: ola
+2018-08-30 23:47:23 DEBUG ExpressionParser:30 - Formula detected, parsing data...
+2018-08-30 23:47:23 DEBUG ExpressionParser:55 - Formula part: =upp
+2018-08-30 23:47:23 DEBUG ExpressionParser:55 - Formula part: ola
+2018-08-30 23:47:23 DEBUG ExpressionParser:30 - Formula detected, parsing data...
+2018-08-30 23:47:23 DEBUG ExpressionParser:55 - Formula part: =upp
+2018-08-30 23:47:23 DEBUG ExpressionParser:55 - Formula part: ola
+2018-08-31 00:09:29 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-31 00:09:29 DEBUG ExpressionParser:32 - Formula detected, parsing data...
+2018-08-31 00:09:29 DEBUG ExpressionParser:57 - Formula part: upp
+2018-08-31 00:09:29 DEBUG ExpressionParser:57 - Formula part: ola
+2018-08-31 00:09:30 DEBUG ExpressionParser:32 - Formula detected, parsing data...
+2018-08-31 00:09:30 DEBUG ExpressionParser:57 - Formula part: upp
+2018-08-31 00:09:30 DEBUG ExpressionParser:57 - Formula part: ola
+2018-08-31 00:09:34 DEBUG ExpressionParser:32 - Formula detected, parsing data...
+2018-08-31 00:09:34 DEBUG ExpressionParser:57 - Formula part: upp
+2018-08-31 00:09:34 DEBUG ExpressionParser:57 - Formula part: ola
+2018-08-31 00:09:34 DEBUG ExpressionParser:32 - Formula detected, parsing data...
+2018-08-31 00:09:34 DEBUG ExpressionParser:57 - Formula part: upp
+2018-08-31 00:09:34 DEBUG ExpressionParser:57 - Formula part: ola
+2018-08-31 13:55:04 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-31 13:55:04 DEBUG ExpressionParser:28 - Formula detected, parsing data...
+2018-08-31 13:55:07 DEBUG ExpressionParser:28 - Formula detected, parsing data...
+2018-08-31 14:49:25 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-31 14:49:25 DEBUG ExpressionParser:28 - Formula detected, parsing data...
+2018-08-31 14:49:34 DEBUG ExpressionParser:28 - Formula detected, parsing data...
+2018-08-31 15:07:33 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-31 15:07:33 DEBUG ExpressionParser:28 - Formula detected, parsing data...
+2018-08-31 15:07:33 DEBUG ExpressionParser:57 - Formula part: upp
+2018-08-31 15:07:33 DEBUG ExpressionParser:57 - Formula part: ola
+2018-08-31 15:07:36 DEBUG ExpressionParser:28 - Formula detected, parsing data...
+2018-08-31 15:07:36 DEBUG ExpressionParser:57 - Formula part: upp
+2018-08-31 15:07:36 DEBUG ExpressionParser:57 - Formula part: ola
+2018-08-31 15:21:55 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-31 15:21:55 DEBUG ExpressionParser:28 - Formula detected, parsing data...
+2018-08-31 15:21:55 DEBUG ExpressionParser:57 - Formula part: UPP
+2018-08-31 15:21:55 DEBUG ExpressionParser:57 - Formula part: ola
+2018-08-31 15:21:58 DEBUG ExpressionParser:28 - Formula detected, parsing data...
+2018-08-31 15:21:58 DEBUG ExpressionParser:57 - Formula part: UPP
+2018-08-31 15:21:58 DEBUG ExpressionParser:57 - Formula part: ola
+2018-08-31 15:22:04 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-31 15:22:04 DEBUG ExpressionParser:28 - Formula detected, parsing data...
+2018-08-31 15:22:04 DEBUG ExpressionParser:57 - Formula part: upp
+2018-08-31 15:22:04 DEBUG ExpressionParser:57 - Formula part: OLA
+2018-08-31 15:22:10 DEBUG ExpressionParser:28 - Formula detected, parsing data...
+2018-08-31 15:22:10 DEBUG ExpressionParser:57 - Formula part: upp
+2018-08-31 15:22:10 DEBUG ExpressionParser:57 - Formula part: OLA
+2018-08-31 16:07:27 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-31 16:07:27 DEBUG ExpressionParser:28 - Formula detected, parsing data...
+2018-08-31 16:07:27 DEBUG ExpressionParser:57 - Formula part: upp
+2018-08-31 16:07:27 DEBUG ExpressionParser:57 - Formula part: ola
+2018-08-31 16:07:29 DEBUG ExpressionParser:28 - Formula detected, parsing data...
+2018-08-31 16:07:29 DEBUG ExpressionParser:57 - Formula part: upp
+2018-08-31 16:07:29 DEBUG ExpressionParser:57 - Formula part: ola
+2018-08-31 16:07:32 DEBUG Cell:21 - New Object: java.lang.String
+2018-08-31 16:07:32 DEBUG ExpressionParser:28 - Formula detected, parsing data...
+2018-08-31 16:07:32 DEBUG ExpressionParser:57 - Formula part: UPP
+2018-08-31 16:07:32 DEBUG ExpressionParser:57 - Formula part: ola

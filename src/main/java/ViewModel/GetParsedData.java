@@ -2,6 +2,7 @@ package ViewModel;
 
 import model.Cell;
 import model.Sheet;
+import utils.ExpressionParser;
 
 public class GetParsedData implements IGetDataStrategy{
 
@@ -15,8 +16,10 @@ public class GetParsedData implements IGetDataStrategy{
     public Cell getValueAt(int row, int column) {
         //TODO
         // Parsed Value with expression parser and decorators/filters applied
-        Cell myNewCell = new Cell("#");
-        return myNewCell;
+        //Cell myNewCell = new Cell("#");
+        //return myNewCell;
         //return model.getValueAt(row,column);
+        ExpressionParser parser = new ExpressionParser(model.getValueAt(row,column));
+        return parser.getParsedCell();
     }
 }

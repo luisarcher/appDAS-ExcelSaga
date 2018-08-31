@@ -2,42 +2,27 @@ package model;
 
 import org.apache.log4j.Logger;
 
-public class Cell <T> {
+public class Cell {
 
     private final static Logger logger = Logger.getLogger(Cell.class);
 
-    private int myRow;
-    private int myColumn;
-
-    private T value;
-
-    public Cell() {
-
-    }
+    private String value;
 
     @Override
     public String toString() {
-        return "" + getValue();
+        return getValue();
     }
 
-    public Cell(T value) {
+    public Cell(String value) {
         this.value = value;
     }
 
-    Cell(T value, int row, int column) {
-
-        this.myRow = row;
-        this.myColumn = column;
-        this.value = value;
-
-    }
-
-    void setValueObject(T v) {
+    public void setValueObject(String v) {
         logger.debug("New Object: " + v.getClass().getName());
         this.value = v;
     }
 
-    T getValue(){
+    public String getValue(){
         return this.value;
     }
 }

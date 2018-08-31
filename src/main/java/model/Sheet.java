@@ -29,7 +29,7 @@ public class Sheet{
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
-                cells[i][j] = new Cell("", i, j);
+                cells[i][j] = new Cell("");
             }
         }
     }
@@ -52,19 +52,10 @@ public class Sheet{
 
     public void setValueAt(Object value, int row, int column) {
         String input = (String) value;
-        if (input.equals("=")) {
+        if (input.equals("="))
             return;
-        }
-        if (input != null) {
-            if (input.matches("[0-9]+")){
-                logger.debug("Matches integer!");
-                cells[row][column].setValueObject(Integer.valueOf(input));
-            } else {
-                cells[row][column].setValueObject(input);
-            }
-        } else {
-            cells[row][column].setValueObject("");
-        }
+
+        cells[row][column].setValueObject(input);
     }
 
     public Cell getValueById(String id){
