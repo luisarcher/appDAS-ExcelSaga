@@ -19,7 +19,7 @@ public class Cell {
     }
 
     public void setValueObject(String v) {
-        logger.debug("New Object: " + v.getClass().getName());
+        //logger.debug("New Object: " + v.getClass().getName());
         this.value = v;
     }
 

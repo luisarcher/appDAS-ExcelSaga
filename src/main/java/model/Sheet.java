@@ -74,7 +74,7 @@ public class Sheet{
             int c = 26 * (col.charAt(0) - 64) + col.charAt(1) - 64;
 
             // Get the Row
-            int r = Integer.parseInt(id.replaceAll("[A-Za-z]", ""));
+            int r = Integer.parseInt(id.replaceAll("(?i)[A-Za-z]", ""));
 
             return getValueAt(r,c);
         }

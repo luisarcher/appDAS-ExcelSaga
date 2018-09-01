@@ -68,7 +68,8 @@ public class FilterSum extends Filter {
 
             logger.debug("Parsing '" + _part + "'");
             if (RegexMatcher.isCell(_part)){
-                _part = getModel().getValueById(_part).getValue();
+
+                _part = this.decoratedCell.getModel().getValueById(_part).getValue();
             }
             if (RegexMatcher.isNumber(_part) ){
                 result = result + Integer.parseInt(_part);

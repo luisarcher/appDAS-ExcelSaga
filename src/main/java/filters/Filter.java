@@ -14,6 +14,7 @@ public abstract class Filter extends Cell{
 
     public Filter(Cell decoratedCell){
         super(decoratedCell.getValue());
+        super.setModel(decoratedCell.getModel());
         this.decoratedCell = decoratedCell;
     }
 
