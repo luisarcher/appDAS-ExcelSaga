@@ -17,7 +17,6 @@ public class ExpressionParser {
     public ExpressionParser(Cell cell){
 
         this.decoratedCell = cell;
-        parse(this.decoratedCell);
     }
 
     public Cell parse(Cell cell){
@@ -32,32 +31,39 @@ public class ExpressionParser {
         AbstractFactory factory = FactoryProducer.getFactory(ConstFilters.SPECIAL_FILTERS);
         this.decoratedCell = factory.getFilter(ConstFilters.FORMULA_CHAR_FILTER,cell);
 
+        // Detect and decorate in case of the presence of any text filter
         this.decoratedCell = parseByFilter("text", this.decoratedCell);
+
+        // Detect and decorate in case of the presence of any numeric filter
+        this.decoratedCell = parseByFilter("numeric", this.decoratedCell);
 
         return this.decoratedCell;
 
     }
 
-    /*public Cell parse(){
+    public Cell parse(){
 
         if (this.decoratedCell == null)
             return null;
 
         return this.parse(this.decoratedCell);
-    }*/
+    }
 
     private Cell parseByFilter(String filterType, Cell cell){
 
         AbstractFactory factory = FactoryProducer.getFactory(filterType);
         if (factory == null) return cell;
 
-        String[] _parts = cell.getValue().split(" ");
+        String[] _parts = cell.getValue().split("[\\s\\(\\)]");
         for (String _part : _parts){
 
             logger.debug("Formula part: " + _part);
             Cell _decoratedCell = factory.getFilter(_part, cell);
             if (_decoratedCell != null){
+
                 cell = _decoratedCell;
+                logger.debug("Filter applied: " + cell.getClass().getName());
+
             }
         }
 

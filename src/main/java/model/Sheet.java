@@ -1,6 +1,7 @@
 package model;
 
 import org.apache.log4j.Logger;
+import utils.RegexMatcher;
 
 public class Sheet{
 
@@ -30,6 +31,9 @@ public class Sheet{
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 cells[i][j] = new Cell("");
+
+                // We need a reference to the model inside a cell in case the formula reference other cells.
+                cells[i][j].setModel(this);
             }
         }
     }
@@ -60,7 +64,7 @@ public class Sheet{
 
     public Cell getValueById(String id){
 
-        if (id.matches("[A-Z]{1,2}[1-9][0-9]*")) {
+        if (RegexMatcher.isCell(id)) {
 
             // Get the column
             String col = id.replaceAll("[0-9]", "");
@@ -70,7 +74,7 @@ public class Sheet{
             int c = 26 * (col.charAt(0) - 64) + col.charAt(1) - 64;
 
             // Get the Row
-            int r = Integer.parseInt(id.replaceAll("[A-Z]", ""));
+            int r = Integer.parseInt(id.replaceAll("[A-Za-z]", ""));
 
             return getValueAt(r,c);
         }

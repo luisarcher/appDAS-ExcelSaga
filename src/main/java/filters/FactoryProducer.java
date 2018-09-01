@@ -1,5 +1,6 @@
 package filters;
 
+import filters.numeric.NumericFilterFactory;
 import filters.text.TextFilterFactory;
 
 public class FactoryProducer {

@@ -20,6 +20,7 @@ public class GetParsedData implements IGetDataStrategy{
         //return myNewCell;
         //return model.getValueAt(row,column);
         ExpressionParser parser = new ExpressionParser(model.getValueAt(row,column));
+        parser.parse();
         return parser.getParsedCell();
     }
 }

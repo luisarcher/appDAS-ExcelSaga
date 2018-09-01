@@ -4,19 +4,17 @@ package filters;
 // Decorator pattern
 
 import model.Cell;
+import org.apache.log4j.Logger;
 
 public abstract class Filter extends Cell{
+
+    private final static Logger logger = Logger.getLogger(Filter.class);
 
     protected Cell decoratedCell;
 
     public Filter(Cell decoratedCell){
         super(decoratedCell.getValue());
         this.decoratedCell = decoratedCell;
-    }
-
-    protected boolean isCell(String expression){
-
-        return expression.matches("[a-z]{1,2}[0-9]{1,2}");
     }
 
     public abstract String removeFilterName(String expression);
@@ -26,12 +24,21 @@ public abstract class Filter extends Cell{
         return this.execute();
     }
 
+    protected boolean acceptedParams(String expression){
+        return true;
+    }
+
     private String execute(){
 
         String _out = this.decoratedCell.getValue();
 
-        _out = removeFilterName(_out);
+        if (!acceptedParams(_out)) {
+            logger.debug("Params not accepted!");
+            return "#Error params";
+        }
+
         _out = apply(_out);
+        _out = removeFilterName(_out);
 
         return _out;
     }
@@ -43,5 +50,6 @@ public abstract class Filter extends Cell{
     // isValidCell implementada aqui
 
     // os filtros extendem esta classe para preencher o algoritmo no template
+
 
 }

@@ -16,4 +16,8 @@ public class FilterSpecialChars extends Filter {
         return expression;
     }
 
+    public boolean acceptedParams(String expression) {
+        return true;
+    }
+
 }

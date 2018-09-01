@@ -6,6 +6,7 @@ public class Cell {
 
     private final static Logger logger = Logger.getLogger(Cell.class);
 
+    private Sheet sheet;
     private String value;
 
     @Override
@@ -24,5 +25,13 @@ public class Cell {
 
     public String getValue(){
         return this.value;
+    }
+
+    public Sheet getModel(){
+        return this.sheet;
+    }
+
+    public void setModel(Sheet model){
+        this.sheet = model;
     }
 }
