@@ -38,7 +38,14 @@ public class MainController {
 
         view.openMenuItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                // open book
+
+                // ILIDIO
+                // FAZER IMPORT DO FICHEIRO CSV
+                // Criar classe FileImporter
+                // Definir o sheetModel desta classe = resultado do FileImporter
+
+                // O prof fala em usar adaptadores
+
             }
         });
 
@@ -48,9 +55,18 @@ public class MainController {
             }
         });
 
-        view.saveAsMenuItem.addActionListener(new ActionListener() {
+        view.saveAsCSV.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 //save book as
+
+                // new FileExporter(String format, sheetModel); -> new FileExporter("CSV", sheetModel);
+                // Ilidio, criar a classe que guarda o modelo(sheetModel) para um ficheiro CSV
+                // Usar builder design pattern para fazer o export
+                // Pode ser usada uma fábrica para obter o Builder correcto de acordo com o "format" mas deixo ao teu critério
+
+
+                System.out.println("CLICKED CSV");
+
             }
         });
 
@@ -67,8 +83,6 @@ public class MainController {
                 System.exit(1);
             }
         });
-
-
     }
 
     private void setupEditMenuHandlers(){

@@ -90,9 +90,12 @@ public class MainWindow extends JFrame implements Runnable{
 
     public JMenuItem openMenuItem;
     public JMenuItem saveMenuItem;
-    public JMenuItem saveAsMenuItem;
+    public JMenu saveAsMenuItem;
     public JMenuItem closeSheetMenuItem;
     public JMenuItem exitMenuItem;
+
+    //Save as
+    public JMenuItem saveAsCSV;
 
     private void initFileMenu(){
 
@@ -107,9 +110,15 @@ public class MainWindow extends JFrame implements Runnable{
         saveMenuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, InputEvent.CTRL_MASK));
         fileMenu.add(saveMenuItem);
 
-        saveAsMenuItem = new JMenuItem("Save As", KeyEvent.VK_A);
-        saveAsMenuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, InputEvent.CTRL_MASK | InputEvent.SHIFT_MASK));
+        saveAsMenuItem = new JMenu("Save As");
+        //saveAsMenuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, InputEvent.CTRL_MASK | InputEvent.SHIFT_MASK));
+
+        saveAsCSV = new JMenuItem("CSV");
+        saveAsMenuItem.add(saveAsCSV);
+
         fileMenu.add(saveAsMenuItem);
+
+
 
         closeSheetMenuItem = new JMenuItem("Close sheet", KeyEvent.VK_C);
         fileMenu.add(closeSheetMenuItem);

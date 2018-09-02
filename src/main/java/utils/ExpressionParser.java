@@ -26,6 +26,7 @@ public class ExpressionParser {
         if (cell.toString().length() == 0|| !isFormula(cell.getValue())){
             return cell;
         }
+
         logger.debug("Formula detected, parsing data...");
 
         //this.decoratedCell = cell;

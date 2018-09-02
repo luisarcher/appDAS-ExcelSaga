@@ -1548,3 +1548,1381 @@
 2018-09-02 19:07:57 DEBUG FilterSum:83 - Result: 7
 2018-09-02 19:07:57 DEBUG FilterSum:69 - Parsing '4'
 2018-09-02 19:07:57 DEBUG FilterSum:83 - Result: 11
+2018-09-02 20:23:18 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:23:18 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:18 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:18 DEBUG ExpressionParser:62 - Formula part: 5
+2018-09-02 20:23:18 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:18 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:23:18 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:18 DEBUG ExpressionParser:62 - Formula part: 5
+2018-09-02 20:23:18 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 5' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:23:18 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 5
+2018-09-02 20:23:18 DEBUG FilterSum:47 - Expression: SUM A1 5
+2018-09-02 20:23:18 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:23:18 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, 5]'
+2018-09-02 20:23:18 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:23:18 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:23:18 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:18 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:18 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:23:18 DEBUG FilterSum:69 - Parsing '5'
+2018-09-02 20:23:18 DEBUG FilterSum:83 - Result: 10
+2018-09-02 20:23:23 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:23:23 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:23 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:23 DEBUG ExpressionParser:62 - Formula part: 5
+2018-09-02 20:23:23 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:23 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:23:23 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:23 DEBUG ExpressionParser:62 - Formula part: 5
+2018-09-02 20:23:23 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 5' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:23:23 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 5
+2018-09-02 20:23:23 DEBUG FilterSum:47 - Expression: SUM A1 5
+2018-09-02 20:23:23 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:23:23 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, 5]'
+2018-09-02 20:23:23 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:23:23 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:23:23 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:23 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:23 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:23:23 DEBUG FilterSum:69 - Parsing '5'
+2018-09-02 20:23:23 DEBUG FilterSum:83 - Result: 10
+2018-09-02 20:23:28 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:23:28 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:28 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:28 DEBUG ExpressionParser:62 - Formula part: 5
+2018-09-02 20:23:28 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:28 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:23:28 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:28 DEBUG ExpressionParser:62 - Formula part: 5
+2018-09-02 20:23:28 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 5' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:23:28 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 5
+2018-09-02 20:23:28 DEBUG FilterSum:47 - Expression: SUM A1 5
+2018-09-02 20:23:28 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:23:28 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, 5]'
+2018-09-02 20:23:28 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:23:28 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:23:28 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:28 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:28 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:23:28 DEBUG FilterSum:69 - Parsing '5'
+2018-09-02 20:23:28 DEBUG FilterSum:83 - Result: 10
+2018-09-02 20:23:32 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:23:32 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:32 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:32 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:23:32 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:32 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:23:32 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:32 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:23:32 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 A2' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:23:32 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 A2
+2018-09-02 20:23:32 DEBUG FilterSum:47 - Expression: SUM A1 A2
+2018-09-02 20:23:32 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:23:32 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, A2]'
+2018-09-02 20:23:32 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:23:32 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:23:32 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:32 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:32 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:23:32 DEBUG FilterSum:69 - Parsing 'A2'
+2018-09-02 20:23:32 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:32 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:32 DEBUG FilterSum:81 - Error while trying to calc '' in '[SUM, A1, A2]'
+2018-09-02 20:23:32 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:23:41 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:23:41 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:41 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:41 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:23:41 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:41 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:23:41 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:41 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:23:41 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 A2' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:23:41 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 A2
+2018-09-02 20:23:41 DEBUG FilterSum:47 - Expression: SUM A1 A2
+2018-09-02 20:23:41 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:23:41 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, A2]'
+2018-09-02 20:23:41 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:23:41 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:23:41 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:41 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:41 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:23:41 DEBUG FilterSum:69 - Parsing 'A2'
+2018-09-02 20:23:41 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:41 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:41 DEBUG FilterSum:81 - Error while trying to calc '' in '[SUM, A1, A2]'
+2018-09-02 20:23:41 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:23:46 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:23:46 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:46 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:46 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:23:46 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:46 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:23:46 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:46 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:23:46 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:23:46 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:23:46 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:23:46 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:23:46 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:23:46 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:23:46 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:23:46 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:46 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:46 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:23:46 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:23:46 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:46 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:46 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:23:49 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:23:49 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:49 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:49 DEBUG ExpressionParser:62 - Formula part: 5
+2018-09-02 20:23:49 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:49 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:23:49 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:49 DEBUG ExpressionParser:62 - Formula part: 5
+2018-09-02 20:23:49 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 5' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:23:49 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 5
+2018-09-02 20:23:49 DEBUG FilterSum:47 - Expression: SUM A1 5
+2018-09-02 20:23:49 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:23:49 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, 5]'
+2018-09-02 20:23:49 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:23:49 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:23:49 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:49 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:49 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:23:49 DEBUG FilterSum:69 - Parsing '5'
+2018-09-02 20:23:49 DEBUG FilterSum:83 - Result: 10
+2018-09-02 20:23:49 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:23:49 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:49 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:49 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:23:49 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:49 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:23:49 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:49 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:23:49 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 A2' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:23:49 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 A2
+2018-09-02 20:23:49 DEBUG FilterSum:47 - Expression: SUM A1 A2
+2018-09-02 20:23:49 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:23:49 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, A2]'
+2018-09-02 20:23:49 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:23:49 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:23:49 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:49 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:49 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:23:49 DEBUG FilterSum:69 - Parsing 'A2'
+2018-09-02 20:23:49 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:49 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:49 DEBUG FilterSum:81 - Error while trying to calc '' in '[SUM, A1, A2]'
+2018-09-02 20:23:49 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:23:49 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:23:49 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:49 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:49 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:23:49 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:49 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:23:49 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:49 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:23:49 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:23:49 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:23:49 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:23:49 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:23:49 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:23:49 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:23:49 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:23:49 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:49 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:49 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:23:49 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:23:49 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:49 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:49 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:23:50 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:23:50 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:50 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:50 DEBUG ExpressionParser:62 - Formula part: 5
+2018-09-02 20:23:50 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:50 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:23:50 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:50 DEBUG ExpressionParser:62 - Formula part: 5
+2018-09-02 20:23:50 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 5' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:23:50 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 5
+2018-09-02 20:23:50 DEBUG FilterSum:47 - Expression: SUM A1 5
+2018-09-02 20:23:50 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:23:50 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, 5]'
+2018-09-02 20:23:50 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:23:50 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:23:50 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:50 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:50 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:23:50 DEBUG FilterSum:69 - Parsing '5'
+2018-09-02 20:23:50 DEBUG FilterSum:83 - Result: 10
+2018-09-02 20:23:53 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:23:53 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:53 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:53 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:23:53 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:53 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:23:53 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:53 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:23:53 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:23:53 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:23:53 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:23:53 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:23:53 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:23:53 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:23:53 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:23:53 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:53 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:53 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:23:53 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:23:53 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:53 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:53 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:23:53 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:23:53 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:53 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:53 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:23:53 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:53 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:23:53 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:53 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:23:53 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 A2' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:23:53 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 A2
+2018-09-02 20:23:53 DEBUG FilterSum:47 - Expression: SUM A1 A2
+2018-09-02 20:23:53 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:23:53 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, A2]'
+2018-09-02 20:23:53 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:23:53 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:23:53 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:53 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:53 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:23:53 DEBUG FilterSum:69 - Parsing 'A2'
+2018-09-02 20:23:53 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:53 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:53 DEBUG FilterSum:81 - Error while trying to calc '' in '[SUM, A1, A2]'
+2018-09-02 20:23:53 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:23:53 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:23:53 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:53 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:53 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:23:53 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:53 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:23:53 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:53 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:23:53 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:23:53 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:23:53 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:23:53 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:23:53 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:23:53 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:23:53 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:23:53 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:53 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:53 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:23:53 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:23:53 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:53 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:53 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:23:57 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:23:57 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:57 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:57 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:23:57 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:57 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:23:57 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:57 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:23:57 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:23:57 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:23:57 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:23:57 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:23:57 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:23:57 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:23:57 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:23:57 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:57 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:57 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:23:57 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:23:57 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:57 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:57 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:23:59 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:23:59 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:59 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:59 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:23:59 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:23:59 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:23:59 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:23:59 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:23:59 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:23:59 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:23:59 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:23:59 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:23:59 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:23:59 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:23:59 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:23:59 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:59 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:59 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:23:59 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:23:59 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:23:59 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:23:59 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:24:02 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:24:02 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:02 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:02 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:02 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:02 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:24:02 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:02 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:02 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:24:02 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:24:02 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:24:02 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:24:02 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:24:02 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:24:02 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:24:02 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:02 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:02 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:24:02 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:24:02 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:02 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:02 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:24:04 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:24:04 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:04 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:04 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:04 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:04 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:24:04 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:04 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:04 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:24:04 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:24:04 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:24:04 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:24:04 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:24:04 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:24:04 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:24:04 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:04 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:04 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:24:04 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:24:04 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:04 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:04 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:24:10 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:24:10 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:10 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:10 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:10 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:10 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:24:10 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:10 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:10 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:24:10 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:24:10 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:24:10 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:24:10 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:24:10 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:24:10 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:24:10 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:10 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:10 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:24:10 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:24:10 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:10 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:10 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:24:24 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:24:24 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:24 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:24 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:24 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:24 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:24:24 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:24 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:24 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:24:24 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:24:24 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:24:24 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:24:24 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:24:24 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:24:24 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:24:24 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:24 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:24 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:24:24 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:24:24 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:24 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:24 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:24:27 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:24:27 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:27 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:27 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:27 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:27 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:24:27 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:27 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:27 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:24:27 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:24:27 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:24:27 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:24:27 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:24:27 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:24:27 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:24:27 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:27 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:27 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:24:27 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:24:27 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:27 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:27 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:24:27 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:24:27 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:27 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:27 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:27 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:27 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:24:27 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:27 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:27 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:24:27 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:24:27 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:24:27 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:24:27 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:24:27 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:24:27 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:24:27 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:27 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:27 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:24:27 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:24:27 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:27 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:27 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:24:31 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:24:31 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:31 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:31 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:31 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:31 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:24:31 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:31 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:31 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:24:31 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:24:31 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:24:31 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:24:31 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:24:31 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:24:31 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:24:31 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:31 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:31 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:24:31 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:24:31 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:31 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:31 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:24:34 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:24:34 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:34 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:34 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:34 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:34 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:24:34 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:34 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:34 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:24:34 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:24:34 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:24:34 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:24:34 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:24:34 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:24:34 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:24:34 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:34 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:34 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:24:34 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:24:34 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:34 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:34 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:24:35 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:24:35 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:35 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:35 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:35 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:35 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:24:35 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:35 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:35 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:24:35 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:24:35 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:24:35 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:24:35 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:24:35 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:24:35 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:24:35 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:35 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:35 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:24:35 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:24:35 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:35 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:35 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:24:37 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: 5
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:37 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: 5
+2018-09-02 20:24:37 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 5' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:24:37 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 5
+2018-09-02 20:24:37 DEBUG FilterSum:47 - Expression: SUM A1 5
+2018-09-02 20:24:37 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:24:37 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, 5]'
+2018-09-02 20:24:37 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:24:37 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:24:37 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:37 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:37 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:24:37 DEBUG FilterSum:69 - Parsing '5'
+2018-09-02 20:24:37 DEBUG FilterSum:83 - Result: 10
+2018-09-02 20:24:37 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:37 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:24:37 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 A2' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:24:37 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 A2
+2018-09-02 20:24:37 DEBUG FilterSum:47 - Expression: SUM A1 A2
+2018-09-02 20:24:37 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:24:37 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, A2]'
+2018-09-02 20:24:37 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:24:37 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:24:37 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:37 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:37 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:24:37 DEBUG FilterSum:69 - Parsing 'A2'
+2018-09-02 20:24:37 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:37 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:37 DEBUG FilterSum:81 - Error while trying to calc '' in '[SUM, A1, A2]'
+2018-09-02 20:24:37 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:24:37 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:37 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:37 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:24:37 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:24:37 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:24:37 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:24:37 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:24:37 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:24:37 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:24:37 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:37 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:37 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:24:37 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:24:37 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:37 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:37 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:24:37 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:37 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:37 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:37 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:24:37 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:24:37 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:24:37 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:24:37 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:24:37 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:24:37 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:24:37 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:37 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:37 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:24:37 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:24:37 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:37 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:37 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:24:47 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:24:47 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:47 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:47 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:47 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:24:47 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:24:47 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:24:47 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:24:47 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:24:47 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:24:47 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:24:47 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:24:47 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:24:47 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:24:47 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:24:47 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:47 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:47 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:24:47 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:24:47 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:24:47 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:24:47 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:25:08 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:08 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:08 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:08 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:08 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:08 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:08 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:08 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:08 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:08 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:25:08 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:25:08 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:08 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:25:08 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:08 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:08 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:08 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:08 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:08 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:25:08 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:08 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:08 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:25:09 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:09 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:09 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:09 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:09 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:09 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:09 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:09 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:09 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:09 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:25:09 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:25:09 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:09 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:25:09 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:09 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:09 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:09 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:09 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:09 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:25:09 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:09 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:09 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:25:11 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:11 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:25:11 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 A2' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:11 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 A2
+2018-09-02 20:25:11 DEBUG FilterSum:47 - Expression: SUM A1 A2
+2018-09-02 20:25:11 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:11 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, A2]'
+2018-09-02 20:25:11 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:11 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:11 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:11 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:11 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:11 DEBUG FilterSum:69 - Parsing 'A2'
+2018-09-02 20:25:11 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:11 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:11 DEBUG FilterSum:81 - Error while trying to calc '' in '[SUM, A1, A2]'
+2018-09-02 20:25:11 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:11 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:11 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:11 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:11 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:25:11 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:25:11 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:11 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:25:11 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:11 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:11 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:11 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:11 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:11 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:25:11 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:11 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:11 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:25:11 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:11 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:25:11 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 A2' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:11 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 A2
+2018-09-02 20:25:11 DEBUG FilterSum:47 - Expression: SUM A1 A2
+2018-09-02 20:25:11 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:11 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, A2]'
+2018-09-02 20:25:11 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:11 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:11 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:11 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:11 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:11 DEBUG FilterSum:69 - Parsing 'A2'
+2018-09-02 20:25:11 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:11 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:11 DEBUG FilterSum:81 - Error while trying to calc '' in '[SUM, A1, A2]'
+2018-09-02 20:25:11 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:11 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:11 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:11 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:11 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:11 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:25:11 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:25:11 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:11 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:25:11 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:11 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:11 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:11 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:11 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:11 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:25:11 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:11 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:11 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:25:12 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:12 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:12 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:12 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:12 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:12 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:12 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:12 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:12 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:12 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:25:12 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:25:12 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:12 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:25:12 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:12 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:12 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:12 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:12 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:12 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:25:12 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:12 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:12 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:25:13 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:13 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:13 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:13 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:13 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:13 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:13 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:13 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:13 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:13 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:25:13 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:25:13 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:13 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:25:13 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:13 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:13 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:13 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:13 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:13 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:25:13 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:13 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:13 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:25:18 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:18 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:25:18 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 A2' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:18 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 A2
+2018-09-02 20:25:18 DEBUG FilterSum:47 - Expression: SUM A1 A2
+2018-09-02 20:25:18 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:18 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, A2]'
+2018-09-02 20:25:18 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:18 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:18 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:18 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:18 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:18 DEBUG FilterSum:69 - Parsing 'A2'
+2018-09-02 20:25:18 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:18 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:18 DEBUG FilterSum:81 - Error while trying to calc '' in '[SUM, A1, A2]'
+2018-09-02 20:25:18 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:18 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:18 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:18 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:18 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:25:18 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:25:18 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:18 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:25:18 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:18 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:18 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:18 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:18 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:18 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:25:18 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:18 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:18 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:25:18 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:18 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:25:18 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 A2' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:18 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 A2
+2018-09-02 20:25:18 DEBUG FilterSum:47 - Expression: SUM A1 A2
+2018-09-02 20:25:18 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:18 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, A2]'
+2018-09-02 20:25:18 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:18 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:18 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:18 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:18 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:18 DEBUG FilterSum:69 - Parsing 'A2'
+2018-09-02 20:25:18 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:18 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:18 DEBUG FilterSum:81 - Error while trying to calc '' in '[SUM, A1, A2]'
+2018-09-02 20:25:18 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:18 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:18 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:18 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:18 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:18 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:25:18 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:25:18 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:18 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:25:18 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:18 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:18 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:18 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:18 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:18 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:25:18 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:18 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:18 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:25:19 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:19 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:19 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:19 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:19 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:19 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:19 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:19 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:19 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:19 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:25:19 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:25:19 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:19 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:25:19 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:19 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:19 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:19 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:19 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:19 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:25:19 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:19 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:19 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:25:20 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:20 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:20 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:20 DEBUG ExpressionParser:62 - Formula part: 5
+2018-09-02 20:25:20 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:20 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:20 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:20 DEBUG ExpressionParser:62 - Formula part: 5
+2018-09-02 20:25:20 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 5' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:20 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 5
+2018-09-02 20:25:20 DEBUG FilterSum:47 - Expression: SUM A1 5
+2018-09-02 20:25:20 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:20 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, 5]'
+2018-09-02 20:25:20 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:20 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:20 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:20 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:20 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:20 DEBUG FilterSum:69 - Parsing '5'
+2018-09-02 20:25:20 DEBUG FilterSum:83 - Result: 10
+2018-09-02 20:25:20 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:20 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:20 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:20 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:25:20 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:20 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:20 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:20 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:25:20 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 A2' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:20 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 A2
+2018-09-02 20:25:20 DEBUG FilterSum:47 - Expression: SUM A1 A2
+2018-09-02 20:25:20 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:20 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, A2]'
+2018-09-02 20:25:20 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:20 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:20 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:20 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:20 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:20 DEBUG FilterSum:69 - Parsing 'A2'
+2018-09-02 20:25:20 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:20 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:20 DEBUG FilterSum:81 - Error while trying to calc '' in '[SUM, A1, A2]'
+2018-09-02 20:25:20 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:20 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:20 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:20 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:20 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:20 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:20 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:20 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:20 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:20 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:20 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:25:20 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:25:20 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:20 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:25:20 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:20 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:20 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:20 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:20 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:20 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:25:20 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:20 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:20 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:25:30 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:30 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:30 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:30 DEBUG ExpressionParser:62 - Formula part: 5
+2018-09-02 20:25:30 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:30 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:30 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:30 DEBUG ExpressionParser:62 - Formula part: 5
+2018-09-02 20:25:30 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 5' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:30 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 5
+2018-09-02 20:25:30 DEBUG FilterSum:47 - Expression: SUM A1 5
+2018-09-02 20:25:30 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:30 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, 5]'
+2018-09-02 20:25:30 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:30 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:30 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:30 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:30 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:30 DEBUG FilterSum:69 - Parsing '5'
+2018-09-02 20:25:30 DEBUG FilterSum:83 - Result: 10
+2018-09-02 20:25:30 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:30 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:30 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:30 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:25:30 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:30 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:30 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:30 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:25:30 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 A2' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:30 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 A2
+2018-09-02 20:25:30 DEBUG FilterSum:47 - Expression: SUM A1 A2
+2018-09-02 20:25:30 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:30 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, A2]'
+2018-09-02 20:25:30 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:30 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:30 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:30 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:30 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:30 DEBUG FilterSum:69 - Parsing 'A2'
+2018-09-02 20:25:30 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:30 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:30 DEBUG FilterSum:81 - Error while trying to calc '' in '[SUM, A1, A2]'
+2018-09-02 20:25:30 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:30 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:30 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:30 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:30 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:30 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:30 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:30 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:30 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:30 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:30 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:25:30 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:25:30 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:30 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:25:30 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:30 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:30 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:30 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:30 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:30 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:25:30 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:30 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:30 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:25:32 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:32 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:32 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:32 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:25:32 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:32 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:32 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:32 DEBUG ExpressionParser:62 - Formula part: A2
+2018-09-02 20:25:32 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 A2' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:32 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 A2
+2018-09-02 20:25:32 DEBUG FilterSum:47 - Expression: SUM A1 A2
+2018-09-02 20:25:32 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:32 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, A2]'
+2018-09-02 20:25:32 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:32 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:32 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:32 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:32 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:32 DEBUG FilterSum:69 - Parsing 'A2'
+2018-09-02 20:25:32 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:32 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:32 DEBUG FilterSum:81 - Error while trying to calc '' in '[SUM, A1, A2]'
+2018-09-02 20:25:32 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:32 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:32 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:32 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:32 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:32 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:32 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:32 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:32 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:32 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:32 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:25:32 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:25:32 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:32 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:25:32 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:32 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:32 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:32 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:32 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:32 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:25:32 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:32 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:32 DEBUG FilterSum:83 - Result: 15
+2018-09-02 20:25:35 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 20:25:35 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:35 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:35 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:35 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 20:25:35 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 20:25:35 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 20:25:35 DEBUG ExpressionParser:62 - Formula part: B1
+2018-09-02 20:25:35 DEBUG RegexMatcher:54 - Attempting to match: 'SUM A1 B1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 20:25:35 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM A1 B1
+2018-09-02 20:25:35 DEBUG FilterSum:47 - Expression: SUM A1 B1
+2018-09-02 20:25:35 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 20:25:35 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, A1, B1]'
+2018-09-02 20:25:35 DEBUG FilterSum:83 - Result: 0
+2018-09-02 20:25:35 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 20:25:35 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:35 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:35 DEBUG FilterSum:83 - Result: 5
+2018-09-02 20:25:35 DEBUG FilterSum:69 - Parsing 'B1'
+2018-09-02 20:25:35 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 20:25:35 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 20:25:35 DEBUG FilterSum:83 - Result: 15
+2018-09-02 23:37:33 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 23:37:34 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:34 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:34 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:34 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:34 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 23:37:34 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:34 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:34 DEBUG RegexMatcher:54 - Attempting to match: 'SUM 10 A1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 23:37:34 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM 10 A1
+2018-09-02 23:37:34 DEBUG FilterSum:47 - Expression: SUM 10 A1
+2018-09-02 23:37:34 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 23:37:34 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, 10, A1]'
+2018-09-02 23:37:34 DEBUG FilterSum:83 - Result: 0
+2018-09-02 23:37:34 DEBUG FilterSum:69 - Parsing '10'
+2018-09-02 23:37:34 DEBUG FilterSum:83 - Result: 10
+2018-09-02 23:37:34 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 23:37:34 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 23:37:34 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 23:37:34 DEBUG FilterSum:83 - Result: 15
+2018-09-02 23:37:36 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 23:37:36 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:36 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:36 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:36 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:36 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 23:37:36 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:36 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:36 DEBUG RegexMatcher:54 - Attempting to match: 'SUM 10 A1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 23:37:36 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM 10 A1
+2018-09-02 23:37:36 DEBUG FilterSum:47 - Expression: SUM 10 A1
+2018-09-02 23:37:36 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 23:37:36 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, 10, A1]'
+2018-09-02 23:37:36 DEBUG FilterSum:83 - Result: 0
+2018-09-02 23:37:36 DEBUG FilterSum:69 - Parsing '10'
+2018-09-02 23:37:36 DEBUG FilterSum:83 - Result: 10
+2018-09-02 23:37:36 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 23:37:36 DEBUG FilterSum:72 - # Value of A1: 5
+2018-09-02 23:37:36 DEBUG FilterSum:73 - # Value of 1,1: 5
+2018-09-02 23:37:36 DEBUG FilterSum:83 - Result: 15
+2018-09-02 23:37:44 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 23:37:44 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:44 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:44 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:44 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:44 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 23:37:44 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:44 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:44 DEBUG RegexMatcher:54 - Attempting to match: 'SUM 10 A1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 23:37:44 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM 10 A1
+2018-09-02 23:37:44 DEBUG FilterSum:47 - Expression: SUM 10 A1
+2018-09-02 23:37:44 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 23:37:44 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, 10, A1]'
+2018-09-02 23:37:44 DEBUG FilterSum:83 - Result: 0
+2018-09-02 23:37:44 DEBUG FilterSum:69 - Parsing '10'
+2018-09-02 23:37:44 DEBUG FilterSum:83 - Result: 10
+2018-09-02 23:37:44 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 23:37:44 DEBUG FilterSum:72 - # Value of A1: 10
+2018-09-02 23:37:44 DEBUG FilterSum:73 - # Value of 1,1: 10
+2018-09-02 23:37:44 DEBUG FilterSum:83 - Result: 20
+2018-09-02 23:37:45 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 23:37:45 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:45 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:45 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:45 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:45 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 23:37:45 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:45 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:45 DEBUG RegexMatcher:54 - Attempting to match: 'SUM 10 A1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 23:37:45 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM 10 A1
+2018-09-02 23:37:45 DEBUG FilterSum:47 - Expression: SUM 10 A1
+2018-09-02 23:37:45 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 23:37:45 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, 10, A1]'
+2018-09-02 23:37:45 DEBUG FilterSum:83 - Result: 0
+2018-09-02 23:37:45 DEBUG FilterSum:69 - Parsing '10'
+2018-09-02 23:37:45 DEBUG FilterSum:83 - Result: 10
+2018-09-02 23:37:45 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 23:37:45 DEBUG FilterSum:72 - # Value of A1: 10
+2018-09-02 23:37:45 DEBUG FilterSum:73 - # Value of 1,1: 10
+2018-09-02 23:37:45 DEBUG FilterSum:83 - Result: 20
+2018-09-02 23:37:47 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 23:37:47 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:47 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:47 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:47 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:47 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 23:37:47 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:47 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:47 DEBUG RegexMatcher:54 - Attempting to match: 'SUM 10 A1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 23:37:47 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM 10 A1
+2018-09-02 23:37:47 DEBUG FilterSum:47 - Expression: SUM 10 A1
+2018-09-02 23:37:47 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 23:37:47 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, 10, A1]'
+2018-09-02 23:37:47 DEBUG FilterSum:83 - Result: 0
+2018-09-02 23:37:47 DEBUG FilterSum:69 - Parsing '10'
+2018-09-02 23:37:47 DEBUG FilterSum:83 - Result: 10
+2018-09-02 23:37:47 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 23:37:47 DEBUG FilterSum:72 - # Value of A1: 10
+2018-09-02 23:37:47 DEBUG FilterSum:73 - # Value of 1,1: 10
+2018-09-02 23:37:47 DEBUG FilterSum:83 - Result: 20
+2018-09-02 23:37:47 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 23:37:47 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:47 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:47 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:47 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:47 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 23:37:47 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:47 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:47 DEBUG RegexMatcher:54 - Attempting to match: 'SUM 10 A1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 23:37:47 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM 10 A1
+2018-09-02 23:37:47 DEBUG FilterSum:47 - Expression: SUM 10 A1
+2018-09-02 23:37:47 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 23:37:47 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, 10, A1]'
+2018-09-02 23:37:47 DEBUG FilterSum:83 - Result: 0
+2018-09-02 23:37:47 DEBUG FilterSum:69 - Parsing '10'
+2018-09-02 23:37:47 DEBUG FilterSum:83 - Result: 10
+2018-09-02 23:37:47 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 23:37:47 DEBUG FilterSum:72 - # Value of A1: 10
+2018-09-02 23:37:47 DEBUG FilterSum:73 - # Value of 1,1: 10
+2018-09-02 23:37:47 DEBUG FilterSum:83 - Result: 20
+2018-09-02 23:37:48 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 23:37:48 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:48 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:48 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:48 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:48 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 23:37:48 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:48 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:48 DEBUG RegexMatcher:54 - Attempting to match: 'SUM 10 A1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 23:37:48 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM 10 A1
+2018-09-02 23:37:48 DEBUG FilterSum:47 - Expression: SUM 10 A1
+2018-09-02 23:37:48 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 23:37:48 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, 10, A1]'
+2018-09-02 23:37:48 DEBUG FilterSum:83 - Result: 0
+2018-09-02 23:37:48 DEBUG FilterSum:69 - Parsing '10'
+2018-09-02 23:37:48 DEBUG FilterSum:83 - Result: 10
+2018-09-02 23:37:48 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 23:37:48 DEBUG FilterSum:72 - # Value of A1: 10
+2018-09-02 23:37:48 DEBUG FilterSum:73 - # Value of 1,1: 10
+2018-09-02 23:37:48 DEBUG FilterSum:83 - Result: 20
+2018-09-02 23:37:49 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 23:37:49 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:49 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:49 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:49 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:49 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 23:37:49 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:49 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:49 DEBUG RegexMatcher:54 - Attempting to match: 'SUM 10 A1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 23:37:49 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM 10 A1
+2018-09-02 23:37:49 DEBUG FilterSum:47 - Expression: SUM 10 A1
+2018-09-02 23:37:49 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 23:37:49 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, 10, A1]'
+2018-09-02 23:37:49 DEBUG FilterSum:83 - Result: 0
+2018-09-02 23:37:49 DEBUG FilterSum:69 - Parsing '10'
+2018-09-02 23:37:49 DEBUG FilterSum:83 - Result: 10
+2018-09-02 23:37:49 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 23:37:49 DEBUG FilterSum:72 - # Value of A1: 10
+2018-09-02 23:37:49 DEBUG FilterSum:73 - # Value of 1,1: 10
+2018-09-02 23:37:49 DEBUG FilterSum:83 - Result: 20
+2018-09-02 23:37:50 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 23:37:50 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:50 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:50 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:50 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:50 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 23:37:50 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:50 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:50 DEBUG RegexMatcher:54 - Attempting to match: 'SUM 10 A1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 23:37:50 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM 10 A1
+2018-09-02 23:37:50 DEBUG FilterSum:47 - Expression: SUM 10 A1
+2018-09-02 23:37:50 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 23:37:50 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, 10, A1]'
+2018-09-02 23:37:50 DEBUG FilterSum:83 - Result: 0
+2018-09-02 23:37:50 DEBUG FilterSum:69 - Parsing '10'
+2018-09-02 23:37:50 DEBUG FilterSum:83 - Result: 10
+2018-09-02 23:37:50 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 23:37:50 DEBUG FilterSum:72 - # Value of A1: 10
+2018-09-02 23:37:50 DEBUG FilterSum:73 - # Value of 1,1: 10
+2018-09-02 23:37:50 DEBUG FilterSum:83 - Result: 20
+2018-09-02 23:37:50 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 23:37:50 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:50 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:50 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:50 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:50 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 23:37:50 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:50 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:50 DEBUG RegexMatcher:54 - Attempting to match: 'SUM 10 A1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 23:37:50 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM 10 A1
+2018-09-02 23:37:50 DEBUG FilterSum:47 - Expression: SUM 10 A1
+2018-09-02 23:37:50 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 23:37:50 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, 10, A1]'
+2018-09-02 23:37:50 DEBUG FilterSum:83 - Result: 0
+2018-09-02 23:37:50 DEBUG FilterSum:69 - Parsing '10'
+2018-09-02 23:37:50 DEBUG FilterSum:83 - Result: 10
+2018-09-02 23:37:50 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 23:37:50 DEBUG FilterSum:72 - # Value of A1: 10
+2018-09-02 23:37:50 DEBUG FilterSum:73 - # Value of 1,1: 10
+2018-09-02 23:37:50 DEBUG FilterSum:83 - Result: 20
+2018-09-02 23:37:51 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 23:37:51 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:51 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:51 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:51 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:51 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 23:37:51 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:51 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:51 DEBUG RegexMatcher:54 - Attempting to match: 'SUM 10 A1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 23:37:51 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM 10 A1
+2018-09-02 23:37:51 DEBUG FilterSum:47 - Expression: SUM 10 A1
+2018-09-02 23:37:51 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 23:37:51 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, 10, A1]'
+2018-09-02 23:37:51 DEBUG FilterSum:83 - Result: 0
+2018-09-02 23:37:51 DEBUG FilterSum:69 - Parsing '10'
+2018-09-02 23:37:51 DEBUG FilterSum:83 - Result: 10
+2018-09-02 23:37:51 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 23:37:51 DEBUG FilterSum:72 - # Value of A1: 10
+2018-09-02 23:37:51 DEBUG FilterSum:73 - # Value of 1,1: 10
+2018-09-02 23:37:51 DEBUG FilterSum:83 - Result: 20
+2018-09-02 23:37:51 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 23:37:51 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:51 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:51 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:51 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:51 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 23:37:51 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:51 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:51 DEBUG RegexMatcher:54 - Attempting to match: 'SUM 10 A1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 23:37:51 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM 10 A1
+2018-09-02 23:37:51 DEBUG FilterSum:47 - Expression: SUM 10 A1
+2018-09-02 23:37:51 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 23:37:51 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, 10, A1]'
+2018-09-02 23:37:51 DEBUG FilterSum:83 - Result: 0
+2018-09-02 23:37:51 DEBUG FilterSum:69 - Parsing '10'
+2018-09-02 23:37:51 DEBUG FilterSum:83 - Result: 10
+2018-09-02 23:37:51 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 23:37:51 DEBUG FilterSum:72 - # Value of A1: 10
+2018-09-02 23:37:51 DEBUG FilterSum:73 - # Value of 1,1: 10
+2018-09-02 23:37:51 DEBUG FilterSum:83 - Result: 20
+2018-09-02 23:37:51 DEBUG ExpressionParser:29 - Formula detected, parsing data...
+2018-09-02 23:37:51 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:51 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:51 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:51 DEBUG ExpressionParser:62 - Formula part: SUM
+2018-09-02 23:37:51 DEBUG ExpressionParser:67 - Filter applied: filters.numeric.FilterSum
+2018-09-02 23:37:51 DEBUG ExpressionParser:62 - Formula part: 10
+2018-09-02 23:37:51 DEBUG ExpressionParser:62 - Formula part: A1
+2018-09-02 23:37:51 DEBUG RegexMatcher:54 - Attempting to match: 'SUM 10 A1' against '(?i)(.*?)SUM\s(([0-9]+|[a-z]{1,2}[0-9]{1,2})[\s\)]?){2,}'
+2018-09-02 23:37:51 DEBUG FilterSum:28 - Applying filters.numeric.FilterSum to SUM 10 A1
+2018-09-02 23:37:51 DEBUG FilterSum:47 - Expression: SUM 10 A1
+2018-09-02 23:37:51 DEBUG FilterSum:69 - Parsing 'SUM'
+2018-09-02 23:37:51 DEBUG FilterSum:81 - Error while trying to calc 'SUM' in '[SUM, 10, A1]'
+2018-09-02 23:37:51 DEBUG FilterSum:83 - Result: 0
+2018-09-02 23:37:51 DEBUG FilterSum:69 - Parsing '10'
+2018-09-02 23:37:51 DEBUG FilterSum:83 - Result: 10
+2018-09-02 23:37:51 DEBUG FilterSum:69 - Parsing 'A1'
+2018-09-02 23:37:51 DEBUG FilterSum:72 - # Value of A1: 10
+2018-09-02 23:37:51 DEBUG FilterSum:73 - # Value of 1,1: 10
+2018-09-02 23:37:51 DEBUG FilterSum:83 - Result: 20
