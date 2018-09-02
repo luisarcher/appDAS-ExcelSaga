@@ -2,6 +2,7 @@ package utils;
 
 import filters.*;
 import model.Cell;
+import model.Sheet;
 import org.apache.log4j.Logger;
 
 public class ExpressionParser {
@@ -14,9 +15,10 @@ public class ExpressionParser {
 
     }
 
-    public ExpressionParser(Cell cell){
+    public ExpressionParser(Sheet model , Cell cell){
 
         this.decoratedCell = cell;
+        this.decoratedCell.setModel(model);
     }
 
     public Cell parse(Cell cell){

@@ -11,10 +11,15 @@ public class Cell {
 
     @Override
     public String toString() {
-        return getValue();
+        return this.getValue();
     }
 
     public Cell(String value) {
+        this.value = value;
+    }
+
+    public Cell(Sheet sheet, String value) {
+        this.sheet = sheet;
         this.value = value;
     }
 

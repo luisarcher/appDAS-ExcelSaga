@@ -32,7 +32,6 @@ public class Sheet{
             for (int j = 0; j < cols; j++) {
                 cells[i][j] = new Cell("");
 
-                // We need a reference to the model inside a cell in case the formula reference other cells.
                 cells[i][j].setModel(this);
             }
         }
@@ -76,7 +75,7 @@ public class Sheet{
             // Get the Row
             int r = Integer.parseInt(id.replaceAll("(?i)[A-Za-z]", ""));
 
-            return getValueAt(r,c);
+            return getValueAt(r-1,c-1);
         }
         return null;
     }

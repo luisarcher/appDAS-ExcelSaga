@@ -69,7 +69,10 @@ public class FilterSum extends Filter {
             logger.debug("Parsing '" + _part + "'");
             if (RegexMatcher.isCell(_part)){
 
-                _part = this.decoratedCell.getModel().getValueById(_part).getValue();
+                logger.debug("# Value of A1: " + getModel().getValueById("A1").getValue());
+                logger.debug("# Value of 1,1: " + getModel().getValueById("A1").getValue());
+
+                _part = getModel().getValueById(_part).getValue();
             }
             if (RegexMatcher.isNumber(_part) ){
                 result = result + Integer.parseInt(_part);

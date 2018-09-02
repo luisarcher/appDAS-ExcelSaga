@@ -2,9 +2,12 @@ package ViewModel;
 
 import model.Cell;
 import model.Sheet;
+import org.apache.log4j.Logger;
 import utils.ExpressionParser;
 
 public class GetParsedData implements IGetDataStrategy{
+
+    private final static Logger logger = Logger.getLogger(GetParsedData.class);
 
     private Sheet model;
 
@@ -14,12 +17,8 @@ public class GetParsedData implements IGetDataStrategy{
     }
 
     public Cell getValueAt(int row, int column) {
-        //TODO
-        // Parsed Value with expression parser and decorators/filters applied
-        //Cell myNewCell = new Cell("#");
-        //return myNewCell;
-        //return model.getValueAt(row,column);
-        ExpressionParser parser = new ExpressionParser(model.getValueAt(row,column));
+
+        ExpressionParser parser = new ExpressionParser(model, model.getValueAt(row,column));
         parser.parse();
         return parser.getParsedCell();
     }

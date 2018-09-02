@@ -10,7 +10,7 @@ public class Main{
     public static void main(String[] args) {
 
         //Book model = new Book();
-        Sheet model = new Sheet("Sheet1");
+        Sheet model = new Sheet("Sheet");
         MainWindow view = new MainWindow(model);
         new MainController(model,view);
 
