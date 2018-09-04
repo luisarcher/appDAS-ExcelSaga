@@ -2926,3 +2926,15 @@
 2018-09-02 23:37:51 DEBUG FilterSum:72 - # Value of A1: 10
 2018-09-02 23:37:51 DEBUG FilterSum:73 - # Value of 1,1: 10
 2018-09-02 23:37:51 DEBUG FilterSum:83 - Result: 20
+2018-09-04 21:15:50 DEBUG MainController:80 - PATH: C:\Users\LM\Desktop\teste
+2018-09-04 21:57:16 DEBUG MainController:83 - PATH: C:\Users\LM\Desktop\teste.csv
+2018-09-04 22:04:39 DEBUG MainController:83 - absolute PATH: C:\Users\LM\Documents\1.csv
+2018-09-04 22:04:39 DEBUG MainController:85 - canonical path: C:\Users\LM\Documents\1.csv
+2018-09-04 22:04:39 DEBUG MainController:89 - path C:\Users\LM\Documents\1.csv
+2018-09-04 23:29:22 DEBUG FileExport:45 - ext: csv
+2018-09-05 00:35:53 DEBUG CSVDocumentBuilder:38 - Saving file: C:\Users\LM\Desktop\teste11.csv
+2018-09-05 00:35:53 DEBUG CSVDocumentBuilder:71 - Error in CsvFileWriter: null
+2018-09-05 00:39:11 DEBUG CSVDocumentBuilder:38 - Saving file: C:\Users\LM\Documents\teste2.csv
+2018-09-05 00:39:11 DEBUG CSVDocumentBuilder:71 - Error in CsvFileWriter: null
+2018-09-05 00:44:56 DEBUG CSVDocumentBuilder:14 - Saving file: C:\Users\LM\Documents\teste3.csv
+2018-09-05 00:44:56 DEBUG CSVDocumentBuilder:34 - CSV file was created successfully!

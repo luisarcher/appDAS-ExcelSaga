@@ -90,12 +90,9 @@ public class MainWindow extends JFrame implements Runnable{
 
     public JMenuItem openMenuItem;
     public JMenuItem saveMenuItem;
-    public JMenu saveAsMenuItem;
+    public JMenuItem saveAsMenuItem;
     public JMenuItem closeSheetMenuItem;
     public JMenuItem exitMenuItem;
-
-    //Save as
-    public JMenuItem saveAsCSV;
 
     private void initFileMenu(){
 
@@ -110,11 +107,11 @@ public class MainWindow extends JFrame implements Runnable{
         saveMenuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, InputEvent.CTRL_MASK));
         fileMenu.add(saveMenuItem);
 
-        saveAsMenuItem = new JMenu("Save As");
-        //saveAsMenuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, InputEvent.CTRL_MASK | InputEvent.SHIFT_MASK));
+        saveAsMenuItem = new JMenuItem("Save As");
+        saveAsMenuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, InputEvent.CTRL_MASK | InputEvent.SHIFT_MASK));
 
-        saveAsCSV = new JMenuItem("CSV");
-        saveAsMenuItem.add(saveAsCSV);
+        //saveAsCSV = new JMenuItem("CSV");
+        //saveAsMenuItem.add(saveAsCSV);
 
         fileMenu.add(saveAsMenuItem);
 
@@ -200,8 +197,6 @@ public class MainWindow extends JFrame implements Runnable{
         // CHANGE THIS VALUE to dynamic val
         int rowHeight = sheetView.getRowHeight();
         dim.height = rowHeight * sheetModel.getRowCount();
-
-
 
         JViewport vp = new JViewport();
         vp.setViewSize(dim);

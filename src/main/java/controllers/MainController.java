@@ -2,6 +2,7 @@ package controllers;
 
 import ViewModel.FunctionalViewMode;
 import ViewModel.NormalViewMode;
+import file.fileExport.FileExport;
 import model.Sheet;
 import org.apache.log4j.Logger;
 import view.MainWindow;
@@ -55,7 +56,7 @@ public class MainController {
             }
         });
 
-        view.saveAsCSV.addActionListener(new ActionListener() {
+        view.saveAsMenuItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 //save book as
 
@@ -65,7 +66,8 @@ public class MainController {
                 // Pode ser usada uma fábrica para obter o Builder correcto de acordo com o "format" mas deixo ao teu critério
 
 
-                System.out.println("CLICKED CSV");
+                new FileExport(sheetModel);
+
 
             }
         });
