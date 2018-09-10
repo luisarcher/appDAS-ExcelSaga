@@ -2938,3 +2938,769 @@
 2018-09-05 00:39:11 DEBUG CSVDocumentBuilder:71 - Error in CsvFileWriter: null
 2018-09-05 00:44:56 DEBUG CSVDocumentBuilder:14 - Saving file: C:\Users\LM\Documents\teste3.csv
 2018-09-05 00:44:56 DEBUG CSVDocumentBuilder:34 - CSV file was created successfully!
+2018-09-07 17:42:52 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 17:42:52 DEBUG FilterFunctionSum:29 - Applying filters.functions.FilterFunctionSum to =sum 1 6
+2018-09-07 17:43:00 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 17:43:00 DEBUG FilterFunctionSum:29 - Applying filters.functions.FilterFunctionSum to =sum 1 6
+2018-09-07 17:43:21 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 17:43:21 DEBUG FilterFunctionSum:29 - Applying filters.functions.FilterFunctionSum to =sum b3 b5
+2018-09-07 18:05:10 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:05:10 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum A1 5
+2018-09-07 18:05:17 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:05:17 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-07 18:05:17 DEBUG FilterFunctionSum:65 - Error parsing as number!
+2018-09-07 18:05:22 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:05:22 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-07 18:05:22 DEBUG FilterFunctionSum:65 - Error parsing as number!
+2018-09-07 18:06:10 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:06:10 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-07 18:06:10 DEBUG FilterFunctionSum:65 - Error parsing as number!
+2018-09-07 18:09:03 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:09:03 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum 4 a1
+2018-09-07 18:09:03 DEBUG FilterFunctionSum:65 - Error parsing '' as number!
+2018-09-07 18:09:09 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:09:09 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum 4 a1
+2018-09-07 18:09:09 DEBUG FilterFunctionSum:65 - Error parsing '' as number!
+2018-09-07 18:11:07 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:11:07 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum a1 6
+2018-09-07 18:11:07 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:11:07 DEBUG FilterFunctionSum:53 - Parsing: ''
+2018-09-07 18:11:07 DEBUG FilterFunctionSum:67 - Error parsing '' as number!
+2018-09-07 18:11:32 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:11:32 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum A1 5
+2018-09-07 18:11:32 DEBUG FilterFunctionSum:53 - Parsing: 'A1'
+2018-09-07 18:11:32 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:11:32 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:15:58 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:15:58 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum A1 5
+2018-09-07 18:15:58 DEBUG FilterFunctionSum:53 - Parsing: 'A1'
+2018-09-07 18:15:58 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:15:58 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:16:03 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:16:03 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum A1 5
+2018-09-07 18:16:03 DEBUG FilterFunctionSum:53 - Parsing: 'A1'
+2018-09-07 18:16:03 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:16:03 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:16:04 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:16:04 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum A1 5
+2018-09-07 18:16:04 DEBUG FilterFunctionSum:53 - Parsing: 'A1'
+2018-09-07 18:16:04 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:16:04 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:16:22 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:16:22 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum A1 5
+2018-09-07 18:16:22 DEBUG FilterFunctionSum:53 - Parsing: 'A1'
+2018-09-07 18:16:22 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:16:22 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:16:23 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:16:23 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum A1 5
+2018-09-07 18:16:23 DEBUG FilterFunctionSum:53 - Parsing: 'A1'
+2018-09-07 18:16:23 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:16:23 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:16:37 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:16:37 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum A1 5
+2018-09-07 18:16:37 DEBUG FilterFunctionSum:53 - Parsing: 'A1'
+2018-09-07 18:16:37 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:16:37 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:16:40 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:16:40 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum A1 5
+2018-09-07 18:16:40 DEBUG FilterFunctionSum:53 - Parsing: 'A1'
+2018-09-07 18:16:40 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:16:40 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:16:47 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:16:47 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-07 18:16:47 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:16:47 DEBUG FilterFunctionSum:53 - Parsing: ''
+2018-09-07 18:16:47 DEBUG FilterFunctionSum:67 - Error parsing '' as number!
+2018-09-07 18:16:53 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:16:53 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-07 18:16:53 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:16:53 DEBUG FilterFunctionSum:53 - Parsing: ''
+2018-09-07 18:16:53 DEBUG FilterFunctionSum:67 - Error parsing '' as number!
+2018-09-07 18:20:18 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:20:18 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum a1 a1
+2018-09-07 18:20:18 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:20:18 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:20:18 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:20:18 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:20:20 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:20:20 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum a1 a1
+2018-09-07 18:20:20 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:20:20 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:20:20 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:20:20 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:20:21 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:20:21 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum a1 a1
+2018-09-07 18:20:21 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:20:21 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:20:21 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:20:21 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:20:22 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:20:22 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum a1 a1
+2018-09-07 18:20:22 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:20:22 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:20:22 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:20:22 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:20:23 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:20:23 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum a1 a1
+2018-09-07 18:20:23 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:20:23 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:20:23 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:20:23 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:20:32 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:20:32 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum b2 70
+2018-09-07 18:20:32 DEBUG FilterFunctionSum:53 - Parsing: 'b2'
+2018-09-07 18:20:32 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:20:32 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum a1 a1
+2018-09-07 18:20:32 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:20:32 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:20:32 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:20:32 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:20:32 DEBUG FilterFunctionSum:53 - Parsing: '10'
+2018-09-07 18:20:32 DEBUG FilterFunctionSum:53 - Parsing: '70'
+2018-09-07 18:20:37 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:20:37 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum b2 70
+2018-09-07 18:20:37 DEBUG FilterFunctionSum:53 - Parsing: 'b2'
+2018-09-07 18:20:37 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:20:37 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum a1 a1
+2018-09-07 18:20:37 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:20:37 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:20:37 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:20:37 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:20:37 DEBUG FilterFunctionSum:53 - Parsing: '10'
+2018-09-07 18:20:37 DEBUG FilterFunctionSum:53 - Parsing: '70'
+2018-09-07 18:20:39 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:20:39 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum b2 70
+2018-09-07 18:20:39 DEBUG FilterFunctionSum:53 - Parsing: 'b2'
+2018-09-07 18:20:39 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:20:39 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum a1 a1
+2018-09-07 18:20:39 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:20:39 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:20:39 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:20:39 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:20:39 DEBUG FilterFunctionSum:53 - Parsing: '10'
+2018-09-07 18:20:39 DEBUG FilterFunctionSum:53 - Parsing: '70'
+2018-09-07 18:20:40 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:20:40 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum b2 70
+2018-09-07 18:20:40 DEBUG FilterFunctionSum:53 - Parsing: 'b2'
+2018-09-07 18:20:40 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:20:40 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum a1 a1
+2018-09-07 18:20:40 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:20:40 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:20:40 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:20:40 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:20:40 DEBUG FilterFunctionSum:53 - Parsing: '10'
+2018-09-07 18:20:40 DEBUG FilterFunctionSum:53 - Parsing: '70'
+2018-09-07 18:21:21 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:21:21 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum a1 a1
+2018-09-07 18:21:21 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:21:21 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:21:21 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:21:21 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:21:21 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:21:21 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum b2 70
+2018-09-07 18:21:21 DEBUG FilterFunctionSum:53 - Parsing: 'b2'
+2018-09-07 18:21:21 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:21:21 DEBUG FilterFunctionSum:30 - Applying filters.functions.FilterFunctionSum to =sum a1 a1
+2018-09-07 18:21:21 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:21:21 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:21:21 DEBUG FilterFunctionSum:53 - Parsing: 'a1'
+2018-09-07 18:21:21 DEBUG FilterFunctionSum:53 - Parsing: '5'
+2018-09-07 18:21:21 DEBUG FilterFunctionSum:53 - Parsing: '10'
+2018-09-07 18:21:21 DEBUG FilterFunctionSum:53 - Parsing: '70'
+2018-09-07 18:49:45 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:49:45 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-07 18:49:45 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-07 18:49:45 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-07 18:49:45 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-07 18:49:52 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:49:52 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum b2 50
+2018-09-07 18:49:52 DEBUG FilterFunction:44 - Parsing: 'b2'
+2018-09-07 18:49:52 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:49:52 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-07 18:49:52 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-07 18:49:52 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-07 18:49:52 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-07 18:49:52 DEBUG FilterFunction:44 - Parsing: '10'
+2018-09-07 18:49:52 DEBUG FilterFunction:44 - Parsing: '50'
+2018-09-07 18:49:54 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:49:54 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum b2 50
+2018-09-07 18:49:54 DEBUG FilterFunction:44 - Parsing: 'b2'
+2018-09-07 18:49:54 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:49:54 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-07 18:49:54 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-07 18:49:54 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-07 18:49:54 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-07 18:49:54 DEBUG FilterFunction:44 - Parsing: '10'
+2018-09-07 18:49:54 DEBUG FilterFunction:44 - Parsing: '50'
+2018-09-07 18:57:01 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:57:01 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionMultiply to =mul 5 a1
+2018-09-07 18:57:01 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-07 18:57:01 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-07 18:57:01 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-07 18:57:19 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:57:19 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionMultiply to =mul 5 a1
+2018-09-07 18:57:19 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-07 18:57:19 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-07 18:57:19 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-07 18:57:20 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:57:20 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionMultiply to =mul 5 a1
+2018-09-07 18:57:20 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-07 18:57:20 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-07 18:57:20 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-07 18:57:44 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:57:44 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-07 18:57:44 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-07 18:57:44 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-07 18:57:44 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-07 18:57:52 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:57:52 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionMultiply to =mul a1 10
+2018-09-07 18:57:52 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-07 18:57:52 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-07 18:57:52 DEBUG FilterFunction:44 - Parsing: '10'
+2018-09-07 18:57:54 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 18:57:54 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionMultiply to =mul a1 10
+2018-09-07 18:57:54 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-07 18:57:54 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-07 18:57:54 DEBUG FilterFunction:44 - Parsing: '10'
+2018-09-07 19:02:09 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 19:02:09 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionMultiply to =mul 2 6
+2018-09-07 19:02:09 DEBUG FilterFunction:44 - Parsing: '2'
+2018-09-07 19:02:09 DEBUG FilterFunctionMultiply:21 - 0 + 2 = 0
+2018-09-07 19:02:09 DEBUG FilterFunction:44 - Parsing: '6'
+2018-09-07 19:02:09 DEBUG FilterFunctionMultiply:21 - 0 + 6 = 0
+2018-09-07 19:04:57 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 19:04:57 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-07 19:04:57 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-07 19:04:57 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-07 19:04:57 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-07 19:05:04 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 19:05:04 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionMultiply to =mul a1 10
+2018-09-07 19:05:04 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-07 19:05:04 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-07 19:05:04 DEBUG FilterFunction:44 - Parsing: '10'
+2018-09-07 19:05:04 DEBUG FilterFunctionMultiply:22 - 5 * 10 = 50
+2018-09-07 19:05:06 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-07 19:05:06 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionMultiply to =mul a1 10
+2018-09-07 19:05:06 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-07 19:05:06 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-07 19:05:06 DEBUG FilterFunction:44 - Parsing: '10'
+2018-09-07 19:05:06 DEBUG FilterFunctionMultiply:22 - 5 * 10 = 50
+2018-09-09 17:14:12 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:14:12 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-09 17:14:12 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-09 17:14:12 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:14:12 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:14:19 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:14:19 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum b2 50
+2018-09-09 17:14:19 DEBUG FilterFunction:44 - Parsing: 'b2'
+2018-09-09 17:14:19 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:14:19 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-09 17:14:19 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-09 17:14:19 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:14:19 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:14:19 DEBUG FilterFunction:44 - Parsing: '10'
+2018-09-09 17:14:19 DEBUG FilterFunction:44 - Parsing: '50'
+2018-09-09 17:14:34 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:14:34 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum c3 40
+2018-09-09 17:14:34 DEBUG FilterFunction:44 - Parsing: 'c3'
+2018-09-09 17:14:34 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:14:34 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum b2 50
+2018-09-09 17:14:34 DEBUG FilterFunction:44 - Parsing: 'b2'
+2018-09-09 17:14:34 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:14:34 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-09 17:14:34 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-09 17:14:34 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:14:34 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:14:34 DEBUG FilterFunction:44 - Parsing: '10'
+2018-09-09 17:14:34 DEBUG FilterFunction:44 - Parsing: '50'
+2018-09-09 17:14:34 DEBUG FilterFunction:44 - Parsing: '60'
+2018-09-09 17:14:34 DEBUG FilterFunction:44 - Parsing: '40'
+2018-09-09 17:14:43 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:14:43 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum dfr 4
+2018-09-09 17:14:43 DEBUG FilterFunction:44 - Parsing: 'dfr'
+2018-09-09 17:14:43 DEBUG FilterFunction:58 - Error parsing 'dfr' as number!
+2018-09-09 17:15:56 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:15:56 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-09 17:15:56 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-09 17:15:56 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:15:56 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:16:04 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:16:04 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 50
+2018-09-09 17:16:04 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-09 17:16:04 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:16:04 DEBUG FilterFunction:44 - Parsing: '50'
+2018-09-09 17:16:06 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:16:06 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 50
+2018-09-09 17:16:06 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-09 17:16:06 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:16:06 DEBUG FilterFunction:44 - Parsing: '50'
+2018-09-09 17:16:07 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:16:07 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-09 17:16:07 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-09 17:16:07 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:16:07 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:16:07 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:16:07 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 50
+2018-09-09 17:16:07 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-09 17:16:07 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:16:07 DEBUG FilterFunction:44 - Parsing: '50'
+2018-09-09 17:16:09 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:16:09 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-09 17:16:09 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-09 17:16:09 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:16:09 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:16:09 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:16:09 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 50
+2018-09-09 17:16:09 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-09 17:16:09 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:16:09 DEBUG FilterFunction:44 - Parsing: '50'
+2018-09-09 17:16:10 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:16:10 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-09 17:16:10 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-09 17:16:10 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:16:10 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:16:10 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:16:10 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 50
+2018-09-09 17:16:10 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-09 17:16:10 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:16:10 DEBUG FilterFunction:44 - Parsing: '50'
+2018-09-09 17:16:11 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:16:11 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-09 17:16:11 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-09 17:16:11 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:16:11 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:16:13 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:16:13 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-09 17:16:13 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-09 17:16:13 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:16:13 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:16:13 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:16:13 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 50
+2018-09-09 17:16:13 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-09 17:16:13 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:16:13 DEBUG FilterFunction:44 - Parsing: '50'
+2018-09-09 17:16:15 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:16:15 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 50
+2018-09-09 17:16:15 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-09 17:16:15 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:16:15 DEBUG FilterFunction:44 - Parsing: '50'
+2018-09-09 17:44:22 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:44:22 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-09 17:44:22 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-09 17:44:22 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:44:22 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:44:28 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:44:28 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum A1 6
+2018-09-09 17:44:28 DEBUG FilterFunction:44 - Parsing: 'A1'
+2018-09-09 17:44:28 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:44:28 DEBUG FilterFunction:44 - Parsing: '6'
+2018-09-09 17:51:18 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:51:18 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1
+2018-09-09 17:51:18 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-09 17:51:18 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:51:21 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:51:21 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1
+2018-09-09 17:51:21 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-09 17:51:21 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:51:22 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:51:22 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1
+2018-09-09 17:51:22 DEBUG FilterFunction:44 - Parsing: 'a1'
+2018-09-09 17:51:22 DEBUG FilterFunction:44 - Parsing: '5'
+2018-09-09 17:52:19 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:52:19 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1:d1
+2018-09-09 17:52:19 DEBUG FilterFunction:44 - Parsing: 'a1:d1'
+2018-09-09 17:52:19 DEBUG FilterFunction:58 - Error parsing 'a1:d1' as number!
+2018-09-09 17:52:23 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 17:52:23 DEBUG FilterFunction:21 - Applying filters.functions.FilterFunctionSum to =sum a1:d1
+2018-09-09 17:52:23 DEBUG FilterFunction:44 - Parsing: 'a1:d1'
+2018-09-09 17:52:23 DEBUG FilterFunction:58 - Error parsing 'a1:d1' as number!
+2018-09-09 20:28:03 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 20:28:03 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1 b1
+2018-09-09 20:28:03 DEBUG FilterFunction:45 - Parsing: 'a1'
+2018-09-09 20:28:11 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 20:28:11 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1 b1
+2018-09-09 20:28:11 DEBUG FilterFunction:45 - Parsing: 'a1'
+2018-09-09 20:28:23 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 20:28:23 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1 b1
+2018-09-09 20:28:23 DEBUG FilterFunction:45 - Parsing: 'a1'
+2018-09-09 20:34:05 DEBUG Sheet:91 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 20:35:22 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 20:35:45 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 20:35:45 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1 b1
+2018-09-09 20:35:45 DEBUG FilterFunction:45 - Parsing: 'a1'
+2018-09-09 20:35:45 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 20:35:45 DEBUG FilterFunction:45 - Parsing: '5'
+2018-09-09 20:35:45 DEBUG FilterFunction:45 - Parsing: 'b1'
+2018-09-09 20:35:45 DEBUG Sheet:90 - Converting: 'B1' into: Row:'0' and Col: '1'
+2018-09-09 20:35:45 DEBUG FilterFunction:45 - Parsing: '6'
+2018-09-09 20:35:47 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 20:35:47 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1 b1
+2018-09-09 20:35:47 DEBUG FilterFunction:45 - Parsing: 'a1'
+2018-09-09 20:35:47 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 20:35:47 DEBUG FilterFunction:45 - Parsing: '5'
+2018-09-09 20:35:47 DEBUG FilterFunction:45 - Parsing: 'b1'
+2018-09-09 20:35:47 DEBUG Sheet:90 - Converting: 'B1' into: Row:'0' and Col: '1'
+2018-09-09 20:35:47 DEBUG FilterFunction:45 - Parsing: '6'
+2018-09-09 20:35:53 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 20:35:53 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1 b1
+2018-09-09 20:35:53 DEBUG FilterFunction:45 - Parsing: 'a1'
+2018-09-09 20:35:53 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 20:35:53 DEBUG FilterFunction:45 - Parsing: '5'
+2018-09-09 20:35:53 DEBUG FilterFunction:45 - Parsing: 'b1'
+2018-09-09 20:35:53 DEBUG Sheet:90 - Converting: 'B1' into: Row:'0' and Col: '1'
+2018-09-09 20:35:53 DEBUG FilterFunction:45 - Parsing: '6'
+2018-09-09 20:35:53 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 20:35:53 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:b1
+2018-09-09 20:35:53 DEBUG FilterFunction:45 - Parsing: 'a1:b1'
+2018-09-09 20:35:53 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 20:35:53 DEBUG Sheet:90 - Converting: 'B1' into: Row:'0' and Col: '1'
+2018-09-09 20:35:53 DEBUG FilterFunction:45 - Parsing: '5'
+2018-09-09 20:35:53 DEBUG FilterFunction:45 - Parsing: '6'
+2018-09-09 20:38:04 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 20:38:04 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1
+2018-09-09 20:38:04 DEBUG FilterFunction:45 - Parsing: 'a1'
+2018-09-09 20:38:04 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 20:38:04 DEBUG FilterFunction:45 - Parsing: '5'
+2018-09-09 20:38:13 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 20:38:13 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:b2
+2018-09-09 20:38:13 DEBUG FilterFunction:45 - Parsing: 'a1:b2'
+2018-09-09 20:38:13 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 20:38:13 DEBUG Sheet:90 - Converting: 'B2' into: Row:'1' and Col: '1'
+2018-09-09 20:38:13 DEBUG FilterFunction:45 - Parsing: '5'
+2018-09-09 20:38:13 DEBUG FilterFunction:45 - Parsing: ''
+2018-09-09 20:38:13 DEBUG FilterFunction:63 - Error parsing '' as number!
+2018-09-09 20:47:12 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 20:47:12 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1 b2
+2018-09-09 20:47:12 DEBUG FilterFunction:45 - Parsing: 'a1'
+2018-09-09 20:47:12 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 20:47:12 DEBUG FilterFunction:45 - Parsing: '5'
+2018-09-09 20:47:12 DEBUG FilterFunction:45 - Parsing: 'b2'
+2018-09-09 20:47:12 DEBUG Sheet:90 - Converting: 'B2' into: Row:'1' and Col: '1'
+2018-09-09 20:47:12 DEBUG FilterFunction:45 - Parsing: '5'
+2018-09-09 20:47:21 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 20:47:21 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:b2
+2018-09-09 20:47:21 DEBUG FilterFunction:45 - Parsing: 'a1:b2'
+2018-09-09 20:47:21 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 20:47:21 DEBUG Sheet:90 - Converting: 'B2' into: Row:'1' and Col: '1'
+2018-09-09 20:47:21 DEBUG FilterFunction:45 - Parsing: '5'
+2018-09-09 20:47:21 DEBUG FilterFunction:45 - Parsing: ''
+2018-09-09 20:47:21 DEBUG FilterFunction:63 - Error parsing '' as number!
+2018-09-09 21:05:18 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 21:05:18 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:b1
+2018-09-09 21:05:18 DEBUG FilterFunction:58 - Parsing: 'a1:b1'
+2018-09-09 21:05:18 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 21:05:18 DEBUG Sheet:90 - Converting: 'B1' into: Row:'0' and Col: '1'
+2018-09-09 21:05:18 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:05:18 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:05:18 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:05:18 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:06:15 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 21:06:15 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum
+2018-09-09 21:06:19 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 21:06:19 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum
+2018-09-09 21:06:19 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 21:06:19 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum
+2018-09-09 21:06:36 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 21:06:36 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1 b2
+2018-09-09 21:06:36 DEBUG FilterFunction:58 - Parsing: 'a1'
+2018-09-09 21:06:36 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 21:06:36 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:06:36 DEBUG FilterFunction:58 - Parsing: 'b2'
+2018-09-09 21:06:36 DEBUG Sheet:90 - Converting: 'B2' into: Row:'1' and Col: '1'
+2018-09-09 21:06:36 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:09:50 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 21:09:50 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:b1
+2018-09-09 21:09:50 DEBUG FilterFunction:58 - Parsing: 'a1:b1'
+2018-09-09 21:09:50 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 21:09:50 DEBUG Sheet:90 - Converting: 'B1' into: Row:'0' and Col: '1'
+2018-09-09 21:09:50 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:09:50 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:09:50 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:09:50 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:10:05 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 21:10:05 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:b1
+2018-09-09 21:10:05 DEBUG FilterFunction:58 - Parsing: 'a1:b1'
+2018-09-09 21:10:05 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 21:10:05 DEBUG Sheet:90 - Converting: 'B1' into: Row:'0' and Col: '1'
+2018-09-09 21:10:05 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:10:05 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:10:05 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:10:05 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:10:07 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 21:10:07 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:b1
+2018-09-09 21:10:07 DEBUG FilterFunction:58 - Parsing: 'a1:b1'
+2018-09-09 21:10:07 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 21:10:07 DEBUG Sheet:90 - Converting: 'B1' into: Row:'0' and Col: '1'
+2018-09-09 21:10:07 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:10:07 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:10:07 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:10:07 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:10:17 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 21:10:17 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:b1
+2018-09-09 21:10:17 DEBUG FilterFunction:58 - Parsing: 'a1:b1'
+2018-09-09 21:10:17 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 21:10:17 DEBUG Sheet:90 - Converting: 'B1' into: Row:'0' and Col: '1'
+2018-09-09 21:10:17 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:10:17 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:10:17 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:10:17 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:10:22 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 21:10:22 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:b1
+2018-09-09 21:10:22 DEBUG FilterFunction:58 - Parsing: 'a1:b1'
+2018-09-09 21:10:22 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 21:10:22 DEBUG Sheet:90 - Converting: 'B1' into: Row:'0' and Col: '1'
+2018-09-09 21:10:22 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:10:22 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:10:22 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:10:22 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:10:29 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 21:10:29 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:c1
+2018-09-09 21:10:29 DEBUG FilterFunction:58 - Parsing: 'a1:c1'
+2018-09-09 21:10:29 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 21:10:29 DEBUG Sheet:90 - Converting: 'C1' into: Row:'0' and Col: '2'
+2018-09-09 21:10:29 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:10:29 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:10:29 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:10:29 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:10:29 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:10:29 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:10:38 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 21:10:38 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:c1
+2018-09-09 21:10:38 DEBUG FilterFunction:58 - Parsing: 'a1:c1'
+2018-09-09 21:10:38 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 21:10:38 DEBUG Sheet:90 - Converting: 'C1' into: Row:'0' and Col: '2'
+2018-09-09 21:10:38 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:10:38 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:10:38 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:10:38 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:10:38 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:10:38 DEBUG FilterFunction:58 - Parsing: '5'
+2018-09-09 21:10:59 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 21:10:59 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum b1:b5
+2018-09-09 21:10:59 DEBUG FilterFunction:58 - Parsing: 'b1:b5'
+2018-09-09 21:10:59 DEBUG Sheet:90 - Converting: 'B1' into: Row:'0' and Col: '1'
+2018-09-09 21:10:59 DEBUG Sheet:90 - Converting: 'B5' into: Row:'4' and Col: '1'
+2018-09-09 21:10:59 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:10:59 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:10:59 DEBUG FilterFunction:58 - Parsing: ''
+2018-09-09 21:10:59 DEBUG FilterFunction:76 - Error parsing '' as number!
+2018-09-09 21:11:08 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 21:11:08 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum b1:b5
+2018-09-09 21:11:08 DEBUG FilterFunction:58 - Parsing: 'b1:b5'
+2018-09-09 21:11:08 DEBUG Sheet:90 - Converting: 'B1' into: Row:'0' and Col: '1'
+2018-09-09 21:11:08 DEBUG Sheet:90 - Converting: 'B5' into: Row:'4' and Col: '1'
+2018-09-09 21:11:08 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:11:08 DEBUG FilterFunction:58 - Parsing: '6'
+2018-09-09 21:11:08 DEBUG FilterFunction:58 - Parsing: ''
+2018-09-09 21:11:08 DEBUG FilterFunction:76 - Error parsing '' as number!
+2018-09-09 21:18:42 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 21:18:42 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:b1
+2018-09-09 21:18:42 DEBUG FilterFunction:57 - Parsing: 'a1:b1'
+2018-09-09 21:18:42 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 21:18:42 DEBUG Sheet:90 - Converting: 'B1' into: Row:'0' and Col: '1'
+2018-09-09 21:18:42 DEBUG FilterFunction:57 - Parsing: '6'
+2018-09-09 21:18:42 DEBUG FilterFunction:57 - Parsing: '6'
+2018-09-09 21:18:42 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-09 21:18:42 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-09 21:18:54 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 21:18:54 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:b3
+2018-09-09 21:18:54 DEBUG FilterFunction:57 - Parsing: 'a1:b3'
+2018-09-09 21:18:54 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 21:18:54 DEBUG Sheet:90 - Converting: 'B3' into: Row:'2' and Col: '1'
+2018-09-09 21:18:54 DEBUG FilterFunction:57 - Parsing: '6'
+2018-09-09 21:18:54 DEBUG FilterFunction:57 - Parsing: '6'
+2018-09-09 21:18:54 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-09 21:18:54 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-09 21:18:54 DEBUG FilterFunction:57 - Parsing: ''
+2018-09-09 21:18:54 DEBUG FilterFunction:75 - Error parsing '' as number!
+2018-09-09 21:20:18 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 21:20:18 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:b2
+2018-09-09 21:20:18 DEBUG FilterFunction:57 - Parsing: 'a1:b2'
+2018-09-09 21:20:18 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 21:20:18 DEBUG Sheet:90 - Converting: 'B2' into: Row:'1' and Col: '1'
+2018-09-09 21:20:18 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-09 21:20:18 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-09 21:20:18 DEBUG FilterFunction:57 - Parsing: ''
+2018-09-09 21:20:18 DEBUG FilterFunction:75 - Error parsing '' as number!
+2018-09-09 21:24:17 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 21:24:17 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:b2
+2018-09-09 21:24:17 DEBUG FilterFunction:57 - Parsing: 'a1:b2'
+2018-09-09 21:24:17 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 21:24:17 DEBUG Sheet:90 - Converting: 'B2' into: Row:'1' and Col: '1'
+2018-09-09 21:24:17 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-09 21:24:17 DEBUG FilterFunction:57 - Parsing: '6'
+2018-09-09 21:24:44 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-09 21:24:44 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:c3
+2018-09-09 21:24:44 DEBUG FilterFunction:57 - Parsing: 'a1:c3'
+2018-09-09 21:24:44 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-09 21:24:44 DEBUG Sheet:90 - Converting: 'C3' into: Row:'2' and Col: '2'
+2018-09-09 21:24:44 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-09 21:24:44 DEBUG FilterFunction:57 - Parsing: '6'
+2018-09-09 21:24:44 DEBUG FilterFunction:57 - Parsing: '=sum a1:b2'
+2018-09-09 21:24:44 DEBUG FilterFunction:75 - Error parsing '=sum a1:b2' as number!
+2018-09-10 19:10:26 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:10:26 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-10 19:10:26 DEBUG FilterFunction:57 - Parsing: 'a1'
+2018-09-10 19:10:26 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:10:26 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:10:26 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:10:36 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:10:36 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:b2
+2018-09-10 19:10:36 DEBUG FilterFunction:57 - Parsing: 'a1:b2'
+2018-09-10 19:10:36 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:10:36 DEBUG Sheet:90 - Converting: 'B2' into: Row:'1' and Col: '1'
+2018-09-10 19:10:36 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:10:36 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:10:36 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-10 19:10:36 DEBUG FilterFunction:57 - Parsing: 'a1'
+2018-09-10 19:10:36 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:10:36 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:10:36 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:10:36 DEBUG FilterFunction:57 - Parsing: '10'
+2018-09-10 19:10:38 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:10:38 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-10 19:10:38 DEBUG FilterFunction:57 - Parsing: 'a1'
+2018-09-10 19:10:38 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:10:38 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:10:38 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:10:44 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:10:44 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:b2
+2018-09-10 19:10:44 DEBUG FilterFunction:57 - Parsing: 'a1:b2'
+2018-09-10 19:10:44 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:10:44 DEBUG Sheet:90 - Converting: 'B2' into: Row:'1' and Col: '1'
+2018-09-10 19:10:44 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:10:44 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:10:44 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-10 19:10:44 DEBUG FilterFunction:57 - Parsing: 'a1'
+2018-09-10 19:10:44 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:10:44 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:10:44 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:10:44 DEBUG FilterFunction:57 - Parsing: '10'
+2018-09-10 19:11:03 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:11:03 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:3c
+2018-09-10 19:11:03 DEBUG FilterFunction:57 - Parsing: 'a1:3c'
+2018-09-10 19:11:03 DEBUG FilterFunction:75 - Error parsing 'a1:3c' as number!
+2018-09-10 19:11:33 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:11:33 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:c3
+2018-09-10 19:11:33 DEBUG FilterFunction:57 - Parsing: 'a1:c3'
+2018-09-10 19:11:33 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:11:33 DEBUG Sheet:90 - Converting: 'C3' into: Row:'2' and Col: '2'
+2018-09-10 19:11:33 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:33 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:11:33 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-10 19:11:33 DEBUG FilterFunction:57 - Parsing: 'a1'
+2018-09-10 19:11:33 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:11:33 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:33 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:33 DEBUG FilterFunction:57 - Parsing: '10'
+2018-09-10 19:11:33 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:11:33 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:b2
+2018-09-10 19:11:33 DEBUG FilterFunction:57 - Parsing: 'a1:b2'
+2018-09-10 19:11:33 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:11:33 DEBUG Sheet:90 - Converting: 'B2' into: Row:'1' and Col: '1'
+2018-09-10 19:11:33 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:33 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:11:33 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-10 19:11:33 DEBUG FilterFunction:57 - Parsing: 'a1'
+2018-09-10 19:11:33 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:11:33 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:33 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:33 DEBUG FilterFunction:57 - Parsing: '10'
+2018-09-10 19:11:33 DEBUG FilterFunction:57 - Parsing: '15'
+2018-09-10 19:11:43 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:11:43 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:d4
+2018-09-10 19:11:43 DEBUG FilterFunction:57 - Parsing: 'a1:d4'
+2018-09-10 19:11:43 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:11:43 DEBUG Sheet:90 - Converting: 'D4' into: Row:'3' and Col: '3'
+2018-09-10 19:11:43 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:43 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:11:43 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-10 19:11:43 DEBUG FilterFunction:57 - Parsing: 'a1'
+2018-09-10 19:11:43 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:11:43 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:43 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:43 DEBUG FilterFunction:57 - Parsing: '10'
+2018-09-10 19:11:43 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:11:43 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:b2
+2018-09-10 19:11:43 DEBUG FilterFunction:57 - Parsing: 'a1:b2'
+2018-09-10 19:11:43 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:11:43 DEBUG Sheet:90 - Converting: 'B2' into: Row:'1' and Col: '1'
+2018-09-10 19:11:43 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:43 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:11:43 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-10 19:11:43 DEBUG FilterFunction:57 - Parsing: 'a1'
+2018-09-10 19:11:43 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:11:43 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:43 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:43 DEBUG FilterFunction:57 - Parsing: '10'
+2018-09-10 19:11:43 DEBUG FilterFunction:57 - Parsing: '15'
+2018-09-10 19:11:43 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:11:43 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:3c
+2018-09-10 19:11:43 DEBUG FilterFunction:57 - Parsing: 'a1:3c'
+2018-09-10 19:11:43 DEBUG FilterFunction:75 - Error parsing 'a1:3c' as number!
+2018-09-10 19:11:43 DEBUG FilterFunction:57 - Parsing: '#PARAM'
+2018-09-10 19:11:43 DEBUG FilterFunction:75 - Error parsing '#PARAM' as number!
+2018-09-10 19:11:55 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:11:55 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:3c
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: 'a1:3c'
+2018-09-10 19:11:55 DEBUG FilterFunction:75 - Error parsing 'a1:3c' as number!
+2018-09-10 19:11:55 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:11:55 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:c3
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: 'a1:c3'
+2018-09-10 19:11:55 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:11:55 DEBUG Sheet:90 - Converting: 'C3' into: Row:'2' and Col: '2'
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:55 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:11:55 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: 'a1'
+2018-09-10 19:11:55 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: '10'
+2018-09-10 19:11:55 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:11:55 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:b2
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: 'a1:b2'
+2018-09-10 19:11:55 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:11:55 DEBUG Sheet:90 - Converting: 'B2' into: Row:'1' and Col: '1'
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:55 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:11:55 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: 'a1'
+2018-09-10 19:11:55 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: '10'
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: '15'
+2018-09-10 19:11:55 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:11:55 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:d4
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: 'a1:d4'
+2018-09-10 19:11:55 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:11:55 DEBUG Sheet:90 - Converting: 'D4' into: Row:'3' and Col: '3'
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:55 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:11:55 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: 'a1'
+2018-09-10 19:11:55 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: '10'
+2018-09-10 19:11:55 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:11:55 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:b2
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: 'a1:b2'
+2018-09-10 19:11:55 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:11:55 DEBUG Sheet:90 - Converting: 'B2' into: Row:'1' and Col: '1'
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:55 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:11:55 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1 5
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: 'a1'
+2018-09-10 19:11:55 DEBUG Sheet:90 - Converting: 'A1' into: Row:'0' and Col: '0'
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: '5'
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: '10'
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: '15'
+2018-09-10 19:11:55 DEBUG ExpressionParser:34 - Formula detected, parsing data...
+2018-09-10 19:11:55 DEBUG FilterFunction:22 - Applying filters.functions.FilterFunctionSum to =sum a1:3c
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: 'a1:3c'
+2018-09-10 19:11:55 DEBUG FilterFunction:75 - Error parsing 'a1:3c' as number!
+2018-09-10 19:11:55 DEBUG FilterFunction:57 - Parsing: '#PARAM'
+2018-09-10 19:11:55 DEBUG FilterFunction:75 - Error parsing '#PARAM' as number!

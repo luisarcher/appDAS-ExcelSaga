@@ -11,6 +11,9 @@ class CSVDocumentBuilder extends DocumentBuilder{
 
     void save() {
 
+        if (this.model == null || this.file == null)
+            return;
+
         logger.debug("Saving file: " + this.file.getPath());
 
         FileWriter fileWriter = null;
@@ -30,13 +33,10 @@ class CSVDocumentBuilder extends DocumentBuilder{
 
             }
 
-            //System.out.println("CSV file was created successfully!");
             logger.debug("CSV file was created successfully!");
 
         } catch (Exception e) {
-            //System.out.println("Error in CsvFileWriter!");
             e.printStackTrace();
-
             logger.debug("Error in CsvFileWriter: " + e.getMessage());
 
         } finally {
@@ -45,8 +45,7 @@ class CSVDocumentBuilder extends DocumentBuilder{
                 fileWriter.flush();
                 fileWriter.close();
             } catch (IOException e) {
-                //System.out.println("Error while flushing/closing fileWriter !!!");
-                //e.printStackTrace();
+                e.printStackTrace();
                 logger.debug("Error while flushing/closing fileWriter: " + e.getMessage());
             }
         }

@@ -18,8 +18,7 @@ public class GetParsedData implements IGetDataStrategy{
 
     public Cell getValueAt(int row, int column) {
 
-        ExpressionParser parser = new ExpressionParser(model, model.getValueAt(row,column));
-        parser.parse();
-        return parser.getParsedCell();
+        ExpressionParser parser = new ExpressionParser(model.getValueAt(row,column));
+        return parser.parse();
     }
 }

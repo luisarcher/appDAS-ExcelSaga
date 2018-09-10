@@ -1,10 +1,8 @@
 package filters;
 
-// Template pattern
-// Decorator pattern
-
 import model.Cell;
 import org.apache.log4j.Logger;
+import utils.Constants;
 
 public abstract class Filter extends Cell{
 
@@ -12,21 +10,18 @@ public abstract class Filter extends Cell{
 
     protected Cell decoratedCell;
 
+    protected abstract boolean acceptedParams(String expression);
+    public abstract String apply(String expression);
+
     public Filter(Cell decoratedCell){
-        super(decoratedCell.getValue());
-        super.setModel(decoratedCell.getModel());
+        super(decoratedCell);
         this.decoratedCell = decoratedCell;
     }
 
-    public abstract String removeFilterName(String expression);
-    public abstract String apply(String expression);
-
     public String getValue(){
-        return this.execute();
-    }
-
-    protected boolean acceptedParams(String expression){
-        return true;
+        return this.decoratedCell.getValue().replaceAll(
+                decoratedCell.getValue(), this.execute()
+        );
     }
 
     private String execute(){
@@ -35,22 +30,11 @@ public abstract class Filter extends Cell{
 
         if (!acceptedParams(_out)) {
             logger.debug("Params not accepted!");
-            return "#Error params";
+            return Constants.ERROR_PARAM;
         }
 
         _out = apply(_out);
-        _out = removeFilterName(_out);
 
         return _out;
     }
-
-    // Algoritmo
-    // execute()
-
-    // lá dentro tem isValid de acordo com os requisitos do filtro
-    // isValidCell implementada aqui
-
-    // os filtros extendem esta classe para preencher o algoritmo no template
-
-
 }

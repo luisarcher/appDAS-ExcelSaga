@@ -9,22 +9,30 @@ public class Cell {
     private Sheet sheet;
     private String value;
 
+    private String filters;
+
+    /*public Cell(String value) {
+        this.value = value;
+    }*/
+
+    public Cell(Sheet sheet, String value) {
+        this.sheet = sheet;
+        this.value = value;
+        this.filters = "";
+    }
+
+    public Cell(Cell cell){
+        this.sheet = cell.getModel();
+        this.value = cell.getValue();
+        this.filters = cell.getFilters();
+    }
+
     @Override
     public String toString() {
         return this.getValue();
     }
 
-    public Cell(String value) {
-        this.value = value;
-    }
-
-    public Cell(Sheet sheet, String value) {
-        this.sheet = sheet;
-        this.value = value;
-    }
-
-    public void setValueObject(String v) {
-        //logger.debug("New Object: " + v.getClass().getName());
+    public void setValue(String v) {
         this.value = v;
     }
 
@@ -38,5 +46,13 @@ public class Cell {
 
     public void setModel(Sheet model){
         this.sheet = model;
+    }
+
+    public String getFilters() {
+        return this.filters;
+    }
+
+    public void setFilters(String filters) {
+        this.filters = filters;
     }
 }

@@ -1,8 +1,7 @@
 package utils;
 
-import filters.*;
+import filters.factory.AbstractFactory;
 import model.Cell;
-import model.Sheet;
 import org.apache.log4j.Logger;
 
 public class ExpressionParser {
@@ -11,37 +10,11 @@ public class ExpressionParser {
 
     private Cell decoratedCell;
 
-    public ExpressionParser(){
+    public ExpressionParser(){}
 
-    }
-
-    public ExpressionParser(Sheet model , Cell cell){
+    public ExpressionParser(Cell cell){
 
         this.decoratedCell = cell;
-        this.decoratedCell.setModel(model);
-    }
-
-    public Cell parse(Cell cell){
-
-        if (cell.toString().length() == 0|| !isFormula(cell.getValue())){
-            return cell;
-        }
-
-        logger.debug("Formula detected, parsing data...");
-
-        //this.decoratedCell = cell;
-
-        AbstractFactory factory = FactoryProducer.getFactory(ConstFilters.SPECIAL_FILTERS);
-        this.decoratedCell = factory.getFilter(ConstFilters.FORMULA_CHAR_FILTER,cell);
-
-        // Detect and decorate in case of the presence of any text filter
-        this.decoratedCell = parseByFilter("text", this.decoratedCell);
-
-        // Detect and decorate in case of the presence of any numeric filter
-        this.decoratedCell = parseByFilter("numeric", this.decoratedCell);
-
-        return this.decoratedCell;
-
     }
 
     public Cell parse(){
@@ -52,38 +25,31 @@ public class ExpressionParser {
         return this.parse(this.decoratedCell);
     }
 
-    private Cell parseByFilter(String filterType, Cell cell){
+    public Cell parse(Cell cell){
 
-        AbstractFactory factory = FactoryProducer.getFactory(filterType);
-        if (factory == null) return cell;
-
-        String[] _parts = cell.getValue().split("[\\s\\(\\)]");
-        for (String _part : _parts){
-
-            logger.debug("Formula part: " + _part);
-            Cell _decoratedCell = factory.getFilter(_part, cell);
-            if (_decoratedCell != null){
-
-                cell = _decoratedCell;
-                logger.debug("Filter applied: " + cell.getClass().getName());
-
-            }
+        if (cell.toString().length() == 0 || !RegexMatcher.isFormula(cell.getValue())){
+            return cell;
         }
+
+        logger.debug("Formula detected, parsing data...");
+
+        // Parse cell function formula result
+        cell = parseByFilterType(Constants.FUNCTION_FILTER_TYPE, cell);
+
+        // Apply cell filters
+        //cell = parseByFilterType(Constants.EVAL_FILTER_TYPE,cell);
 
         return cell;
     }
 
-    public Cell getParsedCell(){
-        return this.decoratedCell;
-    }
+    public Cell parseByFilterType(String filterType, Cell cell){
 
-    /*public String getParsedCell(Cell cell){
+        AbstractFactory factory = AbstractFactory.getFactory(filterType);
+        if (factory == null) return cell;
 
-    }*/
+        String[] _parts = cell.getValue().split("\\s");
+        cell = factory.getFilter(_parts[0].replaceAll("=", ""),cell);
 
-    /* ===== HELPER FUNCS ===== */
-
-    private static boolean isFormula(String expression){
-        return expression.charAt(0) == '=';
+        return cell;
     }
 }

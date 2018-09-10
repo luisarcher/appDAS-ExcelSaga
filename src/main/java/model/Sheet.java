@@ -1,6 +1,7 @@
 package model;
 
 import org.apache.log4j.Logger;
+import utils.Coords;
 import utils.RegexMatcher;
 
 public class Sheet{
@@ -30,9 +31,9 @@ public class Sheet{
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
-                cells[i][j] = new Cell("");
+                cells[i][j] = new Cell(this,"");
 
-                cells[i][j].setModel(this);
+                cells[i][j].setFilters("");
             }
         }
     }
@@ -58,11 +59,19 @@ public class Sheet{
         if (input.equals("="))
             return;
 
-        cells[row][column].setValueObject(input);
+        cells[row][column].setValue(input);
     }
 
     public Cell getValueById(String id){
 
+        Coords coords = convertToCoords(id);
+        return getValueAt(coords.getRow(),coords.getColumn());
+
+    }
+
+    public Coords convertToCoords(String id){
+
+        id = id.toUpperCase();
         if (RegexMatcher.isCell(id)) {
 
             // Get the column
@@ -75,8 +84,13 @@ public class Sheet{
             // Get the Row
             int r = Integer.parseInt(id.replaceAll("(?i)[A-Za-z]", ""));
 
-            return getValueAt(r-1,c-1);
+            r = r - 1;
+            c = c - 1;
+
+            logger.debug("Converting: '" + id + "' into: Row:'" + r + "' and Col: '" + c + "'");
+            return new Coords(r,c);
         }
+
         return null;
     }
 }

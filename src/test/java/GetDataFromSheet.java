@@ -10,9 +10,10 @@ public class GetDataFromSheet {
         Sheet sheet = new Sheet("Sheet");
 
         String cellVal = "25";
+
         sheet.setValueAt(cellVal,0,0);
 
-        String _out = sheet.getValueById("A1").getValue();
+        String _out = sheet.getValueById("a1").getValue();
 
         assertEquals(cellVal,_out);
 
