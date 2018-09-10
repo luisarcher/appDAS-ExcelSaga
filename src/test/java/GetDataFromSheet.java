@@ -8,7 +8,6 @@ public class GetDataFromSheet {
     public void getCellValueById(){
 
         Sheet sheet = new Sheet("Sheet");
-
         String cellVal = "25";
 
         sheet.setValueAt(cellVal,0,0);

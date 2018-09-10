@@ -58,16 +58,8 @@ public class MainController {
 
         view.saveAsMenuItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                //save book as
-
-                // new FileExporter(String format, sheetModel); -> new FileExporter("CSV", sheetModel);
-                // Ilidio, criar a classe que guarda o modelo(sheetModel) para um ficheiro CSV
-                // Usar builder design pattern para fazer o export
-                // Pode ser usada uma fábrica para obter o Builder correcto de acordo com o "format" mas deixo ao teu critério
-
 
                 new FileExport(sheetModel);
-
 
             }
         });

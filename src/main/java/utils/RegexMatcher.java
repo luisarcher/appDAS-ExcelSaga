@@ -16,8 +16,11 @@ public class RegexMatcher {
     // Ignore case
     public static final String REGEX_IGNORE_CASE = "(?i)";
 
-    //One or more number
+    // One or more number
     public static final String REGEX_NUMBER = "[0-9]+";
+
+    // Text
+    public static final String REGEX_TEXT = "[A-Za-z]+";
 
     // Single val - Example A1, CB67
     public static final String REGEX_CELL = "([A-Za-z]{1,2}[0-9]{1,2})";
@@ -53,10 +56,10 @@ public class RegexMatcher {
         return expression.matches(REGEX_NUMBER);
     }
 
-    /*public static boolean isText(String expression){
+    public static boolean isText(String expression){
 
-        return expression.matches("[A-Za-z]+");
-    }*/
+        return expression.matches(REGEX_IGNORE_CASE + REGEX_TEXT);
+    }
 
     /*public static boolean matchesTwoParams(String func, String expression){
 
@@ -100,7 +103,7 @@ public class RegexMatcher {
         Matcher matcher = pattern.matcher(expression);
 
         List<String> _out = new ArrayList<String>();
-        // todo Not sure if a "While" is necessary here...
+
         while (matcher.find()) {
             _out.add(matcher.group(2));
             logger.debug("Param string capture: " + _out);
