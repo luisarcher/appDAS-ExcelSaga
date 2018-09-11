@@ -26,7 +26,7 @@ public class FilterFunctionMultiply extends FilterFunction {
     }
 
     @Override
-    boolean isAcceptedParam(String param) {
+    protected boolean isAcceptedParam(String param) {
         return RegexMatcher.isNumber(param);
     }
 }

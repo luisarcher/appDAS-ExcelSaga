@@ -27,16 +27,20 @@ public class ExpressionParser {
 
     public Cell parse(Cell cell){
 
-        if (cell.toString().length() == 0 || !RegexMatcher.isFormula(cell.getValue())){
+        if (cell.toString().length() == 0){
             return cell;
         }
 
-        logger.debug("Formula detected, parsing data...");
+        if (RegexMatcher.isFormula(cell.getValue())) {
 
-        // Parse cell function formula result
-        cell = parseFunctionFilters(cell);
+            logger.debug("Formula detected, parsing data...");
+
+            // Parse cell function formula result
+            cell = parseFunctionFilters(cell);
+        }
 
         // Apply cell filters
+        logger.debug("Parsing Eval Filters...");
         cell = parseEvalFilters(cell);
 
         return cell;
@@ -61,7 +65,9 @@ public class ExpressionParser {
         Cell _cell = null;
         String[] _parts = cell.getFilters().split("[\\s|\\(]");
         for(String _part : _parts){
+            logger.debug("Checking if '" + _part + "' is an Eval Filter...");
             if (RegexMatcher.isText(_part)){
+                logger.debug("'" + _part + "' is text...");
                 _cell = factory.getFilter(_part,cell);
                 if (_cell != null){
                     cell = _cell;

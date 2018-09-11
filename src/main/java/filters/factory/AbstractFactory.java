@@ -10,6 +10,10 @@ public abstract class AbstractFactory {
         if (filterType.equalsIgnoreCase(Constants.FUNCTION_FILTER_TYPE)){
             return new FactoryFilterFunction();
         }
+
+        if (filterType.equalsIgnoreCase(Constants.EVAL_FILTER_TYPE)){
+            return new FactoryFilterEval();
+        }
         return null;
     }
 

@@ -14,7 +14,7 @@ public class FilterFunctionConcat extends FilterFunction {
     }
 
     @Override
-    boolean isAcceptedParam(String param) {
-        return false;
+    protected boolean isAcceptedParam(String param) {
+        return true;
     }
 }

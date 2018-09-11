@@ -15,8 +15,6 @@ public abstract class FilterFunction /*<T,K>*/ extends Filter{
     //abstract T calc(K baseValue, K newValue);
     abstract String calc(String baseValue, String newValue);
 
-    abstract boolean isAcceptedParam(String param);
-
     public FilterFunction(Cell decoratedCell) {
         super(decoratedCell);
     }

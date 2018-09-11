@@ -17,7 +17,7 @@ public class FilterFunctionSum extends FilterFunction /*<Integer,Integer>*/ {
     }
 
     @Override
-    boolean isAcceptedParam(String param) {
+    protected boolean isAcceptedParam(String param) {
         return RegexMatcher.isNumber(param);
     }
 }

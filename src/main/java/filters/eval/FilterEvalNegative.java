@@ -3,29 +3,29 @@ package filters.eval;
 import model.Cell;
 import utils.Constants;
 
-public class FilterEvalPositive extends FilterEval {
+public class FilterEvalNegative extends FilterEval {
 
-    public FilterEvalPositive(Cell decoratedCell) {
+    public FilterEvalNegative(Cell decoratedCell) {
         super(decoratedCell);
     }
 
     @Override
     protected boolean isAcceptedParam(String param) {
-        return true; /*RegexMatcher.isNumber(param);*/
-    }
-
-    @Override
-    public String getFilterId(){
-        return Constants.FILTER_EVAL_POSITIVE;
+        return true;/*RegexMatcher.isNumber(param);*/
     }
 
     @Override
     String eval(String cellValue, String filterParam) {
 
-        if (Integer.parseInt(cellValue) > 0){
+        if (Integer.parseInt(cellValue) < 0){
             return cellValue;
         }
 
         return "";
+    }
+
+    @Override
+    String getFilterId() {
+        return Constants.FILTER_EVAL_NEGATIVE;
     }
 }

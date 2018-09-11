@@ -2,27 +2,28 @@ package filters.eval;
 
 import model.Cell;
 import utils.Constants;
+import utils.RegexMatcher;
 
-public class FilterEvalPositive extends FilterEval {
+public class FilterEvalGreaterThan extends FilterEval {
 
-    public FilterEvalPositive(Cell decoratedCell) {
+    public FilterEvalGreaterThan(Cell decoratedCell) {
         super(decoratedCell);
     }
 
     @Override
     protected boolean isAcceptedParam(String param) {
-        return true; /*RegexMatcher.isNumber(param);*/
+        return RegexMatcher.isNumber(param);
     }
 
     @Override
     public String getFilterId(){
-        return Constants.FILTER_EVAL_POSITIVE;
+        return Constants.FILTER_EVAL_GREATERTHAN;
     }
 
     @Override
     String eval(String cellValue, String filterParam) {
 
-        if (Integer.parseInt(cellValue) > 0){
+        if (Integer.parseInt(cellValue) > Integer.parseInt(filterParam)){
             return cellValue;
         }
 

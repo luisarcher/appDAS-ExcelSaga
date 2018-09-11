@@ -11,7 +11,8 @@ public abstract class Filter extends Cell{
     protected Cell decoratedCell;
 
     protected abstract boolean acceptedParams(String expression);
-    public abstract String apply(String expression);
+    protected abstract boolean isAcceptedParam(String param);
+    protected abstract String apply(String expression);
 
     public Filter(Cell decoratedCell){
         super(decoratedCell);
