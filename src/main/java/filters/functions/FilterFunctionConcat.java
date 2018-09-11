@@ -10,7 +10,7 @@ public class FilterFunctionConcat extends FilterFunction {
 
     @Override
     String calc(String baseValue, String newValue) {
-        return null;
+        return baseValue + " " + newValue;
     }
 
     @Override

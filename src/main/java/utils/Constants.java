@@ -6,8 +6,9 @@ public final class Constants {
     // Functions
     public static final String FUNCTION_FILTER_TYPE = "func";
 
-    public static final String SUM_FILTER = "sum";
-    public static final String MUL_FILTER = "mul";
+    public static final String FILTER_FUNCTION_SUM = "sum";
+    public static final String FILTER_FUNCTION_MUL = "mul";
+    public static final String FILTER_FUNCTION_CONCAT = "concat";
 
 
     // Eval
