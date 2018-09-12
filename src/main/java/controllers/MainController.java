@@ -40,12 +40,7 @@ public class MainController {
         view.openMenuItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
 
-                // ILIDIO
-                // FAZER IMPORT DO FICHEIRO CSV
-                // Criar classe FileImporter
-                // Definir o sheetModel desta classe = resultado do FileImporter
 
-                // O prof fala em usar adaptadores
 
             }
         });
@@ -119,5 +114,7 @@ public class MainController {
         view.getSheetView().setModel(new FunctionalViewMode(sheetModel));
         view.normalViewMenuItem.setEnabled(true);
         view.functionalViewMenuItem.setEnabled(false);
+
+
     }
 }

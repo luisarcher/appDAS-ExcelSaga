@@ -54,12 +54,12 @@ public class Sheet{
         return this.sheetName;
     }
 
-    public void setValueAt(Object value, int row, int column) {
-        String input = (String) value;
-        if (input.equals("="))
+    public void setValueAt(String value, int row, int column) {
+
+        if (value.equals("="))
             return;
 
-        cells[row][column].setValue(input);
+        cells[row][column].setValue(value);
     }
 
     public Cell getValueById(String id){

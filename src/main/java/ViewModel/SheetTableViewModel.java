@@ -1,5 +1,7 @@
 package ViewModel;
 
+import ViewModel.command.CommandManager;
+import ViewModel.command.SetCellValueCommand;
 import model.Cell;
 import model.Sheet;
 import org.apache.log4j.Logger;
@@ -13,9 +15,12 @@ public class SheetTableViewModel extends AbstractTableModel {
     protected IGetDataStrategy getDataStr;
     private Sheet sheetModel;
 
+    private CommandManager cm;
+
     public SheetTableViewModel(Sheet model) {
 
         this.sheetModel = model;
+        cm = new CommandManager(this.sheetModel);
     }
 
     @Override
@@ -25,8 +30,13 @@ public class SheetTableViewModel extends AbstractTableModel {
 
     @Override
     public void setValueAt(Object o, int row, int col) {
-        //logger.debug("Setting '" + o.toString() + "' at row: " + row + " col: " + col);
-        sheetModel.setValueAt(o,row,col);
+
+        /*logger.debug("Setting '" + o.toString() + "' at row: " + row + " col: " + col);
+        sheetModel.setValueAt((String)o,row,col);*/
+
+        SetCellValueCommand cmd = new SetCellValueCommand((String)o,row,col);
+        cm.apply(cmd);
+
     }
 
     public int getRowCount() {
@@ -41,5 +51,7 @@ public class SheetTableViewModel extends AbstractTableModel {
         return getDataStr.getValueAt(row,col);
     }
 
-
+    public CommandManager getCommandManager() {
+        return cm;
+    }
 }
