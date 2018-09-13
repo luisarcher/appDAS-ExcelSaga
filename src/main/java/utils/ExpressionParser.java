@@ -60,7 +60,13 @@ public class ExpressionParser {
     public Cell parseEvalFilters(Cell cell){
 
         AbstractFactory factory = AbstractFactory.getFactory(Constants.EVAL_FILTER_TYPE);
-        if (factory == null) return cell;
+        if (factory == null){
+            return cell;
+        }
+
+        if (cell.getFilters().equalsIgnoreCase("")){
+            return cell;
+        }
 
         Cell _cell = null;
         String[] _parts = cell.getFilters().split("[\\s|\\(]");

@@ -1,3 +1,4 @@
+import ViewModel.SheetTableViewModel;
 import ViewModel.command.CommandManager;
 import ViewModel.command.SetCellValueCommand;
 import model.Sheet;
@@ -11,7 +12,7 @@ public class CommandTest {
     public void CommandOperationsTest(){
 
         Sheet sheet = new Sheet("Sheet");
-        CommandManager cm = new CommandManager(sheet);
+        CommandManager cm = new CommandManager(sheet, new SheetTableViewModel(sheet));
 
         SetCellValueCommand cmd = new SetCellValueCommand("5",0,0);
         cm.apply(cmd);

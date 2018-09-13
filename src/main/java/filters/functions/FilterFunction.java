@@ -3,10 +3,7 @@ package filters.functions;
 import filters.Filter;
 import model.Cell;
 import org.apache.log4j.Logger;
-import utils.CellRange;
-import utils.Constants;
-import utils.ExpressionParser;
-import utils.RegexMatcher;
+import utils.*;
 
 public abstract class FilterFunction /*<T,K>*/ extends Filter{
 
@@ -23,7 +20,6 @@ public abstract class FilterFunction /*<T,K>*/ extends Filter{
     protected boolean acceptedParams(String expression) {
         return true;
     }
-
 
     @Override
     public String apply(String expression) {
@@ -90,8 +86,8 @@ public abstract class FilterFunction /*<T,K>*/ extends Filter{
         String[] _limits = param.toUpperCase().split(":");
 
         CellRange range = new CellRange(
-                getModel().convertToCoords(_limits[0]),
-                getModel().convertToCoords(_limits[1])
+                Coords.parseCoords(_limits[0]),
+                Coords.parseCoords(_limits[1])
         );
 
         for (int i = range.getMinimumRow(); i <= range.getMaximumRow(); i++){

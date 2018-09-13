@@ -34,8 +34,6 @@ public abstract class Filter extends Cell{
             return Constants.ERROR_PARAM;
         }
 
-        _out = apply(_out);
-
-        return _out;
+        return apply(_out);
     }
 }

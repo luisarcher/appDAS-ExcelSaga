@@ -2,11 +2,14 @@ package controllers;
 
 import ViewModel.FunctionalViewMode;
 import ViewModel.NormalViewMode;
+import ViewModel.SheetTableViewModel;
 import file.fileExport.FileExport;
 import model.Sheet;
 import org.apache.log4j.Logger;
 import view.MainWindow;
+import view.SheetView;
 
+import javax.swing.table.AbstractTableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -16,6 +19,7 @@ public class MainController {
 
     private Sheet sheetModel;
     private MainWindow view;
+    private SheetTableViewModel sheetViewModel;
 
     public MainController(Sheet model, MainWindow view){
 
@@ -33,14 +37,13 @@ public class MainController {
         this.setupEditMenuHandlers();
         this.setupViewMenuHandlers();
         this.setupAboutMenuHandlers();
+        this.setupToolbarHandlers();
     }
 
     private void setupFileMenuHandlers(){
 
         view.openMenuItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-
-
 
             }
         });
@@ -53,9 +56,7 @@ public class MainController {
 
         view.saveAsMenuItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-
                 new FileExport(sheetModel);
-
             }
         });
 
@@ -75,28 +76,24 @@ public class MainController {
     }
 
     private void setupEditMenuHandlers(){
-
     }
 
     private void setupViewMenuHandlers(){
 
         view.normalViewMenuItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent actionEvent) {
-                //TODO use a factory
                 setNormalView();
             }
         });
 
         view.functionalViewMenuItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent actionEvent) {
-                //todo use a factory
                 setFunctionalView();
             }
         });
     }
 
     private void setupAboutMenuHandlers(){
-
         view.about.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 view.showAbout();
@@ -104,17 +101,37 @@ public class MainController {
         });
     }
 
+    private void setupToolbarHandlers(){
+
+        view.btnUndo.addActionListener(new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                sheetViewModel.getCommandManager().undo();
+            }
+        });
+
+        view.btnRedo.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                sheetViewModel.getCommandManager().redo();
+            }
+        });
+    }
+
     private void setNormalView(){
-        view.getSheetView().setModel(new NormalViewMode(sheetModel));
+
+        this.sheetViewModel = new NormalViewMode(sheetModel);
+        view.getSheetView().setModel(this.sheetViewModel);
         view.normalViewMenuItem.setEnabled(false);
         view.functionalViewMenuItem.setEnabled(true);
     }
 
     private void setFunctionalView(){
-        view.getSheetView().setModel(new FunctionalViewMode(sheetModel));
+
+        this.sheetViewModel = new FunctionalViewMode(sheetModel);
+        view.getSheetView().setModel(this.sheetViewModel);
         view.normalViewMenuItem.setEnabled(true);
         view.functionalViewMenuItem.setEnabled(false);
-
-
     }
 }

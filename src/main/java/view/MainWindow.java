@@ -46,35 +46,48 @@ public class MainWindow extends JFrame implements Runnable{
         addViewPort();
     }
 
+    public JButton btnSetFilter;
+    public JButton btnUndo;
+    public JButton btnRedo;
+
     private void initToolbar(){
 
-        JTextField formulaBar = new JTextField(70);
-        formulaBar.setText("");
         JPanel fbar = new JPanel();
         fbar.setComponentOrientation(ComponentOrientation.LEFT_TO_RIGHT);
 
         fbar.setLayout(new GridBagLayout());
         GridBagConstraints layoutConstraints = new GridBagConstraints();
 
+
         layoutConstraints.fill = GridBagConstraints.HORIZONTAL;
         layoutConstraints.gridy = 0;
 
         layoutConstraints.gridx = 0;
-        JButton btnUndo = new JButton("Undo");
+        btnUndo = new JButton("Undo");
         fbar.add(btnUndo,layoutConstraints);
 
         layoutConstraints.gridx = 1;
-        JButton btnRedo = new JButton("Redo");
+        btnRedo = new JButton("Redo");
         fbar.add(btnRedo,layoutConstraints);
 
+        layoutConstraints.insets = new Insets(0, 15 , 0 , 15);
+
         layoutConstraints.gridx = 2;
-        JLabel barCaption = new JLabel(" Formula :", SwingConstants.CENTER);
-        barCaption.setBorder(BorderFactory.createCompoundBorder(barCaption.getBorder(), BorderFactory.createEmptyBorder(0, 17, 0, 17)));
-        fbar.add(btnRedo,layoutConstraints);
+        JLabel barCaption = new JLabel(" Filters :");
+        fbar.add(barCaption,layoutConstraints);
 
         layoutConstraints.gridx = 3;
         layoutConstraints.weightx = 0.5;
+        JTextField formulaBar = new JTextField(70);
+        formulaBar.setText("");
         fbar.add(formulaBar,layoutConstraints);
+
+        layoutConstraints.insets = new Insets(0, 0 , 0 , 0);
+
+        layoutConstraints.gridx = 4;
+        layoutConstraints.weightx = 0.1;
+        btnSetFilter = new JButton("Set");
+        fbar.add(btnSetFilter,layoutConstraints);
 
         toolbar.add(fbar);
         toolbar.setFloatable(false);
@@ -114,8 +127,6 @@ public class MainWindow extends JFrame implements Runnable{
         //saveAsMenuItem.add(saveAsCSV);
 
         fileMenu.add(saveAsMenuItem);
-
-
 
         closeSheetMenuItem = new JMenuItem("Close sheet", KeyEvent.VK_C);
         fileMenu.add(closeSheetMenuItem);
@@ -194,7 +205,6 @@ public class MainWindow extends JFrame implements Runnable{
             pnl.add(lbl);
         }
 
-        // CHANGE THIS VALUE to dynamic val
         int rowHeight = sheetView.getRowHeight();
         dim.height = rowHeight * sheetModel.getRowCount();
 

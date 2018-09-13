@@ -20,7 +20,7 @@ public class SheetTableViewModel extends AbstractTableModel {
     public SheetTableViewModel(Sheet model) {
 
         this.sheetModel = model;
-        cm = new CommandManager(this.sheetModel);
+        cm = new CommandManager(this.sheetModel, this);
     }
 
     @Override
@@ -36,6 +36,8 @@ public class SheetTableViewModel extends AbstractTableModel {
 
         SetCellValueCommand cmd = new SetCellValueCommand((String)o,row,col);
         cm.apply(cmd);
+
+
 
     }
 
