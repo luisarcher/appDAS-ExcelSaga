@@ -1,6 +1,5 @@
-import ViewModel.SheetTableViewModel;
-import ViewModel.command.CommandManager;
-import ViewModel.command.SetCellValueCommand;
+import controllers.command.CommandManager;
+import controllers.command.CommandSetCellValue;
 import model.Sheet;
 import org.junit.Test;
 
@@ -12,12 +11,12 @@ public class CommandTest {
     public void CommandOperationsTest(){
 
         Sheet sheet = new Sheet("Sheet");
-        CommandManager cm = new CommandManager(sheet, new SheetTableViewModel(sheet));
+        CommandManager cm = new CommandManager(sheet);
 
-        SetCellValueCommand cmd = new SetCellValueCommand("5",0,0);
+        CommandSetCellValue cmd = new CommandSetCellValue("5",0,0);
         cm.apply(cmd);
 
-        SetCellValueCommand cmd2 = new SetCellValueCommand("10",0,0);
+        CommandSetCellValue cmd2 = new CommandSetCellValue("10",0,0);
         cm.apply(cmd2);
 
         System.out.println("Sheet value before undo: " + sheet.getValueAt(0,0));

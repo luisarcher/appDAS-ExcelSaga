@@ -1,8 +1,10 @@
 package events;
 
+import controllers.command.ICommand;
+
 public interface IEventHandler {
 
-    void handle();
+    void handle(ICommand command);
 
 }
 

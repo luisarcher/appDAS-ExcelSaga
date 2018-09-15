@@ -1,4 +1,4 @@
-package ViewModel.command;
+package controllers.command;
 
 import model.Sheet;
 

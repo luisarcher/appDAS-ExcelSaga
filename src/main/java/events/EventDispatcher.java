@@ -1,5 +1,7 @@
 package events;
 
+import controllers.command.ICommand;
+
 import java.util.LinkedList;
 import java.util.List;
 
@@ -22,10 +24,10 @@ public class EventDispatcher implements IEventDispatcher{
         this.listeners.remove(handler);
     }
 
-    public void notifyObservers(){
+    public void notifyObservers(ICommand command){
 
         for (IEventHandler handler : listeners){
-            handler.handle();
+            handler.handle(command);
         }
     }
 }

@@ -1,17 +1,17 @@
-package ViewModel.command;
+package controllers.command;
 
 import model.Sheet;
 
-public class SetCellValueCommand implements ICommand {
+public class CommandSetCellValue implements ICommand {
 
     private String newValue;
     private String oldValue;
     private int row;
     private int column;
 
-    public SetCellValueCommand(String value, int row, int column) {
+    public CommandSetCellValue(String newValue, int row, int column) {
 
-        this.newValue = value;
+        this.newValue = newValue;
         this.row = row;
         this.column = column;
     }

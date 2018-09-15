@@ -1,4 +1,4 @@
-package ViewModel.command;
+package controllers.command;
 
 import model.Sheet;
 
@@ -11,15 +11,12 @@ public class CommandManager {
     private List<ICommand> undoList;
     private List<ICommand> redoList;
     private Sheet model;
-    private AbstractTableModel tableModel;
 
-
-    public CommandManager(Sheet model, AbstractTableModel tableModel) {
+    public CommandManager(Sheet model) {
 
         undoList = new ArrayList<ICommand>();
         redoList = new ArrayList<ICommand>();
         this.model = model;
-        this.tableModel = tableModel;
     }
 
     public void apply(ICommand c){
@@ -39,7 +36,6 @@ public class CommandManager {
         last.undoCommand(this.model);
         redoList.add(last);
 
-        tableModel.fireTableDataChanged();
     }
 
     public void redo(){
@@ -52,6 +48,5 @@ public class CommandManager {
         last.doCommand(this.model);
         undoList.add(last);
 
-        tableModel.fireTableDataChanged();
     }
 }

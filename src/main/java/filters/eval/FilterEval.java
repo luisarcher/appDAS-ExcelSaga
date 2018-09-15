@@ -51,7 +51,7 @@ public abstract class FilterEval extends Filter{
 
         logger.debug("'" + getFilterId() + "' in Filters: '" + filterVector + "'");
 
-        int indexOfFilterId = filterVector.indexOf(getFilterId());
+        int indexOfFilterId = filterVector.toLowerCase().indexOf(getFilterId().toLowerCase());
         int indexStartOfParam = indexOfFilterId + getFilterId().length() + 1;
         int indexEndOfParam = -1;
 

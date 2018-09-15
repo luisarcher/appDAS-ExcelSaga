@@ -1,12 +1,12 @@
 package events;
 
-import java.util.List;
+import controllers.command.ICommand;
 
 public interface IEventDispatcher{
 
-    public void register(IEventHandler handler);
+    void register(IEventHandler handler);
 
-    public void unregister(IEventHandler handler);
+    void unregister(IEventHandler handler);
 
-    public void notifyObservers();
+    void notifyObservers(ICommand command);
 }

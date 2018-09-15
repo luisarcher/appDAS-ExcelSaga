@@ -1,7 +1,7 @@
 package ViewModel;
 
-import ViewModel.command.CommandManager;
-import ViewModel.command.SetCellValueCommand;
+import controllers.command.CommandSetCellValue;
+import events.EventDispatcher;
 import model.Cell;
 import model.Sheet;
 import org.apache.log4j.Logger;
@@ -15,12 +15,12 @@ public class SheetTableViewModel extends AbstractTableModel {
     protected IGetDataStrategy getDataStr;
     private Sheet sheetModel;
 
-    private CommandManager cm;
+    private EventDispatcher setCellValueEventDispatcher;
 
     public SheetTableViewModel(Sheet model) {
 
         this.sheetModel = model;
-        cm = new CommandManager(this.sheetModel, this);
+        this.setCellValueEventDispatcher = new EventDispatcher();
     }
 
     @Override
@@ -31,13 +31,8 @@ public class SheetTableViewModel extends AbstractTableModel {
     @Override
     public void setValueAt(Object o, int row, int col) {
 
-        /*logger.debug("Setting '" + o.toString() + "' at row: " + row + " col: " + col);
-        sheetModel.setValueAt((String)o,row,col);*/
-
-        SetCellValueCommand cmd = new SetCellValueCommand((String)o,row,col);
-        cm.apply(cmd);
-
-
+        CommandSetCellValue cmd = new CommandSetCellValue((String)o,row,col);
+        setCellValueEventDispatcher.notifyObservers(cmd);
 
     }
 
@@ -53,7 +48,7 @@ public class SheetTableViewModel extends AbstractTableModel {
         return getDataStr.getValueAt(row,col);
     }
 
-    public CommandManager getCommandManager() {
-        return cm;
+    public EventDispatcher getSetCellValueEventDispatcher() {
+        return setCellValueEventDispatcher;
     }
 }

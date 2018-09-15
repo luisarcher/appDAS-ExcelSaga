@@ -21,10 +21,14 @@ public class MainController {
     private MainWindow view;
     private SheetTableViewModel sheetViewModel;
 
+    TableController tableController;
+
     public MainController(Sheet model, MainWindow view){
 
         this.sheetModel = model;
         this.view = view;
+
+        tableController = new TableController(view, model);
 
         this.init();
     }
@@ -37,7 +41,6 @@ public class MainController {
         this.setupEditMenuHandlers();
         this.setupViewMenuHandlers();
         this.setupAboutMenuHandlers();
-        this.setupToolbarHandlers();
     }
 
     private void setupFileMenuHandlers(){
@@ -101,37 +104,25 @@ public class MainController {
         });
     }
 
-    private void setupToolbarHandlers(){
-
-        view.btnUndo.addActionListener(new ActionListener() {
-
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                sheetViewModel.getCommandManager().undo();
-            }
-        });
-
-        view.btnRedo.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                sheetViewModel.getCommandManager().redo();
-            }
-        });
-    }
-
     private void setNormalView(){
 
         this.sheetViewModel = new NormalViewMode(sheetModel);
+
         view.getSheetView().setModel(this.sheetViewModel);
         view.normalViewMenuItem.setEnabled(false);
         view.functionalViewMenuItem.setEnabled(true);
+
+        this.tableController.setTableViewModel(this.sheetViewModel);
     }
 
     private void setFunctionalView(){
 
         this.sheetViewModel = new FunctionalViewMode(sheetModel);
+
         view.getSheetView().setModel(this.sheetViewModel);
         view.normalViewMenuItem.setEnabled(true);
         view.functionalViewMenuItem.setEnabled(false);
+
+        this.tableController.setTableViewModel(this.sheetViewModel);
     }
 }

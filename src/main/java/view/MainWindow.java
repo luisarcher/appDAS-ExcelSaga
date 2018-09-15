@@ -46,6 +46,7 @@ public class MainWindow extends JFrame implements Runnable{
         addViewPort();
     }
 
+    public JTextField formulaBar;
     public JButton btnSetFilter;
     public JButton btnUndo;
     public JButton btnRedo;
@@ -78,7 +79,7 @@ public class MainWindow extends JFrame implements Runnable{
 
         layoutConstraints.gridx = 3;
         layoutConstraints.weightx = 0.5;
-        JTextField formulaBar = new JTextField(70);
+        formulaBar = new JTextField(70);
         formulaBar.setText("");
         fbar.add(formulaBar,layoutConstraints);
 
@@ -122,9 +123,6 @@ public class MainWindow extends JFrame implements Runnable{
 
         saveAsMenuItem = new JMenuItem("Save As");
         saveAsMenuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, InputEvent.CTRL_MASK | InputEvent.SHIFT_MASK));
-
-        //saveAsCSV = new JMenuItem("CSV");
-        //saveAsMenuItem.add(saveAsCSV);
 
         fileMenu.add(saveAsMenuItem);
 
@@ -233,7 +231,7 @@ public class MainWindow extends JFrame implements Runnable{
 
     public void showAbout(){
 
-        JOptionPane.showMessageDialog(this, "Excel Saga 1.0 \n Developed by: Luís Jordão and Ilídio Martins.\nnAluno and nAluno\n\nIsec - 2017/2018");
+        JOptionPane.showMessageDialog(this, "Excel Saga 1.0 \n Developed by: Luís Jordão.\n21201026\nIsec - 2017/2018\na21201026@isec.pt");
 
     }
 

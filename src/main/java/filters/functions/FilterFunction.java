@@ -34,7 +34,9 @@ public abstract class FilterFunction /*<T,K>*/ extends Filter{
                 continue;
 
             cellResult = calculateParameterValue(cellResult,_part);
-
+            if (cellResult.equalsIgnoreCase(Constants.ERROR_PARAM)){
+                return Constants.ERROR_PARAM;
+            }
         }
 
         return cellResult;
