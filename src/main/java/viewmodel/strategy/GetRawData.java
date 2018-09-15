@@ -1,4 +1,4 @@
-package ViewModel;
+package viewmodel.strategy;
 
 import model.Cell;
 import model.Sheet;
@@ -7,7 +7,7 @@ public class GetRawData implements IGetDataStrategy {
 
     private Sheet model;
 
-    GetRawData(Sheet model){
+    public GetRawData(Sheet model){
 
         this.model = model;
     }

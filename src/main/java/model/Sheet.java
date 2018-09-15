@@ -1,8 +1,6 @@
 package model;
 
 import org.apache.log4j.Logger;
-import utils.Coords;
-import utils.RegexMatcher;
 
 public class Sheet{
 

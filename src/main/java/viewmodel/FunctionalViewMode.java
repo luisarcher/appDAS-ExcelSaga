@@ -1,5 +1,6 @@
-package ViewModel;
+package viewmodel;
 
+import viewmodel.strategy.GetRawData;
 import model.Sheet;
 
 public class FunctionalViewMode extends SheetTableViewModel{

@@ -1,9 +1,9 @@
 package filters.functions;
 
-import filters.Filter;
+import filters.*;
 import model.Cell;
+import model.Coords;
 import org.apache.log4j.Logger;
-import utils.*;
 
 public abstract class FilterFunction /*<T,K>*/ extends Filter{
 

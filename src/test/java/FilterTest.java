@@ -1,7 +1,7 @@
 import model.Cell;
 import model.Sheet;
 import org.junit.Test;
-import utils.ExpressionParser;
+import filters.ExpressionParser;
 
 import static org.junit.Assert.*;
 

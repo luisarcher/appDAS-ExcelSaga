@@ -1,6 +1,6 @@
 package view;
 
-import ViewModel.SheetTableViewModel;
+import viewmodel.SheetTableViewModel;
 
 import javax.swing.*;
 import java.awt.*;

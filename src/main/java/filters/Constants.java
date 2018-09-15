@@ -1,4 +1,4 @@
-package utils;
+package filters;
 
 // make the class non-extendable by adding final
 public final class Constants {

@@ -5,7 +5,7 @@ import filters.eval.FilterEvalGreaterThan;
 import filters.eval.FilterEvalNegative;
 import filters.eval.FilterEvalPositive;
 import model.Cell;
-import utils.Constants;
+import filters.Constants;
 
 public class FactoryFilterEval extends AbstractFactory {
 

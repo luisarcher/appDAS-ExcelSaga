@@ -1,6 +1,5 @@
 package view;
 
-import ViewModel.NormalViewMode;
 import model.Sheet;
 
 import javax.swing.*;

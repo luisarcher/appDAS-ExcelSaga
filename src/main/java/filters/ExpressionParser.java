@@ -1,4 +1,4 @@
-package utils;
+package filters;
 
 import filters.factory.AbstractFactory;
 import model.Cell;

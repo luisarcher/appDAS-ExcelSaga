@@ -1,7 +1,8 @@
-package ViewModel;
+package viewmodel;
 
+import viewmodel.strategy.IGetDataStrategy;
 import controllers.command.CommandSetCellValue;
-import events.EventDispatcher;
+import utils.events.EventDispatcher;
 import model.Cell;
 import model.Sheet;
 import org.apache.log4j.Logger;

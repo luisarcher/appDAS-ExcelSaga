@@ -1,15 +1,13 @@
 package controllers;
 
-import ViewModel.FunctionalViewMode;
-import ViewModel.NormalViewMode;
-import ViewModel.SheetTableViewModel;
-import file.fileExport.FileExport;
+import viewmodel.FunctionalViewMode;
+import viewmodel.NormalViewMode;
+import viewmodel.SheetTableViewModel;
+import persistance.file.export.FileExport;
 import model.Sheet;
 import org.apache.log4j.Logger;
 import view.MainWindow;
-import view.SheetView;
 
-import javax.swing.table.AbstractTableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 

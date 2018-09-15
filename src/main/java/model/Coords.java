@@ -1,4 +1,6 @@
-package utils;
+package model;
+
+import filters.RegexMatcher;
 
 public class Coords {
 

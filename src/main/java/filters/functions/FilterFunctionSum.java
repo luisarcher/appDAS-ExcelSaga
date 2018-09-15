@@ -1,7 +1,7 @@
 package filters.functions;
 
 import model.Cell;
-import utils.RegexMatcher;
+import filters.RegexMatcher;
 
 public class FilterFunctionSum extends FilterFunction /*<Integer,Integer>*/ {
 

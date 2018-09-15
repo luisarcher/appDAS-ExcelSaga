@@ -1,4 +1,4 @@
-package events;
+package utils.events;
 
 import controllers.command.ICommand;
 

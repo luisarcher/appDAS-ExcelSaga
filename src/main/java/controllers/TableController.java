@@ -1,10 +1,10 @@
 package controllers;
 
-import ViewModel.SheetTableViewModel;
+import viewmodel.SheetTableViewModel;
 import controllers.command.CommandManager;
 import controllers.command.CommandSetCellFilter;
 import controllers.command.ICommand;
-import events.IEventHandler;
+import utils.events.IEventHandler;
 import model.Sheet;
 import org.apache.log4j.Logger;
 import view.MainWindow;

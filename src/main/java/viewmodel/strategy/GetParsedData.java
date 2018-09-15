@@ -1,17 +1,17 @@
-package ViewModel;
+package viewmodel.strategy;
 
 import model.Cell;
 import model.Sheet;
 import org.apache.log4j.Logger;
-import utils.ExpressionParser;
+import filters.ExpressionParser;
 
-public class GetParsedData implements IGetDataStrategy{
+public class GetParsedData implements IGetDataStrategy {
 
     private final static Logger logger = Logger.getLogger(GetParsedData.class);
 
     private Sheet model;
 
-    GetParsedData(Sheet model){
+    public GetParsedData(Sheet model){
 
         this.model = model;
     }

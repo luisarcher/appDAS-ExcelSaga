@@ -1,8 +1,8 @@
 package filters.eval;
 
 import model.Cell;
-import utils.Constants;
-import utils.RegexMatcher;
+import filters.Constants;
+import filters.RegexMatcher;
 
 public class FilterEvalGreaterThan extends FilterEval {
 

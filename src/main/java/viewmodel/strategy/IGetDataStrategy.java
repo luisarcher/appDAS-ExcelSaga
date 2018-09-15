@@ -1,4 +1,4 @@
-package ViewModel;
+package viewmodel.strategy;
 
 import model.Cell;
 

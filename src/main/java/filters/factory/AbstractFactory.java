@@ -2,7 +2,7 @@ package filters.factory;
 
 import filters.Filter;
 import model.Cell;
-import utils.Constants;
+import filters.Constants;
 
 public abstract class AbstractFactory {
 

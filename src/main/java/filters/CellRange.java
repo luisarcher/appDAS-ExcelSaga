@@ -1,4 +1,6 @@
-package utils;
+package filters;
+
+import model.Coords;
 
 public class CellRange {
 

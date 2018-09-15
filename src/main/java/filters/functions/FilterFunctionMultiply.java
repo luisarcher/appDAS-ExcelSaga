@@ -2,7 +2,7 @@ package filters.functions;
 
 import model.Cell;
 import org.apache.log4j.Logger;
-import utils.RegexMatcher;
+import filters.RegexMatcher;
 
 public class FilterFunctionMultiply extends FilterFunction {
 

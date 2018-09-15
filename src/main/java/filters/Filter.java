@@ -2,7 +2,6 @@ package filters;
 
 import model.Cell;
 import org.apache.log4j.Logger;
-import utils.Constants;
 
 public abstract class Filter extends Cell{
 

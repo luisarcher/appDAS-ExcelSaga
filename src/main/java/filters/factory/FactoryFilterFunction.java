@@ -5,7 +5,7 @@ import filters.functions.FilterFunctionConcat;
 import filters.functions.FilterFunctionMultiply;
 import filters.functions.FilterFunctionSum;
 import model.Cell;
-import utils.Constants;
+import filters.Constants;
 
 public class FactoryFilterFunction extends AbstractFactory{
 

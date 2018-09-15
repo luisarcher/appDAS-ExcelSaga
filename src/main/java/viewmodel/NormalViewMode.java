@@ -1,5 +1,6 @@
-package ViewModel;
+package viewmodel;
 
+import viewmodel.strategy.GetParsedData;
 import model.Sheet;
 
 public class NormalViewMode extends SheetTableViewModel{

@@ -3,9 +3,9 @@ package filters.eval;
 import filters.Filter;
 import model.Cell;
 import org.apache.log4j.Logger;
-import utils.Constants;
-import utils.ExpressionParser;
-import utils.RegexMatcher;
+import filters.Constants;
+import filters.ExpressionParser;
+import filters.RegexMatcher;
 
 public abstract class FilterEval extends Filter{
 
