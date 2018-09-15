@@ -32,6 +32,7 @@ public class Sheet{
                 cells[i][j] = new Cell(this,"");
 
                 cells[i][j].setFilters("");
+                cells[i][j].setCoords(new Coords(i,j));
             }
         }
     }

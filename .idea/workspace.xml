@@ -2,48 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b4ed92-d0bf-43a6-9a2b-213cea938b7d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/file/a.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ViewModel/FunctionalViewMode.java" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/FunctionalViewMode.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ViewModel/GetParsedData.java" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/strategy/GetParsedData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ViewModel/GetRawData.java" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/strategy/GetRawData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ViewModel/IGetDataStrategy.java" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/strategy/IGetDataStrategy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ViewModel/NormalViewMode.java" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/NormalViewMode.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ViewModel/SheetTableViewModel.java" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/SheetTableViewModel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/events/EventDispatcher.java" afterPath="$PROJECT_DIR$/src/main/java/utils/events/EventDispatcher.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/events/IEventDispatcher.java" afterPath="$PROJECT_DIR$/src/main/java/utils/events/IEventDispatcher.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/events/IEventHandler.java" afterPath="$PROJECT_DIR$/src/main/java/utils/events/IEventHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/file/fileExport/CSVDocumentBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/persistance/file/export/CSVDocumentBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/file/fileExport/Document.java" afterPath="$PROJECT_DIR$/src/main/java/persistance/file/export/Document.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/file/fileExport/DocumentBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/persistance/file/export/DocumentBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/file/fileExport/FileExport.java" afterPath="$PROJECT_DIR$/src/main/java/persistance/file/export/FileExport.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/utils/CellRange.java" afterPath="$PROJECT_DIR$/src/main/java/filters/CellRange.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/utils/Constants.java" afterPath="$PROJECT_DIR$/src/main/java/filters/Constants.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/utils/Coords.java" afterPath="$PROJECT_DIR$/src/main/java/model/Coords.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/utils/ExpressionParser.java" afterPath="$PROJECT_DIR$/src/main/java/filters/ExpressionParser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/utils/RegexMatcher.java" afterPath="$PROJECT_DIR$/src/main/java/filters/RegexMatcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controllers/MainController.class" afterPath="$PROJECT_DIR$/target/classes/controllers/MainController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Sheet.class" afterPath="$PROJECT_DIR$/target/classes/model/Sheet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/MainWindow.class" afterPath="$PROJECT_DIR$/target/classes/view/MainWindow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/SheetView.class" afterPath="$PROJECT_DIR$/target/classes/view/SheetView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logging.log" afterPath="$PROJECT_DIR$/logging.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controllers/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controllers/TableController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/TableController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/Filter.java" afterPath="$PROJECT_DIR$/src/main/java/filters/Filter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/eval/FilterEval.java" afterPath="$PROJECT_DIR$/src/main/java/filters/eval/FilterEval.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalGreaterThan.java" afterPath="$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalGreaterThan.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalNegative.java" afterPath="$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalNegative.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalPositive.java" afterPath="$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalPositive.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/factory/AbstractFactory.java" afterPath="$PROJECT_DIR$/src/main/java/filters/factory/AbstractFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/factory/FactoryFilterEval.java" afterPath="$PROJECT_DIR$/src/main/java/filters/factory/FactoryFilterEval.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/factory/FactoryFilterFunction.java" afterPath="$PROJECT_DIR$/src/main/java/filters/factory/FactoryFilterFunction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunction.java" afterPath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionMultiply.java" afterPath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionMultiply.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionSum.java" afterPath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionSum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/Cell.java" afterPath="$PROJECT_DIR$/src/main/java/model/Cell.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/Sheet.java" afterPath="$PROJECT_DIR$/src/main/java/model/Sheet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/view/MainWindow.java" afterPath="$PROJECT_DIR$/src/main/java/view/MainWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/view/SheetView.java" afterPath="$PROJECT_DIR$/src/main/java/view/SheetView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FilterTest.java" afterPath="$PROJECT_DIR$/src/test/java/FilterTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetRawData.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GetRawData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/viewmodel/strategy/GetRawData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+            <state relative-caret-position="255">
+              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#270#271#0" expanded="true" />
@@ -104,12 +64,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/MainController.java">
+      <file leaf-file-name="Cell.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Cell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-941">
-              <caret line="15" column="80" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="80" />
-              <folding />
+            <state relative-caret-position="487">
+              <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+              <folding>
+                <element signature="e#1145#1146#0" expanded="true" />
+                <element signature="e#1174#1175#0" expanded="true" />
+                <element signature="e#1218#1219#0" expanded="true" />
+                <element signature="e#1254#1255#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,28 +106,6 @@
               <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TableController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/TableController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="67" column="54" lean-forward="true" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1327#1328#0" expanded="true" />
-                <element signature="e#1377#1378#0" expanded="true" />
-                <element signature="e#1461#1691#0" expanded="true" />
-                <element signature="e#1690#1691#0" expanded="true" />
-                <element signature="e#1734#1963#0" expanded="true" />
-                <element signature="e#1962#1963#0" expanded="true" />
-                <element signature="e#2011#2345#0" expanded="true" />
-                <element signature="e#2344#2345#0" expanded="true" />
-                <element signature="e#2444#2906#0" expanded="true" />
-                <element signature="e#2905#2906#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,7 +153,6 @@
         <option value="$PROJECT_DIR$/src/main/java/filters/text/FilterUppercase.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/CellRange.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/CellRange.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Cell.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/RegexMatcher.java" />
         <option value="$PROJECT_DIR$/src/test/java/GetDataFromSheet.java" />
         <option value="$PROJECT_DIR$/src/main/java/filters/factory/AbstractFactory.java" />
@@ -228,7 +170,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ViewModel/command/SetCellValueCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/filters/Filter.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/Coords.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Sheet.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/ExpressionParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/ViewModel/command/CommandManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/visit/IVisitor.java" />
@@ -250,6 +191,8 @@
         <option value="$PROJECT_DIR$/src/main/java/filters/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/viewmodel/strategy/GetParsedData.java" />
         <option value="$PROJECT_DIR$/src/main/java/viewmodel/strategy/GetRawData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Cell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Sheet.java" />
       </list>
     </option>
   </component>
@@ -629,7 +572,7 @@
       <workItem from="1536689047701" duration="10097000" />
       <workItem from="1536779071252" duration="9863000" />
       <workItem from="1536869090206" duration="9751000" />
-      <workItem from="1536950835495" duration="12792000" />
+      <workItem from="1536950835495" duration="12980000" />
     </task>
     <servers />
   </component>
@@ -666,10 +609,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="308678000" />
+    <option name="totallyTimeSpent" value="308866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -684,7 +628,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1890625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1890625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -741,13 +685,6 @@
             <element signature="e#608#609#0" expanded="false" />
             <element signature="e#652#653#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Cell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -903,16 +840,6 @@
         <state relative-caret-position="595">
           <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Sheet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <marker date="1536971376582" expanded="true" signature="1288:1294" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1122,12 +1049,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/viewmodel/strategy/GetRawData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="255">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#270#271#0" expanded="true" />
             <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Sheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <marker date="1536971652481" expanded="true" signature="1344:1350" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <folding>
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
           </folding>
         </state>
       </provider>

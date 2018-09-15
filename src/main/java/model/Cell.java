@@ -8,6 +8,7 @@ public class Cell {
 
     private Sheet sheet;
     private String value;
+    private Coords coords;
 
     private String filters;
 
@@ -54,5 +55,13 @@ public class Cell {
 
     public void setFilters(String filters) {
         this.filters = filters;
+    }
+
+    public Coords getCoords() {
+        return coords;
+    }
+
+    public void setCoords(Coords coords) {
+        this.coords = coords;
     }
 }
