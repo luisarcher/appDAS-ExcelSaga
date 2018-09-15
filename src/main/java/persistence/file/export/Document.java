@@ -1,4 +1,4 @@
-package persistance.file.export;
+package persistence.file.export;
 
 public class Document {
 

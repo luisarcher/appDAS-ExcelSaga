@@ -1,16 +1,14 @@
 package filters;
 
-import model.Cell;
 import model.ICell;
-import model.Sheet;
 
-public class FilterError implements ICell{
+public class FilterError extends ICellAdapter implements ICell{
 
-    private Cell decoratedCell;
     private String errorMessage;
 
-    public FilterError(Cell decoratedCell, String errorMessage) {
-        this.decoratedCell = decoratedCell;
+    public FilterError(ICell decoratedCell, String errorMessage) {
+
+        super(decoratedCell);
         this.errorMessage = errorMessage;
     }
 
@@ -19,15 +17,5 @@ public class FilterError implements ICell{
         return this.decoratedCell.getValue().replaceAll(
                 decoratedCell.getValue(), this.errorMessage
         );
-    }
-
-    @Override
-    public Sheet getModel() {
-        return this.decoratedCell.getModel();
-    }
-
-    @Override
-    public String getFilters() {
-        return this.decoratedCell.getFilters();
     }
 }

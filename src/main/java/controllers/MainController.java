@@ -3,7 +3,7 @@ package controllers;
 import viewmodel.FunctionalViewMode;
 import viewmodel.NormalViewMode;
 import viewmodel.SheetTableViewModel;
-import persistance.file.export.FileExport;
+import persistence.file.export.FileExport;
 import model.Sheet;
 import org.apache.log4j.Logger;
 import view.MainWindow;

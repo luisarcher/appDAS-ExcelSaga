@@ -35,8 +35,9 @@ public abstract class FilterFunction /*<T,K>*/ extends Filter{
                 continue;
 
             cellResult = calculateParameterValue(cellResult,_part);
-            if (cellResult.equalsIgnoreCase(Constants.ERROR_PARAM)){
-                return Constants.ERROR_PARAM;
+
+            if (RegexMatcher.isError(cellResult)){
+                return cellResult;
             }
         }
 
@@ -49,11 +50,8 @@ public abstract class FilterFunction /*<T,K>*/ extends Filter{
             return baseValue;
 
         String newValue = paramParser(_part);
-        if (newValue.equalsIgnoreCase(Constants.ERROR_PARAM)){
-            return Constants.ERROR_PARAM;
-        }
 
-        if (baseValue.length() < 1)
+        if ((baseValue.length() < 1) || (RegexMatcher.isError(newValue)))
             return newValue;
 
         return calc(baseValue,newValue);
@@ -93,6 +91,10 @@ public abstract class FilterFunction /*<T,K>*/ extends Filter{
                 Coords.parseCoords(_limits[1])
         );
 
+        if (this.isInRange(range)){
+            return Constants.ERROR_CYCLIC;
+        }
+
         for (int i = range.getMinimumRow(); i <= range.getMaximumRow(); i++){
             for (int j = range.getMinimumColumn(); j <= range.getMaximumColumn(); j++){
 
@@ -102,5 +104,14 @@ public abstract class FilterFunction /*<T,K>*/ extends Filter{
         }
 
         return rangeResult;
+    }
+
+    private boolean isInRange(CellRange range){
+
+        return (this.decoratedCell.getCoords().getRow() < range.getMinimumRow()
+                || this.decoratedCell.getCoords().getRow() > range.getMaximumRow())
+                &&
+                (this.decoratedCell.getCoords().getColumn() < range.getMinimumColumn()
+                || this.decoratedCell.getCoords().getColumn() > range.getMaximumColumn());
     }
 }

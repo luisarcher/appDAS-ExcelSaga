@@ -40,8 +40,7 @@ public class ExpressionParser {
                         cell.getCoords().getColumn()
                 )
         )){
-            //cell.setValue(Constants.ERROR_CYCLIC);
-            return cell;
+            return new FilterError(cell,Constants.ERROR_CYCLIC);
         }
 
         ICell decoratedCell = cell;
@@ -71,8 +70,7 @@ public class ExpressionParser {
 
         // If the formula was not valid (no filter was created) and we could't decorate the cell.
         if (decoratedCell == null){
-            //cell.setValue(Constants.ERROR_FORMULA);
-            return cell;
+            return new FilterError(cell,Constants.ERROR_FORMULA);
         }
 
         return decoratedCell;
@@ -89,12 +87,11 @@ public class ExpressionParser {
             return cell;
         }
 
-        ICell _cell = null;
         String[] _parts = cell.getFilters().split("[\\s|\\(]");
         for(String _part : _parts){
             logger.debug("Checking if '" + _part + "' is an Eval Filter...");
             if (RegexMatcher.isText(_part)){
-                _cell = factory.getFilter(_part,cell);
+                ICell _cell = factory.getFilter(_part,cell);
                 if (_cell != null){
                     cell = _cell;
                 }

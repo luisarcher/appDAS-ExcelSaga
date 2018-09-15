@@ -48,6 +48,7 @@ public class TableController implements IEventHandler{
     @Override
     public void handle(ICommand command) {
         this.commandManager.apply(command);
+        tableViewModel.fireTableDataChanged();
     }
 
     private void setupToolbarHandlers(){

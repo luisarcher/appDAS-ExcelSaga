@@ -34,6 +34,10 @@ public class RegexMatcher {
         return expression.charAt(0) == '=';
     }
 
+    public static boolean isError(String expression){
+        return expression.charAt(0) == '#';
+    }
+
     public static boolean isCell(String expression){
 
         return expression.matches(REGEX_IGNORE_CASE + REGEX_CELL);
