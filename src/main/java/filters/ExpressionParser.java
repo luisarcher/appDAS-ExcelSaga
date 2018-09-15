@@ -52,9 +52,15 @@ public class ExpressionParser {
         if (factory == null) return cell;
 
         String[] _parts = cell.getValue().split("\\s");
-        cell = factory.getFilter(_parts[0].replaceAll("=", ""),cell);
+        Cell decoratedCell = factory.getFilter(_parts[0].replaceAll("=", ""),cell);
 
-        return cell;
+        // If the formula was not valid and we could't decorate the
+        if (decoratedCell == null){
+            cell.setValue(Constants.ERROR_FORMULA);
+            return cell;
+        }
+
+        return decoratedCell;
     }
 
     public Cell parseEvalFilters(Cell cell){

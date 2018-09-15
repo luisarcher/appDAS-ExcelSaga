@@ -10,7 +10,7 @@ public class RegexMatcher {
     public static final String REGEX_IGNORE_CASE = "(?i)";
 
     // One or more number
-    public static final String REGEX_NUMBER = "[0-9]+";
+    public static final String REGEX_NUMBER = "([0-9]+)";
 
     // Text
     public static final String REGEX_TEXT = "[A-Za-z]+";
@@ -19,11 +19,11 @@ public class RegexMatcher {
     public static final String REGEX_CELL = "([A-Za-z]{1,2}[0-9]{1,2})";
 
     // Range - Example "a1:b1"
-    public static final String REGEX_RANGE = "("+ REGEX_CELL +"):("+ REGEX_CELL +")";
+    public static final String REGEX_RANGE = ""+ REGEX_CELL +":"+ REGEX_CELL +"";
 
-    // Simple params - A set of cells or numbers are provided - Example SUM a1 d3 g5 45 56
+    // Simple params - A set of cells or numbers are provided - Example SUM a1 d3 g5 45 56 a1:b6
     // Numbers or cell_id
-    public static final String REGEX_NUMBER_OR_CELL = "(("+ REGEX_NUMBER +"|"+ REGEX_CELL +" )[\\s\\)]?){2,}";
+    public static final String REGEX_N_NUMBER_CELL_RANGE = "(("+ REGEX_RANGE +"|" + REGEX_NUMBER +"|"+ REGEX_CELL +")[\\s]?)";
 
     // Two param - Example "A1 87", "a1 b6", "10 24"
     //public static final String TWO_CELL_REGEX = "([0-9]+|[a-z]{1,2}[0-9]{1,2})\\s([0-9]+|[a-z]{1,2}[0-9]{1,2})";

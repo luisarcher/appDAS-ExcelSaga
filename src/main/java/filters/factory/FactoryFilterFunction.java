@@ -2,6 +2,7 @@ package filters.factory;
 
 import filters.Filter;
 import filters.functions.FilterFunctionConcat;
+import filters.functions.FilterFunctionCopy;
 import filters.functions.FilterFunctionMultiply;
 import filters.functions.FilterFunctionSum;
 import model.Cell;
@@ -23,6 +24,10 @@ public class FactoryFilterFunction extends AbstractFactory{
         else if (filterType.equalsIgnoreCase(Constants.FILTER_FUNCTION_CONCAT)){
 
             return new FilterFunctionConcat(cell);
+        }
+        else if (filterType.equalsIgnoreCase(Constants.FILTER_FUNCTION_COPY)){
+
+            return new FilterFunctionCopy(cell);
         }
 
         return null;

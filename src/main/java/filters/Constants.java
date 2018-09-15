@@ -9,6 +9,7 @@ public final class Constants {
     public static final String FILTER_FUNCTION_SUM = "sum";
     public static final String FILTER_FUNCTION_MUL = "mul";
     public static final String FILTER_FUNCTION_CONCAT = "concat";
+    public static final String FILTER_FUNCTION_COPY = "copy";
 
 
     // Eval
@@ -21,6 +22,7 @@ public final class Constants {
     // Special
     public static final String ERROR_PARAM = "#PARAM";
     public static final String ERROR_FILTER = "#FILTER";
+    public static final String ERROR_FORMULA = "#ERROR";
 
 
     // this class is non-instantiable

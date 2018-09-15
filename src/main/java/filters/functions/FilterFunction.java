@@ -24,7 +24,7 @@ public abstract class FilterFunction /*<T,K>*/ extends Filter{
     @Override
     public String apply(String expression) {
 
-        logger.debug("Applying " + this.getClass().getName() + " to " + expression);
+        logger.debug("Applying " + this.getClass().getName() + " to '" + expression + "'");
 
         String cellResult = "";
         String[] _parts = expression.split("\\s");
