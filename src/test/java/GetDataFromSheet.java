@@ -1,3 +1,4 @@
+import model.Coords;
 import model.Sheet;
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -16,6 +17,11 @@ public class GetDataFromSheet {
 
         assertEquals(cellVal,_out);
 
+    }
+    @Test
+    public void TestCoordsConverting(){
+
+        assertEquals("C3", Coords.getCoordsAsId(2,2));
     }
 
 }

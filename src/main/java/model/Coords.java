@@ -52,4 +52,21 @@ public class Coords {
 
         return null;
     }
+
+    public static String getCoordsAsId(Integer row, int column){
+
+        ++row;
+        return toLetter(column) + row.toString();
+
+    }
+
+    private static String toLetter(int number) {
+        StringBuilder sb = new StringBuilder();
+        ++number;
+        while (number-- > 0) {
+            sb.append((char)('A' + (number % 26)));
+            number /= 26;
+        }
+        return sb.reverse().toString();
+    }
 }

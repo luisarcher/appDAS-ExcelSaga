@@ -13,7 +13,8 @@ public class FilterFunctionSum extends FilterFunction /*<Integer,Integer>*/ {
     public boolean acceptedParams(String expression) {
 
         // Accept an infinite sequence
-        return expression.matches(RegexMatcher.REGEX_N_NUMBER_CELL_RANGE);
+        //return expression.matches(RegexMatcher.REGEX_N_NUMBER_CELL_RANGE);
+        return true;
     }
 
     @Override

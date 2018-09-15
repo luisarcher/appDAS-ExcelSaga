@@ -2,6 +2,7 @@ package filters;
 
 import filters.factory.AbstractFactory;
 import model.Cell;
+import model.Coords;
 import org.apache.log4j.Logger;
 
 public class ExpressionParser {
@@ -27,7 +28,19 @@ public class ExpressionParser {
 
     public Cell parse(Cell cell){
 
+
         if (cell.toString().length() == 0){
+            return cell;
+        }
+
+        // Check for cyclic redundancy
+        if (cell.getValue().toUpperCase().contains(
+                Coords.getCoordsAsId(
+                        cell.getCoords().getRow(),
+                        cell.getCoords().getColumn()
+                )
+        )){
+            cell.setValue(Constants.ERROR_CYCLIC);
             return cell;
         }
 
@@ -79,7 +92,6 @@ public class ExpressionParser {
         for(String _part : _parts){
             logger.debug("Checking if '" + _part + "' is an Eval Filter...");
             if (RegexMatcher.isText(_part)){
-                logger.debug("'" + _part + "' is text...");
                 _cell = factory.getFilter(_part,cell);
                 if (_cell != null){
                     cell = _cell;

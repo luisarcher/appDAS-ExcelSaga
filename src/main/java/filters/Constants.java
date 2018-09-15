@@ -23,6 +23,7 @@ public final class Constants {
     public static final String ERROR_PARAM = "#PARAM";
     public static final String ERROR_FILTER = "#FILTER";
     public static final String ERROR_FORMULA = "#ERROR";
+    public static final String ERROR_CYCLIC = "#REF";
 
 
     // this class is non-instantiable

@@ -4,19 +4,21 @@ import org.junit.Test;
 
 public class TestRegex {
 
-    /*@Test
+    @Test
     public void TestFilterFunctionSumParams(){
 
+    // https://regexr.com/
+
         // "=sum " + ...
-        String exp = "a2 a2";
+        String exp = "34 a1";
 
         System.out.println(RegexMatcher.REGEX_N_NUMBER_CELL_RANGE);
         boolean res = exp.matches(RegexMatcher.REGEX_N_NUMBER_CELL_RANGE);
 
-        assertEquals(true, res);
-    }*/
+        Assert.assertEquals(true, res);
+    }
 
-    @Test
+    /*@Test
     public void TestOneCellParamRegex(){
 
         String oneCell = "a1";
@@ -31,5 +33,5 @@ public class TestRegex {
         Assert.assertEquals(false, RegexMatcher.isCell(word));
         Assert.assertEquals(false, RegexMatcher.isCell(range));
 
-    }
+    }*/
 }
