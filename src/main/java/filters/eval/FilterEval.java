@@ -2,16 +2,17 @@ package filters.eval;
 
 import filters.Filter;
 import model.Cell;
+import model.ICell;
 import org.apache.log4j.Logger;
 import filters.Constants;
 import filters.ExpressionParser;
 import filters.RegexMatcher;
 
-public abstract class FilterEval extends Filter{
+public abstract class FilterEval extends Filter {
 
     private final static Logger logger = Logger.getLogger(FilterEval.class);
 
-    FilterEval(Cell decoratedCell){
+    FilterEval(ICell decoratedCell){
         super(decoratedCell);
     }
 
@@ -30,7 +31,7 @@ public abstract class FilterEval extends Filter{
 
         if (!filterParam.equalsIgnoreCase("")){
             if (RegexMatcher.isFormula(filterParam)){
-                ExpressionParser ep = new ExpressionParser(new Cell(getModel(),filterParam));
+                ExpressionParser ep = new ExpressionParser(new Cell(this.decoratedCell.getModel(),filterParam));
                 filterParam = ep.parse().getValue();
             }
         }
@@ -69,7 +70,7 @@ public abstract class FilterEval extends Filter{
                 return Constants.ERROR_FILTER;
             }
 
-            logger.debug("fi: " + indexOfFilterId + " start: " + indexStartOfParam + " end: " + indexEndOfParam);
+            logger.debug("filter-index: " + indexOfFilterId + "param start: " + indexStartOfParam + "param end: " + indexEndOfParam);
 
             // Get the param between brackets
             String param = filterVector.substring(indexStartOfParam, indexEndOfParam);

@@ -3,10 +3,11 @@ package filters.eval;
 import model.Cell;
 import filters.Constants;
 import filters.RegexMatcher;
+import model.ICell;
 
 public class FilterEvalGreaterThan extends FilterEval {
 
-    public FilterEvalGreaterThan(Cell decoratedCell) {
+    public FilterEvalGreaterThan(ICell decoratedCell) {
         super(decoratedCell);
     }
 

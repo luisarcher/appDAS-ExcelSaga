@@ -1,6 +1,6 @@
 package filters.functions;
 
-import model.Cell;
+import model.ICell;
 import org.apache.log4j.Logger;
 import filters.RegexMatcher;
 
@@ -8,7 +8,7 @@ public class FilterFunctionMultiply extends FilterFunction {
 
     private final static Logger logger = Logger.getLogger(FilterFunctionMultiply.class);
 
-    public FilterFunctionMultiply(Cell decoratedCell) {
+    public FilterFunctionMultiply(ICell decoratedCell) {
         super(decoratedCell);
     }
 

@@ -1,6 +1,7 @@
 package viewmodel.strategy;
 
 import model.Cell;
+import model.ICell;
 import model.Sheet;
 import org.apache.log4j.Logger;
 import filters.ExpressionParser;
@@ -16,7 +17,7 @@ public class GetParsedData implements IGetDataStrategy {
         this.model = model;
     }
 
-    public Cell getValueAt(int row, int column) {
+    public ICell getValueAt(int row, int column) {
 
         ExpressionParser parser = new ExpressionParser(model.getValueAt(row,column));
         return parser.parse();

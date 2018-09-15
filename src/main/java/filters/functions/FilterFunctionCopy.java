@@ -1,11 +1,11 @@
 package filters.functions;
 
 import filters.RegexMatcher;
-import model.Cell;
+import model.ICell;
 
 public class FilterFunctionCopy extends FilterFunction {
 
-    public FilterFunctionCopy(Cell decoratedCell) {
+    public FilterFunctionCopy(ICell decoratedCell) {
         super(decoratedCell);
     }
 

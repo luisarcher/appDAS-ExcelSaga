@@ -6,11 +6,12 @@ import filters.eval.FilterEvalNegative;
 import filters.eval.FilterEvalPositive;
 import model.Cell;
 import filters.Constants;
+import model.ICell;
 
 public class FactoryFilterEval extends AbstractFactory {
 
     @Override
-    public Filter getFilter(String filterType, Cell cell) {
+    public Filter getFilter(String filterType, ICell cell) {
         if (filterType.equalsIgnoreCase(Constants.FILTER_EVAL_POSITIVE)){
             return new FilterEvalPositive(cell);
         }

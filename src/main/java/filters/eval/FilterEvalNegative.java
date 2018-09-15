@@ -1,11 +1,11 @@
 package filters.eval;
 
-import model.Cell;
 import filters.Constants;
+import model.ICell;
 
 public class FilterEvalNegative extends FilterEval {
 
-    public FilterEvalNegative(Cell decoratedCell) {
+    public FilterEvalNegative(ICell decoratedCell) {
         super(decoratedCell);
     }
 

@@ -2,7 +2,7 @@ package model;
 
 import org.apache.log4j.Logger;
 
-public class Cell {
+public class Cell implements ICell{
 
     private final static Logger logger = Logger.getLogger(Cell.class);
 

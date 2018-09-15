@@ -1,4 +1,5 @@
 import model.Cell;
+import model.ICell;
 import model.Sheet;
 import org.junit.Test;
 import filters.ExpressionParser;
@@ -20,7 +21,7 @@ public class FilterTest {
         a1.setFilters("pos");
 
         ExpressionParser ep = new ExpressionParser();
-        Cell decA1 = ep.parse(a1);
+        ICell decA1 = ep.parse(a1);
 
         assertEquals("",decA1.getValue());
 
@@ -39,7 +40,7 @@ public class FilterTest {
         a1.setFilters("neg");
 
         ExpressionParser ep = new ExpressionParser();
-        Cell decA1 = ep.parse(a1);
+        ICell decA1 = ep.parse(a1);
 
         assertEquals("",decA1.getValue());
 
@@ -59,7 +60,7 @@ public class FilterTest {
         a1.setFilters("joe pesci gt(=mul 10 3)");
 
         ExpressionParser ep = new ExpressionParser();
-        Cell decA1 = ep.parse(a1);
+        ICell decA1 = ep.parse(a1);
 
         assertEquals("",decA1.getValue());
 

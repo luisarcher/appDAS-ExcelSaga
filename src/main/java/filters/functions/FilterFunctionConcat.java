@@ -1,10 +1,10 @@
 package filters.functions;
 
-import model.Cell;
+import model.ICell;
 
 public class FilterFunctionConcat extends FilterFunction {
 
-    public FilterFunctionConcat(Cell decoratedCell) {
+    public FilterFunctionConcat(ICell decoratedCell) {
         super(decoratedCell);
     }
 

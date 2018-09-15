@@ -1,11 +1,11 @@
 package filters.functions;
 
-import model.Cell;
 import filters.RegexMatcher;
+import model.ICell;
 
 public class FilterFunctionSum extends FilterFunction /*<Integer,Integer>*/ {
 
-    public FilterFunctionSum(Cell decoratedCell) {
+    public FilterFunctionSum(ICell decoratedCell) {
         super(decoratedCell);
     }
 

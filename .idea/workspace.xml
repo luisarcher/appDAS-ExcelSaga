@@ -2,17 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b4ed92-d0bf-43a6-9a2b-213cea938b7d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/filters/FilterError.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/ICell.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logging.log" afterPath="$PROJECT_DIR$/logging.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/Constants.java" afterPath="$PROJECT_DIR$/src/main/java/filters/Constants.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/ExpressionParser.java" afterPath="$PROJECT_DIR$/src/main/java/filters/ExpressionParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/RegexMatcher.java" afterPath="$PROJECT_DIR$/src/main/java/filters/RegexMatcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/Filter.java" afterPath="$PROJECT_DIR$/src/main/java/filters/Filter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/FilterError.java" afterPath="$PROJECT_DIR$/src/main/java/filters/FilterError.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/eval/FilterEval.java" afterPath="$PROJECT_DIR$/src/main/java/filters/eval/FilterEval.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalGreaterThan.java" afterPath="$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalGreaterThan.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalNegative.java" afterPath="$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalNegative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalPositive.java" afterPath="$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalPositive.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/factory/AbstractFactory.java" afterPath="$PROJECT_DIR$/src/main/java/filters/factory/AbstractFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/factory/FactoryFilterEval.java" afterPath="$PROJECT_DIR$/src/main/java/filters/factory/FactoryFilterEval.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/factory/FactoryFilterFunction.java" afterPath="$PROJECT_DIR$/src/main/java/filters/factory/FactoryFilterFunction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunction.java" afterPath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionConcat.java" afterPath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionConcat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionCopy.java" afterPath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionCopy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionMultiply.java" afterPath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionMultiply.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionSum.java" afterPath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionSum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/Coords.java" afterPath="$PROJECT_DIR$/src/main/java/model/Coords.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/GetDataFromSheet.java" afterPath="$PROJECT_DIR$/src/test/java/GetDataFromSheet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestRegex.java" afterPath="$PROJECT_DIR$/src/test/java/TestRegex.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/Cell.java" afterPath="$PROJECT_DIR$/src/main/java/model/Cell.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/ICell.java" afterPath="$PROJECT_DIR$/src/main/java/model/ICell.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/viewmodel/SheetTableViewModel.java" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/SheetTableViewModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/viewmodel/strategy/GetParsedData.java" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/strategy/GetParsedData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/viewmodel/strategy/IGetDataStrategy.java" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/strategy/IGetDataStrategy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FilterTest.java" afterPath="$PROJECT_DIR$/src/test/java/FilterTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,17 +36,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FilterFunctionSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionSum.java">
+      <file leaf-file-name="SheetTableViewModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/viewmodel/SheetTableViewModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="731">
+              <caret line="47" column="57" lean-forward="true" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
               <folding>
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1024#1025#0" expanded="true" />
+                <element signature="e#1071#1072#0" expanded="true" />
+                <element signature="e#1206#1207#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetParsedData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/viewmodel/strategy/GetParsedData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+              <folding>
+                <marker date="1537029382705" expanded="true" signature="529:568" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NormalViewMode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/viewmodel/NormalViewMode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -43,11 +77,23 @@
       <file leaf-file-name="FilterFunction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/filters/functions/FilterFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="391">
+              <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
               <folding>
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Filter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/filters/Filter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,14 +102,22 @@
       <file leaf-file-name="Cell.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/Cell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="493">
               <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
               <folding>
-                <element signature="e#789#790#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#1218#1219#0" expanded="true" />
-                <element signature="e#1254#1255#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunctionalViewMode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/viewmodel/FunctionalViewMode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,8 +125,8 @@
       <file leaf-file-name="ExpressionParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/filters/ExpressionParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+            <state relative-caret-position="510">
+              <caret line="66" column="41" lean-forward="true" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,21 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilterEval.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/filters/eval/FilterEval.java">
+      <file leaf-file-name="IGetDataStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/viewmodel/strategy/IGetDataStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="55" column="33" lean-forward="true" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Filter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/filters/Filter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="119">
+              <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,48 +146,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilterError.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/filters/FilterError.java">
+      <file leaf-file-name="FilterFunctionSum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="272">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ICell.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/ICell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/filters/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="56" lean-forward="true" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Coords.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Coords.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="58" column="49" lean-forward="true" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -169,20 +181,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/filters/ConstFilters.java" />
-        <option value="$PROJECT_DIR$/src/main/java/filters/text/FilterUppercase.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/CellRange.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/CellRange.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/RegexMatcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/filters/factory/AbstractFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionMultiply.java" />
-        <option value="$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalNegative.java" />
-        <option value="$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalPositive.java" />
-        <option value="$PROJECT_DIR$/src/main/java/filters/factory/FactoryFilterEval.java" />
-        <option value="$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalGreaterThan.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FilterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/Constants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionConcat.java" />
         <option value="$PROJECT_DIR$/src/main/java/ViewModel/command/ICommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/ViewModel/command/SetCellValueCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/Coords.java" />
@@ -200,26 +202,36 @@
         <option value="$PROJECT_DIR$/src/main/java/controllers/command/CommandSetCellFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/TableController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/command/CommandManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/filters/eval/FilterEval.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/MainWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/ViewModel/SheetTableViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/viewmodel/strategy/GetParsedData.java" />
         <option value="$PROJECT_DIR$/src/main/java/viewmodel/strategy/GetRawData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Cell.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Sheet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/filters/factory/FactoryFilterFunction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionCopy.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestRegex.java" />
         <option value="$PROJECT_DIR$/src/main/java/filters/RegexMatcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionSum.java" />
         <option value="$PROJECT_DIR$/src/test/java/GetDataFromSheet.java" />
         <option value="$PROJECT_DIR$/src/main/java/filters/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Coords.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Cell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/viewmodel/strategy/GetParsedData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/viewmodel/strategy/IGetDataStrategy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FilterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filters/factory/AbstractFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionCopy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filters/factory/FactoryFilterFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filters/factory/FactoryFilterEval.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filters/eval/FilterEval.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/ICell.java" />
-        <option value="$PROJECT_DIR$/src/main/java/filters/FilterError.java" />
-        <option value="$PROJECT_DIR$/src/main/java/filters/ExpressionParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/filters/Filter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalGreaterThan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalNegative.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalPositive.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filters/FilterError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionConcat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionMultiply.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filters/ExpressionParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/viewmodel/SheetTableViewModel.java" />
       </list>
     </option>
   </component>
@@ -371,6 +383,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="viewmodel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appDAS-ExcelSaga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appDAS-ExcelSaga" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="viewmodel" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="appDAS-ExcelSaga" type="b2602c69:ProjectViewProjectNode" />
@@ -649,7 +670,7 @@
       <workItem from="1536779071252" duration="9863000" />
       <workItem from="1536869090206" duration="9751000" />
       <workItem from="1536950835495" duration="13215000" />
-      <workItem from="1537008507879" duration="14740000" />
+      <workItem from="1537008507879" duration="19544000" />
     </task>
     <servers />
   </component>
@@ -686,7 +707,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="323841000" />
+    <option name="totallyTimeSpent" value="328645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -732,8 +753,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/filters/text/TextFilterFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/filters/EvaluationFilterFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/filters/text/FilterUppercase.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/filters/CellRange.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -760,64 +779,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalNegative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalGreaterThan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filters/factory/FactoryFilterEval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalPositive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controllers/command/ICommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionMultiply.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="e#773#774#0" expanded="false" />
-            <element signature="e#824#825#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionConcat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-          <folding>
-            <element signature="e#160#161#0" expanded="false" />
-            <element signature="e#196#197#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -839,6 +804,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -872,6 +838,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -893,41 +860,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-941">
-          <caret line="15" column="80" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/view/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3757">
           <caret line="227" column="26" lean-forward="false" selection-start-line="227" selection-start-column="26" selection-end-line="227" selection-end-column="26" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/viewmodel/strategy/GetParsedData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding>
-            <marker date="1536971430402" expanded="true" signature="508:547" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/viewmodel/strategy/GetRawData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#270#271#0" expanded="false" />
-            <element signature="e#321#322#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -955,54 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filters/factory/FactoryFilterFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="48" lean-forward="false" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filters/factory/AbstractFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/viewmodel/FunctionalViewMode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/viewmodel/NormalViewMode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/viewmodel/SheetTableViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="35" column="57" lean-forward="false" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CommandTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1010,36 +899,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FilterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/TableController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="67" column="54" lean-forward="true" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1053,20 +912,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filters/RegexMatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="38" column="66" lean-forward="true" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestRegex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1095,89 +946,278 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionSum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="68">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewmodel/strategy/GetRawData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
           <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="false" />
+            <element signature="e#321#322#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filters/functions/FilterFunction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="17">
+          <caret line="15" column="80" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/TableController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="67" column="54" lean-forward="true" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FilterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="44" column="42" lean-forward="true" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
           <folding>
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Cell.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/filters/RegexMatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-          <folding>
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#1218#1219#0" expanded="true" />
-            <element signature="e#1254#1255#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="510">
+          <caret line="38" column="66" lean-forward="true" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/ICell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filters/ExpressionParser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/filters/FilterError.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+        <state relative-caret-position="453">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/filters/eval/FilterEval.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="55" column="33" lean-forward="true" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="391">
+          <caret line="29" column="77" lean-forward="true" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filters/Filter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalGreaterThan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="170">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#433#434#0" expanded="false" />
+            <element signature="e#489#490#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalNegative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filters/eval/FilterEvalPositive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filters/FilterError.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/filters/factory/AbstractFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filters/factory/FactoryFilterEval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionConcat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionMultiply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filters/factory/FactoryFilterFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding>
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewmodel/FunctionalViewMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewmodel/NormalViewMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewmodel/strategy/GetParsedData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <marker date="1537029382705" expanded="true" signature="529:568" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filters/ExpressionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="66" column="41" lean-forward="true" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewmodel/strategy/IGetDataStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewmodel/SheetTableViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="47" column="57" lean-forward="true" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filters/functions/FilterFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+          <folding>
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filters/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

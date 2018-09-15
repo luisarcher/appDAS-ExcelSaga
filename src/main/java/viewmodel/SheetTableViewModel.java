@@ -3,7 +3,6 @@ package viewmodel;
 import viewmodel.strategy.IGetDataStrategy;
 import controllers.command.CommandSetCellValue;
 import utils.events.EventDispatcher;
-import model.Cell;
 import model.Sheet;
 import org.apache.log4j.Logger;
 
@@ -45,8 +44,8 @@ public class SheetTableViewModel extends AbstractTableModel {
         return sheetModel.getColumnCount();
     }
 
-    public Cell getValueAt(int row, int col) {
-        return getDataStr.getValueAt(row,col);
+    public String getValueAt(int row, int col) {
+        return getDataStr.getValueAt(row,col).getValue();
     }
 
     public EventDispatcher getSetCellValueEventDispatcher() {

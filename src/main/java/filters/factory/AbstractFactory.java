@@ -3,6 +3,7 @@ package filters.factory;
 import filters.Filter;
 import model.Cell;
 import filters.Constants;
+import model.ICell;
 
 public abstract class AbstractFactory {
 
@@ -17,6 +18,6 @@ public abstract class AbstractFactory {
         return null;
     }
 
-    public abstract Filter getFilter(String filterType, Cell cell);
+    public abstract Filter getFilter(String filterType, ICell cell);
 
 }

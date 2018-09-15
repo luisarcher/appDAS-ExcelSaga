@@ -1,20 +1,20 @@
 package filters;
 
-import model.Cell;
+import model.ICell;
+import model.Sheet;
 import org.apache.log4j.Logger;
 
-public abstract class Filter extends Cell{
+public abstract class Filter implements ICell{
 
     private final static Logger logger = Logger.getLogger(Filter.class);
 
-    protected Cell decoratedCell;
+    protected ICell decoratedCell;
 
     protected abstract boolean acceptedParams(String expression);
     protected abstract boolean isAcceptedParam(String param);
     protected abstract String apply(String expression);
 
-    public Filter(Cell decoratedCell){
-        super(decoratedCell);
+    public Filter(ICell decoratedCell){
         this.decoratedCell = decoratedCell;
     }
 
@@ -34,5 +34,13 @@ public abstract class Filter extends Cell{
         }
 
         return apply(_out);
+    }
+
+    public Sheet getModel(){
+        return this.decoratedCell.getModel();
+    }
+
+    public String getFilters(){
+        return this.decoratedCell.getFilters();
     }
 }

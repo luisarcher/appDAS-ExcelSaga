@@ -5,13 +5,13 @@ import filters.functions.FilterFunctionConcat;
 import filters.functions.FilterFunctionCopy;
 import filters.functions.FilterFunctionMultiply;
 import filters.functions.FilterFunctionSum;
-import model.Cell;
 import filters.Constants;
+import model.ICell;
 
 public class FactoryFilterFunction extends AbstractFactory{
 
     @Override
-    public Filter getFilter(String filterType, Cell cell) {
+    public Filter getFilter(String filterType, ICell cell) {
 
         if (filterType.equalsIgnoreCase(Constants.FILTER_FUNCTION_SUM)){
 

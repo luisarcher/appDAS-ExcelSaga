@@ -1,9 +1,10 @@
 package viewmodel.strategy;
 
 import model.Cell;
+import model.ICell;
 
 public interface IGetDataStrategy {
 
-    Cell getValueAt(int row, int column);
+    ICell getValueAt(int row, int column);
 
 }
