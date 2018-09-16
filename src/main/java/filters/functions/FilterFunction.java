@@ -30,8 +30,9 @@ public abstract class FilterFunction /*<T,K>*/ extends Filter{
         String cellResult = "";
         String[] _parts = expression.split("\\s");
 
-        // Jumps formula Id
         for (String _part : _parts){
+
+            // Jumps formula Id
             if (_part.startsWith("="))
                 continue;
 
@@ -109,10 +110,10 @@ public abstract class FilterFunction /*<T,K>*/ extends Filter{
 
     private boolean isInRange(CellRange range){
 
-        return (this.decoratedCell.getCoords().getRow() < range.getMinimumRow()
-                || this.decoratedCell.getCoords().getRow() > range.getMaximumRow())
+        return (this.decoratedCell.getCoords().getRow() >= range.getMinimumRow()
+                || this.decoratedCell.getCoords().getRow() <= range.getMaximumRow())
                 &&
-                (this.decoratedCell.getCoords().getColumn() < range.getMinimumColumn()
-                || this.decoratedCell.getCoords().getColumn() > range.getMaximumColumn());
+                (this.decoratedCell.getCoords().getColumn() >= range.getMinimumColumn()
+                || this.decoratedCell.getCoords().getColumn() <= range.getMaximumColumn());
     }
 }

@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b4ed92-d0bf-43a6-9a2b-213cea938b7d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionSub.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Cell.class" afterPath="$PROJECT_DIR$/target/classes/model/Cell.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Sheet.class" afterPath="$PROJECT_DIR$/target/classes/model/Sheet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logging.log" afterPath="$PROJECT_DIR$/logging.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/Constants.java" afterPath="$PROJECT_DIR$/src/main/java/filters/Constants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/factory/FactoryFilterFunction.java" afterPath="$PROJECT_DIR$/src/main/java/filters/factory/FactoryFilterFunction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunction.java" afterPath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionCopy.java" afterPath="$PROJECT_DIR$/src/main/java/filters/functions/FilterFunctionCopy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/Cell.java" afterPath="$PROJECT_DIR$/src/main/java/model/Cell.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -131,8 +123,8 @@
       <file leaf-file-name="FilterFunction.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/filters/functions/FilterFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+            <state relative-caret-position="488">
+              <caret line="116" column="91" lean-forward="true" selection-start-line="116" selection-start-column="91" selection-end-line="116" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -605,7 +597,7 @@
       <workItem from="1537008507879" duration="38698000" />
       <workItem from="1537095548007" duration="4272000" />
       <workItem from="1537100165151" duration="2828000" />
-      <workItem from="1537107303791" duration="3919000" />
+      <workItem from="1537107303791" duration="4955000" />
     </task>
     <servers />
   </component>
@@ -642,7 +634,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="358818000" />
+    <option name="totallyTimeSpent" value="359854000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -796,8 +788,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/filters/functions/FilterFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        <state relative-caret-position="488">
+          <caret line="116" column="91" lean-forward="true" selection-start-line="116" selection-start-column="91" selection-end-line="116" selection-end-column="91" />
           <folding />
         </state>
       </provider>
