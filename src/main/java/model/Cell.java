@@ -20,13 +20,15 @@ public class Cell implements ICell{
         this.sheet = sheet;
         this.value = value;
         this.filters = "";
+        this.coords = new Coords(-1,-1);
     }
 
-    public Cell(Cell cell){
+    /*public Cell(Cell cell){
         this.sheet = cell.getModel();
         this.value = cell.getValue();
         this.filters = cell.getFilters();
-    }
+        this.coords = cell.getCoords();
+    }*/
 
     @Override
     public String toString() {

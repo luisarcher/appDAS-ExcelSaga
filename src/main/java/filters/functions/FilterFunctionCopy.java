@@ -11,7 +11,7 @@ public class FilterFunctionCopy extends FilterFunction {
 
     @Override
     protected boolean acceptedParams(String expression) {
-        return RegexMatcher.isCell(expression);
+        return /*RegexMatcher.isCell(expression);*/ true;
     }
 
     @Override
@@ -21,7 +21,7 @@ public class FilterFunctionCopy extends FilterFunction {
 
     @Override
     protected boolean isAcceptedParam(String param) {
-        return RegexMatcher.isCell(param);
+        return /*RegexMatcher.isCell(param);*/ true;
     }
 
 

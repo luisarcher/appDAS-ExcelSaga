@@ -1,10 +1,7 @@
 package filters.factory;
 
 import filters.Filter;
-import filters.functions.FilterFunctionConcat;
-import filters.functions.FilterFunctionCopy;
-import filters.functions.FilterFunctionMultiply;
-import filters.functions.FilterFunctionSum;
+import filters.functions.*;
 import filters.Constants;
 import model.ICell;
 
@@ -16,6 +13,9 @@ public class FactoryFilterFunction extends AbstractFactory{
         if (filterType.equalsIgnoreCase(Constants.FILTER_FUNCTION_SUM)){
 
             return new FilterFunctionSum(cell);
+        }
+        else if (filterType.equalsIgnoreCase(Constants.FILTER_FUNCTION_SUB)){
+            return new FilterFunctionSub(cell);
         }
         else if (filterType.equalsIgnoreCase(Constants.FILTER_FUNCTION_MUL)){
 

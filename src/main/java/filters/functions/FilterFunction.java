@@ -30,6 +30,7 @@ public abstract class FilterFunction /*<T,K>*/ extends Filter{
         String cellResult = "";
         String[] _parts = expression.split("\\s");
 
+        // Jumps formula Id
         for (String _part : _parts){
             if (_part.startsWith("="))
                 continue;

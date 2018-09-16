@@ -10,6 +10,7 @@ public final class Constants {
     public static final String FILTER_FUNCTION_MUL = "mul";
     public static final String FILTER_FUNCTION_CONCAT = "concat";
     public static final String FILTER_FUNCTION_COPY = "copy";
+    public static final String FILTER_FUNCTION_SUB = "sub";
 
 
     // Eval
