@@ -2,6 +2,7 @@ package persistence.file.export;
 
 import model.Sheet;
 import org.apache.log4j.Logger;
+import persistence.file.utils.FileUtils;
 
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
@@ -34,45 +35,24 @@ public class FileExport {
     private void init(){
 
         int saved = this.fileChooser.showSaveDialog(null);
+        // User has chosen a file?
         if (saved != 0) {
             return;
         }
 
-        this.file = getSelectedFileWithExtension(fileChooser);
+        this.file = FileUtils.getSelectedFileWithExtension(fileChooser);
 
     }
 
     private void build(){
 
-        DocumentBuilder builder = DocumentBuilder.getBuilder(getFileExtension(this.file));
+        if (this.file == null) return;
+
+        DocumentBuilder builder = DocumentBuilder.getBuilder(FileUtils.getFileExtension(this.file));
         builder
                 .setFile(this.file)
                 .setModel(this.model)
                 .save();
 
     }
-
-    private String getFileExtension(File file){
-
-        return file.getName().split("\\.")[1];
-
-    }
-
-    private File getSelectedFileWithExtension(JFileChooser c) {
-        File file = c.getSelectedFile();
-        if (c.getFileFilter() instanceof FileNameExtensionFilter) {
-            String[] exts = ((FileNameExtensionFilter)c.getFileFilter()).getExtensions();
-            String nameLower = file.getName().toLowerCase();
-            for (String ext : exts) { // check if it already has a valid extension
-                if (nameLower.endsWith('.' + ext.toLowerCase())) {
-                    return file; // if yes, return as is
-                }
-            }
-            // if not, append the first extension from the selected filter
-            file = new File(file.toString() + '.' + exts[0]);
-        }
-        return file;
-    }
-
-
 }

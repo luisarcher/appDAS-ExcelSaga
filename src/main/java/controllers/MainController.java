@@ -1,5 +1,6 @@
 package controllers;
 
+import persistence.file.imports.FileImport;
 import viewmodel.FunctionalViewMode;
 import viewmodel.NormalViewMode;
 import viewmodel.SheetTableViewModel;
@@ -8,8 +9,11 @@ import model.Sheet;
 import org.apache.log4j.Logger;
 import view.MainWindow;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
+import java.io.IOException;
 
 public class MainController {
 
@@ -45,6 +49,9 @@ public class MainController {
 
         view.openMenuItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+
+                new FileImport(sheetModel);
+                sheetViewModel.fireTableDataChanged();
 
             }
         });

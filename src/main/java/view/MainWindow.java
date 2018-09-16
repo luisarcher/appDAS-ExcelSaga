@@ -181,8 +181,12 @@ public class MainWindow extends JFrame implements Runnable{
         add(this.sheetPane, BorderLayout.CENTER);
         setPreferredSize(new Dimension(850, 600));
         pack();
-        setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
+        setDefaultCloseOperation(/*WindowConstants.DO_NOTHING_ON_CLOSE*/ WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
+    }
+
+    private void exit(){
+        System.exit(0);
     }
 
     private void addViewPort(){
