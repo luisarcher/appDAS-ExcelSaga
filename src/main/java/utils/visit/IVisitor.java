@@ -1,9 +1,9 @@
 package utils.visit;
 
-import controllers.TableController;
+import model.Cell;
 
 public interface IVisitor {
 
-    void visit(TableController tableController);
+    void visit(Cell cell);
 
 }

@@ -4,7 +4,7 @@ import model.Sheet;
 
 import java.io.*;
 
-public class FileLoad {
+public class FileLoad implements IFileLoad{
 
     private File file;
 

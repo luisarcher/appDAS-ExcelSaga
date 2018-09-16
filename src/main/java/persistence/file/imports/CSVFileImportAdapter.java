@@ -2,7 +2,7 @@ package persistence.file.imports;
 
 import java.io.File;
 
-public class CSVFileImportAdapter extends FileLoad{
+public class CSVFileImportAdapter extends FileLoad implements IFileLoad{
 
     CSVFileProperties csvFileProperties;
 

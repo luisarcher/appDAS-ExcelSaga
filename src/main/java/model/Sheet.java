@@ -25,6 +25,11 @@ public class Sheet{
         initCells(rows,cols);
     }
 
+    /**
+     *
+     * @param rows
+     * @param cols
+     */
     private void initCells(int rows, int cols){
 
         for (int i = 0; i < rows; i++) {
@@ -45,6 +50,12 @@ public class Sheet{
         return this.cells[0].length;
     }
 
+    /**
+     *
+     * @param row
+     * @param col
+     * @return
+     */
     public Cell getValueAt(int row, int col) {
         return cells[row][col];
     }
