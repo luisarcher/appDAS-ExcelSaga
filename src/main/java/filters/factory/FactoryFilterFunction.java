@@ -21,6 +21,9 @@ public class FactoryFilterFunction extends AbstractFactory{
 
             return new FilterFunctionMultiply(cell);
         }
+        else if (filterType.equalsIgnoreCase(Constants.FILTER_FUNCTION_DIV)){
+            return new FilterFunctionDiv(cell);
+        }
         else if (filterType.equalsIgnoreCase(Constants.FILTER_FUNCTION_CONCAT)){
 
             return new FilterFunctionConcat(cell);

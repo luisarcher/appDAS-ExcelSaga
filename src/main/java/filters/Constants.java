@@ -11,6 +11,7 @@ public final class Constants {
     public static final String FILTER_FUNCTION_CONCAT = "concat";
     public static final String FILTER_FUNCTION_COPY = "copy";
     public static final String FILTER_FUNCTION_SUB = "sub";
+    public static final String FILTER_FUNCTION_DIV = "div";
 
 
     // Eval
@@ -19,12 +20,14 @@ public final class Constants {
     public static final String FILTER_EVAL_POSITIVE = "pos";
     public static final String FILTER_EVAL_NEGATIVE = "neg";
     public static final String FILTER_EVAL_GREATERTHAN = "gt";
+    public static final String FILTER_EVAL_LOWERTHAN = "lt";
 
     // Special
     public static final String ERROR_PARAM = "#PARAM";
     public static final String ERROR_FILTER = "#FILTER";
     public static final String ERROR_FORMULA = "#ERROR";
     public static final String ERROR_CYCLIC = "#REF";
+    public static final String ERROR_DIV0 = "#DIV";
 
 
     // this class is non-instantiable

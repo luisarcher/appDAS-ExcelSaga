@@ -111,9 +111,9 @@ public abstract class FilterFunction /*<T,K>*/ extends Filter{
     private boolean isInRange(CellRange range){
 
         return (this.decoratedCell.getCoords().getRow() >= range.getMinimumRow()
-                || this.decoratedCell.getCoords().getRow() <= range.getMaximumRow())
+                && this.decoratedCell.getCoords().getRow() <= range.getMaximumRow())
                 &&
                 (this.decoratedCell.getCoords().getColumn() >= range.getMinimumColumn()
-                || this.decoratedCell.getCoords().getColumn() <= range.getMaximumColumn());
+                && this.decoratedCell.getCoords().getColumn() <= range.getMaximumColumn());
     }
 }

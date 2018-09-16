@@ -24,8 +24,10 @@ public class FilterEvalGreaterThan extends FilterEval {
     @Override
     String eval(String cellValue, String filterParam) {
 
-        if (Integer.parseInt(cellValue) > Integer.parseInt(filterParam)){
-            return cellValue;
+        if (!(cellValue.equalsIgnoreCase("") || filterParam.equalsIgnoreCase(""))){
+            if (Integer.parseInt(cellValue) > Integer.parseInt(filterParam)){
+                return cellValue;
+            }
         }
 
         return "";

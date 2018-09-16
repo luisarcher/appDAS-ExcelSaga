@@ -10,7 +10,10 @@ public class RegexMatcher {
     public static final String REGEX_IGNORE_CASE = "(?i)";
 
     // One or more number
-    public static final String REGEX_NUMBER = "([0-9]+)";
+    public static final String REGEX_NUMBER = "(-?[0-9]+)";
+
+    // Float
+    public static final String REGEX_FLOAT = "[-+]?([0-9]*\\.[0-9]+|[0-9]+)";
 
     // Text
     public static final String REGEX_TEXT = "[A-Za-z]+";
@@ -51,6 +54,11 @@ public class RegexMatcher {
     public static boolean isNumber(String expression){
 
         return expression.matches(REGEX_NUMBER);
+    }
+
+    public static boolean isFloat(String expression){
+
+        return expression.matches(REGEX_FLOAT);
     }
 
     public static boolean isText(String expression){
