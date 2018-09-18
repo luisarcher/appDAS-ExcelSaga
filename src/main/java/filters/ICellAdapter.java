@@ -1,8 +1,8 @@
 package filters;
 
-import model.Coords;
+import model.IModel;
+import model.RowCol;
 import model.ICell;
-import model.Sheet;
 
 public class ICellAdapter implements ICell {
 
@@ -13,7 +13,7 @@ public class ICellAdapter implements ICell {
     }
 
     @Override
-    public Sheet getModel() {
+    public IModel getModel() {
         return this.decoratedCell.getModel();
     }
 
@@ -23,7 +23,7 @@ public class ICellAdapter implements ICell {
     }
 
     @Override
-    public Coords getCoords() {
+    public RowCol getCoords() {
         return this.decoratedCell.getCoords();
     }
 

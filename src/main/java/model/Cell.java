@@ -2,13 +2,13 @@ package model;
 
 import org.apache.log4j.Logger;
 
-public class Cell implements ICell{
+public class Cell implements ICell {
 
     private final static Logger logger = Logger.getLogger(Cell.class);
 
-    private Sheet sheet;
+    private IModel sheet;
     private String value;
-    private Coords coords;
+    private RowCol coords;
 
     private String filters;
 
@@ -16,11 +16,11 @@ public class Cell implements ICell{
         this.value = value;
     }*/
 
-    public Cell(Sheet sheet, String value) {
+    public Cell(IModel sheet, String value) {
         this.sheet = sheet;
         this.value = value;
         this.filters = "";
-        this.coords = new Coords(-1,-1);
+        this.coords = new RowCol(-1,-1);
     }
 
     /*public Cell(Cell cell){
@@ -43,7 +43,7 @@ public class Cell implements ICell{
         return this.value;
     }
 
-    public Sheet getModel(){
+    public IModel getModel(){
         return this.sheet;
     }
 
@@ -59,11 +59,11 @@ public class Cell implements ICell{
         this.filters = filters;
     }
 
-    public Coords getCoords() {
+    public RowCol getCoords() {
         return coords;
     }
 
-    public void setCoords(Coords coords) {
+    public void setCoords(RowCol coords) {
         this.coords = coords;
     }
 }

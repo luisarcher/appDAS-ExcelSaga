@@ -3,8 +3,8 @@ package model;
 public interface ICell {
 
     String getValue();
-    Sheet getModel();
+    IModel getModel();
     String getFilters();
-    Coords getCoords();
+    RowCol getCoords();
 
 }

@@ -2,7 +2,7 @@ package filters.functions;
 
 import filters.*;
 import model.Cell;
-import model.Coords;
+import model.RowCol;
 import model.ICell;
 import org.apache.log4j.Logger;
 
@@ -89,8 +89,8 @@ public abstract class FilterFunction /*<T,K>*/ extends Filter{
         String[] _limits = param.toUpperCase().split(":");
 
         CellRange range = new CellRange(
-                Coords.parseCoords(_limits[0]),
-                Coords.parseCoords(_limits[1])
+                RowCol.parseCoords(_limits[0]),
+                RowCol.parseCoords(_limits[1])
         );
 
         if (this.isInRange(range)){

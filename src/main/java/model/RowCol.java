@@ -2,12 +2,12 @@ package model;
 
 import filters.RegexMatcher;
 
-public class Coords {
+public class RowCol {
 
     private Integer row;
     private Integer column;
 
-    public Coords(Integer row, Integer column) {
+    public RowCol(Integer row, Integer column) {
         this.row = row;
         this.column = column;
     }
@@ -28,7 +28,7 @@ public class Coords {
         this.column = column;
     }
 
-    public static Coords parseCoords(String id){
+    public static RowCol parseCoords(String id){
 
         id = id.toUpperCase();
         if (RegexMatcher.isCell(id)) {
@@ -47,7 +47,7 @@ public class Coords {
             c = c - 1;
 
             //logger.debug("Converting: '" + id + "' into: Row:'" + r + "' and Col: '" + c + "'");
-            return new Coords(r,c);
+            return new RowCol(r,c);
         }
 
         return null;

@@ -1,33 +1,33 @@
 package filters;
 
-import model.Coords;
+import model.RowCol;
 
 public class CellRange {
 
     // leftLimit:rightLimit
     // Examples - a1:b2, y5:b3
 
-    private Coords leftLimit;
-    private Coords rightLimit;
+    private RowCol leftLimit;
+    private RowCol rightLimit;
 
-    public CellRange(Coords leftLimit, Coords rightLimit) {
+    public CellRange(RowCol leftLimit, RowCol rightLimit) {
         this.leftLimit = leftLimit;
         this.rightLimit = rightLimit;
     }
 
-    public Coords getLeftLimit() {
+    public RowCol getLeftLimit() {
         return leftLimit;
     }
 
-    public void setLeftLimit(Coords leftLimit) {
+    public void setLeftLimit(RowCol leftLimit) {
         this.leftLimit = leftLimit;
     }
 
-    public Coords getRightLimit() {
+    public RowCol getRightLimit() {
         return rightLimit;
     }
 
-    public void setRightLimit(Coords rightLimit) {
+    public void setRightLimit(RowCol rightLimit) {
         this.rightLimit = rightLimit;
     }
 

@@ -2,7 +2,7 @@ package filters;
 
 import filters.factory.AbstractFactory;
 import model.Cell;
-import model.Coords;
+import model.RowCol;
 import model.ICell;
 import org.apache.log4j.Logger;
 
@@ -35,7 +35,7 @@ public class ExpressionParser {
 
         // Check for cyclic redundancy
         if (cell.getValue().toUpperCase().contains(
-                Coords.getCoordsAsId(
+                RowCol.getCoordsAsId(
                         cell.getCoords().getRow(),
                         cell.getCoords().getColumn()
                 )

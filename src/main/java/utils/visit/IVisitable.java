@@ -2,5 +2,5 @@ package utils.visit;
 
 public interface IVisitable {
 
-    void accept(IVisitor visitor);
+    String accept(IVisitor visitor, String cellId);
 }

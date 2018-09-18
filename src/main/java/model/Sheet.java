@@ -1,8 +1,10 @@
 package model;
 
 import org.apache.log4j.Logger;
+import utils.visit.IVisitable;
+import utils.visit.IVisitor;
 
-public class Sheet{
+public class Sheet implements IModel{
 
     private final static Logger logger = Logger.getLogger(Sheet.class);
 
@@ -25,6 +27,11 @@ public class Sheet{
         initCells(rows,cols);
     }
 
+    /*@Override
+    public String accept(IVisitor visitor, String cellId) {
+        return visitor.visit(this.getValueById(cellId).getValue());
+    }*/
+
     /**
      *
      * @param rows
@@ -37,7 +44,7 @@ public class Sheet{
                 cells[i][j] = new Cell(this,"");
 
                 cells[i][j].setFilters("");
-                cells[i][j].setCoords(new Coords(i,j));
+                cells[i][j].setCoords(new RowCol(i,j));
             }
         }
     }
@@ -74,7 +81,7 @@ public class Sheet{
 
     public Cell getValueById(String id){
 
-        Coords coords = Coords.parseCoords(id);
+        RowCol coords = RowCol.parseCoords(id);
         return getValueAt(coords.getRow(),coords.getColumn());
 
     }
